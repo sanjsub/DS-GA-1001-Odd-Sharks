@@ -11,6 +11,8 @@ all seasons and then repeat the scraping, write to CSV files and store
 
 
 url = 'https://www.betexplorer.com/basketball/usa/nba/results/?stage=bPyjUVy1&month=all'
+url_2018 = 'https://www.betexplorer.com/basketball/usa/nba-2018-2019/results/?stage=8Y7SorQp&month=all'
+
 
 unique_identifier = 'table-main h-mb15 js-tablebanner-t js-tablebanner-ntb'
 
@@ -31,7 +33,8 @@ headers = {
 
 # %%
 
-page = requests.get(url)
+#page = requests.get(url)
+page = requests.get(url_2018)
 soup = BeautifulSoup(page.text, "html.parser")
 table = soup.find("table", attrs={"class":"table-main h-mb15 js-tablebanner-t js-tablebanner-ntb"})
 rows = table.find_all("tr")
