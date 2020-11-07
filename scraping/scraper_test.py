@@ -34,7 +34,9 @@ def get_season_odds(url_year):
     rows = table.find_all("tr")
     
     count = 0
-    dates, home_teams, away_teams, home_odds, away_odds = [], [], [], [], []
+    dates, home_teams, away_teams, home_odds_close, \
+        away_odds_close, home_odds_open, away_odds_open, bookie= \
+                                            [], [], [], [], [], [], [], []
 
     ## what each row looks like
     for row in rows:
@@ -48,6 +50,8 @@ def get_season_odds(url_year):
         ## each individual game_page probably has the date / time
         # dt = datetime(int(date[2]), int(date[1]), int(date[0])).timestamp()
         if not date[2]:
+            # We assume for now that the missing date only pertains to 2019 / 2020 season
+            # We can manually fix this since I'm not sure an automated solution is best
             date[2] = "YEAR IS MISSING" ## datetime.now().year    <---- The old value
         if not cols[0].a.has_attr("href"):
             continue
@@ -82,24 +86,35 @@ def get_season_odds(url_year):
             away_open, away_close = cols[4].attrs["data-opening-odd"], cols[4].attrs["data-odd"]
 
             dates.append('{}-{}-{}'.format(date[2], date[1], date[0]))
+            
             home_teams.append(home)
             away_teams.append(away)
-            home_odds.append(home_close)
-            away_odds.append(away_close)
+            
+            home_odds_open.append(home_open)
+            home_odds_close.append(home_close)
+ 
+            away_odds_open.append(away_open)
+            away_odds_close.append(away_close)
+
+            bookie.append(bid) # Bid number should be unique to bookie
 
         count += 1    ######## Keeping counting restricting to test code 
         if count > 1:
             break
 
     data = {
+        'Bookie Number': bookie,
         'Home Team': home_teams,
         'Away Team': away_teams,
-        'Home Odds': home_odds,
-        'Away Odds': away_odds
+
+        'Home Odds Open': home_odds_open,
+        'Home Odds Close': home_odds_close,
+        'Away Odds Open': away_odds_open,
+        'Away Odds Close': away_odds_close
     }
 
 #     figure out index=pd.to_datetime(dates) when "YEAR IS MISSING" is resolved
-    return pd.DataFrame(index=dates, data=data)
+    return pd.DataFrame(data=data)
 # %%
 season_odds = {}
 
@@ -108,3 +123,4 @@ for season in list(urls.index):
 
 # Works for any year in our avaiable data (2008-2019)
 season_odds[2016].head()
+# %%
