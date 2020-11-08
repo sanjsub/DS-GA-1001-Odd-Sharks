@@ -67,3 +67,26 @@ def seasonstats(team, year, start_date = '2018-10-01', end_date = '2019-04-30'):
 # should give game by game stats for everyone who had playing time on Lakers in 2018-2019 season
 # NaN values if they did not play in that game
 seasonlog = seasonstats('LAL', 2019)
+
+
+# returns dataframe of box score results for a specific team in a given year
+# Outputs margin of victory or defeat (GAMESCORE) along with game RESULT (W or L)
+def teamrecord(team, year):
+    sched = get_schedule(year, playoffs=False)
+    sched = sched[(sched['VISITOR'] == team) | (sched['HOME'] == team)]
+    sched = sched.values.tolist()
+    for s in sched:
+        s[0] = s[0].strftime('%y-%m-%d')
+        if s[1] == team:
+            s.append(int(s[2]) - int(s[4]))
+        elif s[3] == team:
+            s.append(int(s[4]) - int(s[2]))
+        if s[5] > 0:
+            s.append('W')
+        elif s[5] < 0:
+            s.append('L')
+    sched = pd.DataFrame(sched, columns = ['DATE','VISITOR','VISITOR_PTS','HOME','HOME_PTS','GAMESCORE','RESULT'])
+    return sched
+
+# should give 82x7 dataframe for Celtics 2017-2018 season
+s = teamrecord('Boston Celtics', 2018)
