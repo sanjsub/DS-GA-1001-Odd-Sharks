@@ -79,8 +79,13 @@ def get_season_odds(url_year):
 
             if not cols[3].has_attr("data-opening-odd"):
                 cols[3].attrs["data-opening-odd"] = "NO OPENING ODDS" ## in caleb's code was set to 1.0
+            if not cols[3].has_attr("data-odd"):
+                cols[3].attrs["data-odd"] = "NO DATA ODDS"
+            
             if not cols[4].has_attr("data-odd"):
                 cols[4].attrs["data-odd"] = "NO DATA ODDS" ## in caleb's code was set to 1.0
+            if not cols[4].has_attr("data-opening-odd"):
+                cols[4].attrs["data-opening-odd"] = "NO OPENING ODDS"
 
             home_open, home_close = cols[3].attrs["data-opening-odd"], cols[3].attrs["data-odd"]
             away_open, away_close = cols[4].attrs["data-opening-odd"], cols[4].attrs["data-odd"]
@@ -98,15 +103,16 @@ def get_season_odds(url_year):
 
             bookie.append(bid) # Bid number should be unique to bookie
 
-        count += 1    ######## Keeping counting restricting to test code 
-        if count > 1:
-            break
+        # count += 1    ######## Keeping counting restricting to test code 
+        # if count > 1:
+        #     break
 
     data = {
+        'Game Date': dates,
         'Bookie Number': bookie,
         'Home Team': home_teams,
         'Away Team': away_teams,
-
+        
         'Home Odds Open': home_odds_open,
         'Home Odds Close': home_odds_close,
         'Away Odds Open': away_odds_open,
@@ -120,7 +126,14 @@ season_odds = {}
 
 for season in list(urls.index):    
     season_odds[season] = get_season_odds(urls['URL'].loc[season])
+    ### Write dataframe to CSV file
+    outfile = str(season) + '_season.csv'
+    season_odds[season].to_csv(outfile, index=False)
 
-# Works for any year in our avaiable data (2008-2019)
-season_odds[2016].head()
+# %%
+
+
+
+
+
 # %%
