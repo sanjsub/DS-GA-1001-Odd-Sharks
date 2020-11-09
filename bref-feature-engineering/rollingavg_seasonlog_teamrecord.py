@@ -31,10 +31,12 @@ def rollingavgs(team, year, start_date, end_date):
         gamelog = gamelog.drop(['DATE','AGE','TEAM','HOME/AWAY','OPPONENT','RESULT','GS','MP'], axis = 1).apply(pd.to_numeric).mean(axis = 0)
         rollingavg[n] = gamelog
         
+    # add column of team rolling average for each stat    
+    rollingavg['Team Average'] = rollingavg.mean(axis = 1)  
     # drop NaN columns (players without an appearance over that stretch of games)    
     return rollingavg.dropna(axis = 1, how = 'all')
 
-# should output stats for 20 players who had playing time over this stretch
+# should output stats for 20 players who had playing time over this stretch plus team rolling average
 rolling = rollingavgs('LAL', 2019, '2019-02-20', '2019-02-25')
 
 
