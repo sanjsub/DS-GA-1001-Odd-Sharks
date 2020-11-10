@@ -1,5 +1,5 @@
 import numpy as np
-from rollingavg_seasonlog_teamrecord import teamrecord
+from bref_feature_engineering.rollingavg_seasonlog_teamrecord import teamrecord
 
 def get_season_series(team_record, team_name, opponent_name, date):
 	"""
@@ -12,9 +12,10 @@ def get_season_series(team_record, team_name, opponent_name, date):
 	:param date: the date as of which to calculate the season series.
 	:return: tuple(number of wins against opponent, number of games against opponent).
 	"""
-    opponent_filter = (team_record['VISITOR'] == opponent_name) | (team_record['HOME'] == opponent_name)
-    team_vs_opponent_prior = team_record[(team_record["DATE"] < date) & opponent_filter]
-    return (np.sum(team_vs_opponent_prior["RESULT"] == "W"), len(team_vs_opponent_prior))
+	opponent_filter = (team_record['VISITOR'] == opponent_name) | (team_record['HOME'] == opponent_name)
+	team_vs_opponent_prior = team_record[(team_record["DATE"] < date) & opponent_filter]
+	WIN = 1
+	return (np.sum(team_vs_opponent_prior["RESULT"] == WIN), len(team_vs_opponent_prior))
 
 
 def append_season_series(team_record, team_name):
@@ -37,16 +38,16 @@ def append_season_series(team_record, team_name):
 	s = teamrecord('Boston Celtics', 2018)
 	append_season_series(s, "Boston Celtics")
 	"""
-    team_record["PRIOR_WINS_V_OPP"] = 0
-    team_record["PRIOR_GAMES_V_OPP"] = 0
-    for idx, row in team_record.iterrows():
-        if row["VISITOR"] == team_name:
-            opponent_name = row["HOME"]
-        else:
-            opponent_name = row["VISITOR"]
-        prior_wins_v_opp, prior_games_v_opp = get_season_series(team_record, team_name, opponent_name, row["DATE"])
-        team_record["PRIOR_WINS_V_OPP"].iloc[[idx]] = prior_wins_v_opp
-        team_record["PRIOR_GAMES_V_OPP"].iloc[[idx]] = prior_games_v_opp
+	team_record["PRIOR_WINS_V_OPP"] = 0
+	team_record["PRIOR_GAMES_V_OPP"] = 0
+	for idx, row in team_record.iterrows():
+		if row["VISITOR"] == team_name:
+			opponent_name = row["HOME"]
+		else:
+			opponent_name = row["VISITOR"]
+		prior_wins_v_opp, prior_games_v_opp = get_season_series(team_record, team_name, opponent_name, row["DATE"])
+		team_record["PRIOR_WINS_V_OPP"].iloc[[idx]] = prior_wins_v_opp
+		team_record["PRIOR_GAMES_V_OPP"].iloc[[idx]] = prior_games_v_opp
 
 
 
