@@ -1,5 +1,5 @@
 *.DS_Store
-*.egg/info
+*.egg-info
 venv
 *__pycache__
 Basketball Scraper Test.ipynb
