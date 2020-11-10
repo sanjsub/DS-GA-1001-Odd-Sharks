@@ -231,9 +231,7 @@ sched = get_clean_schedule(2019)
 # sched.to_csv("2018sched.csv")
 
 # Merge all relevant data into bookies dataframe
-holder = []
-for season in season_odds:
-    holder.append(tuple(merge_to_bookies(season_odds[season], get_clean_schedule(season + 1))))
+
 
 
 
@@ -241,4 +239,29 @@ for season in season_odds:
 #merged_scores.head()
 # merged_scores.to_csv("merged_scores_test.csv")
 
+# %%
+# %%
+
+holder = []
+
+for season in season_odds:
+    holder.append(tuple(merge_to_bookies(season_odds[season], get_clean_schedule(season + 1))))
+
+
+def find_missing_games():
+    '''
+    Using list of all merged dataframes and schedules (holder), find where the merging goes wrong 
+    '''
+    missing_games = {}
+
+    for i in range(len(holder)):
+        unique_games_merged = holder[i][0]['unique_games_test']
+        unique_games_sched = holder[i][1]['unique_games_test']
+
+        symmetric_difference = set(unique_games_merged).symmetric_difference(set(unique_games_sched))
+        missing_games[2008 + i] = symmetric_difference
+
+    return missing_games
+
+missing_games = find_missing_games()
 # %%
