@@ -79,15 +79,15 @@ def teamrecord(team, year):
     sched = sched[(sched['VISITOR'] == team) | (sched['HOME'] == team)]
     sched = sched.values.tolist()
     for s in sched:
-        s[0] = s[0].strftime('%y-%m-%d')
+        s[0] = s[0].strftime('%Y-%m-%d')
         if s[1] == team:
             s.append(int(s[2]) - int(s[4]))
         elif s[3] == team:
             s.append(int(s[4]) - int(s[2]))
         if s[5] > 0:
-            s.append('W')
+            s.append(1)
         elif s[5] < 0:
-            s.append('L')
+            s.append(0)
     sched = pd.DataFrame(sched, columns = ['DATE','VISITOR','VISITOR_PTS','HOME','HOME_PTS','GAMESCORE','RESULT'])
     return sched
 
