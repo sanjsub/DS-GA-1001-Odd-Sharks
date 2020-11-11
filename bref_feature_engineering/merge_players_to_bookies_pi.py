@@ -287,3 +287,7 @@ sched.sort_values(by=['DATE'], inplace=True)
 
 missing_2019 = missing_games[2019]
 # %%
+for i in range(len(holder)):
+    print('len merged df: ', len(holder[i][0]),"   ", "len sched df :", len(holder[i][1]))
+
+# %%
