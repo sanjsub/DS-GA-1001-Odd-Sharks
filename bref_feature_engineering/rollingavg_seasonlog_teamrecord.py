@@ -3,7 +3,7 @@ from basketball_reference_scraper.teams import get_roster, get_team_stats, get_o
 from basketball_reference_scraper.players import get_stats, get_game_logs
 from basketball_reference_scraper.seasons import get_schedule, get_standings
 from basketball_reference_scraper.box_scores import get_box_scores
-from gamelogsfix import get_game_logs_fix
+from API_fixes.gamelogsfix import get_game_logs_fix
 
 
 # test game log read-in on Kuzma, can ignore
@@ -37,7 +37,7 @@ def rollingavgs(team, year, start_date, end_date):
     return rollingavg.dropna(axis = 1, how = 'all')
 
 # should output stats for 20 players who had playing time over this stretch plus team rolling average
-rolling = rollingavgs('LAL', 2019, '2019-02-20', '2019-02-25')
+#rolling = rollingavgs('LAL', 2019, '2019-02-20', '2019-02-25')
 
 
 
@@ -68,7 +68,7 @@ def seasonstats(team, year, start_date = '2018-10-01', end_date = '2019-04-30'):
 
 # should give game by game stats for everyone who had playing time on Lakers in 2018-2019 season
 # NaN values if they did not play in that game
-seasonlog = seasonstats('LAL', 2019)
+#seasonlog = seasonstats('LAL', 2019)
 
 
 
@@ -79,17 +79,17 @@ def teamrecord(team, year):
     sched = sched[(sched['VISITOR'] == team) | (sched['HOME'] == team)]
     sched = sched.values.tolist()
     for s in sched:
-        s[0] = s[0].strftime('%y-%m-%d')
+        s[0] = s[0].strftime('%Y-%m-%d')
         if s[1] == team:
             s.append(int(s[2]) - int(s[4]))
         elif s[3] == team:
             s.append(int(s[4]) - int(s[2]))
         if s[5] > 0:
-            s.append('W')
+            s.append(1)
         elif s[5] < 0:
-            s.append('L')
+            s.append(0)
     sched = pd.DataFrame(sched, columns = ['DATE','VISITOR','VISITOR_PTS','HOME','HOME_PTS','GAMESCORE','RESULT'])
     return sched
 
 # should give 82x7 dataframe for Celtics 2017-2018 season
-s = teamrecord('Boston Celtics', 2018)
+#s = teamrecord('Boston Celtics', 2018)
