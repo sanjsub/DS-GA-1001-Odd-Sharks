@@ -115,7 +115,7 @@ def get_vorps(year):
 def get_clean_schedule(year):
     sched = get_schedule(year)
 
-    sched['DATE'] = sched['DATE'].astype(str)
+    sched['DATE'] = pd.to_datetime(sched['DATE'], format="%Y-%m-%d")
 
     sched.replace({'New Jersey Nets': 'Brooklyn Nets', 
                      'Charlotte Bobcats': 'Charlotte Hornets',
@@ -149,12 +149,17 @@ def add_player_features(season_df, player_stats, all_stars_count):
 
 def merge_to_bookies(season_df, sched):
     
-    season_df['D-1'] = (pd.to_datetime(season_df['Game Date']) + pd.Timedelta(days=-1)).astype(str)
-    season_df['D+1'] = (pd.to_datetime(season_df['Game Date']) + pd.Timedelta(days=1)).astype(str)
-    season_df['D-2'] = (pd.to_datetime(season_df['Game Date']) + pd.Timedelta(days=-2)).astype(str)
-    season_df['D+2'] = (pd.to_datetime(season_df['Game Date']) + pd.Timedelta(days=2)).astype(str)
+    # season_df['D-1'] = (pd.to_datetime(season_df['Game Date']) + pd.Timedelta(days=-1)).astype(str)
+    # season_df['D+1'] = (pd.to_datetime(season_df['Game Date']) + pd.Timedelta(days=1)).astype(str)
+    # season_df['D-2'] = (pd.to_datetime(season_df['Game Date']) + pd.Timedelta(days=-2)).astype(str)
+    # season_df['D+2'] = (pd.to_datetime(season_df['Game Date']) + pd.Timedelta(days=2)).astype(str)
 
-    season_df['unique_games_test'] = season_df['Game Date'] + season_df['Home Team'] + season_df['Away Team']    
+    season_df['D-1'] = season_df['Game Date'] + pd.Timedelta(days=-1)
+    season_df['D+1'] = season_df['Game Date'] + pd.Timedelta(days=1)
+    season_df['D-2'] = season_df['Game Date'] + pd.Timedelta(days=-2)
+    season_df['D+2'] = season_df['Game Date'] + pd.Timedelta(days=2)
+
+    season_df['unique_games_test'] = season_df['Game Date'].astype(str) + season_df['Home Team'] + season_df['Away Team']    
 
     merged_scores_d0 = sched.merge(season_df, left_on=['DATE', 'HOME', 'VISITOR'],
                                     right_on=['Game Date', 'Home Team', 'Away Team'],
@@ -205,9 +210,10 @@ def merge_to_bookies(season_df, sched):
 # Read in all odds CSV files
 filepath = '../scraping/'
 season_odds = {}
+#my_date_parser = lambda x: pd.datetime.strptime(x, "%m/%d/%Y") 
 
 for season in range(2008, 2020):
-    season_odds[season] = pd.read_csv(filepath + '{}_season.csv'.format(season))
+    season_odds[season] = pd.read_csv(filepath + '{}_season.csv'.format(season), parse_dates=['Game Date']) #date_parser=my_date_parser)
     #season_odds[2018]
     # MATTHEW ORIGINALLY AUTO DID TIME DELTA MINUS ONE
     # season_odds[season]['Game Date'] = (pd.to_datetime(season_odds[season]['Game Date']) + pd.Timedelta(days=-1)).astype(str)
@@ -264,4 +270,20 @@ def find_missing_games():
     return missing_games
 
 missing_games = find_missing_games()
+# %%
+
+# %%
+bookies_df = holder[-1][1]
+merged_df = holder[-1][0]
+sched = get_clean_schedule(2020)
+# %%
+bookies_df
+# %%
+merged_df
+# %%
+sched.sort_values(by=['DATE'], inplace=True)
+# %%
+
+
+missing_2019 = missing_games[2019]
 # %%
