@@ -1,14 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 11 16:54:20 2020
-
-@author: sanjs
-"""
-
 import os
 import pandas as pd
 import numpy as np
 from getschedulefix import get_schedule_fix
+from allstats import allstatsrolling
 import copy
 
 teams = {
@@ -114,7 +108,8 @@ def merge_sched_to_bookies(bookie_df, sched):
     frames = [merged_scores_d0, merged_scores_dless1, merged_scores_dplus1]
     merged_scores = pd.concat(frames, ignore_index=True)
     
-    # merged_scores.sort_values(by=['DATE', 'HOME'], inplace=True)
+    merged_scores.sort_values(by=['DATE', 'HOME'], inplace=True)
+    merged_scores = merged_scores.reset_index(drop = True)
     merged_scores.drop_duplicates(inplace=True)
 
     return merged_scores
@@ -144,29 +139,34 @@ def add_underdog_data(bookie_df):
 """Function calls"""
 
 # Read in all relevant CSV files
-filepath = os.getcwd() + '\\csv odds files\\'
-bookie_odds, players, clean_bookie_dfs = {}, {}, {}
+# Output final cleaned merged dataframes for each season
 
-for season in range(2009, 2021):
-    bookie_odds[season] = pd.read_csv(filepath + '{}_season.csv'.format(season), parse_dates = ['Game Date']).iloc[::-1]
-    bookie_odds[season] = bookie_odds[season].dropna(axis = 0, how = 'all')
-    bookie_odds[season].index =  range(len(bookie_odds[season]))
-    players[season] = pd.read_csv(filepath + '{}_players.csv'.format(season))
+def make_clean_dfs():
+    filepath = os.getcwd() + '\\csv odds files\\'
+    bookie_odds, players, clean_bookie_dfs = {}, {}, {}
+    
+    for season in range(2009, 2021):
+        bookie_odds[season] = pd.read_csv(filepath + '{}_season.csv'.format(season), parse_dates = ['Game Date'])
+        bookie_odds[season] = bookie_odds[season].dropna(axis = 0, how = 'all')
+        players[season] = pd.read_csv(filepath + '{}_players.csv'.format(season))
+    
+        # Get likely all-stars
+        all_stars_count = get_all_stars(players[season])
+        
+        # Create copy of bookies df for computations
+        bookie_df = copy.deepcopy(bookie_odds[season])
+        
+        # Add player-specific features to our bookies df
+        bookies_and_players = add_player_features(bookie_df, players[season], all_stars_count)
+        
+        # Get NBA's entire schedule
+        sched = get_clean_schedule(season)
+        
+        # Merge all relevant data into bookies df
+        bookie_sched_merge = merge_sched_to_bookies(bookies_and_players, sched)
+        
+        # Add underdog data to bookies df, clean up features
+        clean_bookie_dfs[season] = add_underdog_data(bookie_sched_merge)
+    return clean_bookie_dfs
 
-    # Get likely all-stars
-    all_stars_count = get_all_stars(players[season])
-    
-    # Create copy of bookies df for computations
-    bookie_df = copy.deepcopy(bookie_odds[season])
-    
-    # Add player-specific features to our bookies df
-    bookies_and_players = add_player_features(bookie_df, players[season], all_stars_count)
-    
-    # Get NBA's entire schedule
-    sched = get_clean_schedule(season)
-    
-    # Merge all relevant data into bookies df
-    bookie_sched_merge = merge_sched_to_bookies(bookies_and_players, sched)
-    
-    # Add underdog data to bookies df, clean up features
-    clean_bookie_dfs[season] = add_underdog_data(bookie_sched_merge)
+clean_bookie_dfs = make_clean_dfs()
