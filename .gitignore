@@ -2,5 +2,5 @@
 *.egg-info
 venv
 *__pycache__
-Basketball Scraper Test.ipynb
+scratch.ipynb
 .ipynb_checkpoints/

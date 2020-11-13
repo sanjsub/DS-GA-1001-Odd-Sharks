@@ -1,18 +1,21 @@
 import pandas as pd
+import numpy as np
 from basketball_reference_scraper.teams import get_roster, get_team_stats, get_opp_stats, get_roster_stats
 from basketball_reference_scraper.players import get_stats, get_game_logs
 from basketball_reference_scraper.seasons import get_schedule, get_standings
 from basketball_reference_scraper.box_scores import get_box_scores
-from API_fixes.gamelogsfix import get_game_logs_fix
+from API_fixes.getgamelogsfix import get_game_logs_fix
 
 
 # test game log read-in on Kuzma, can ignore
-gamelog = get_game_logs_fix('Kyle Kuzma', '2018-10-01', '2019-04-30', playoffs=False)
+#gamelog = get_game_logs_fix('Kyle Kuzma', '2018-10-01', '2019-04-30', playoffs=False)
 # pulling names of LAL 2018-2019 roster, can ignore
-names = get_roster('LAL', 2019).PLAYER
+#names = get_roster('LAL', 2019).PLAYER
 
 # pulling relevant counting stats to use as features
-stats = gamelog.columns[9:28]
+#stats = gamelog.columns[9:28]
+stats = np.array(['FG', 'FGA', 'FG%', '3P', '3PA', '3P%', 'FT', 'FTA', 'FT%', 'ORB',
+       'DRB', 'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS', 'GAME_SCORE'])
 
 
 # returns dataframe of rolling averages for each player on a team for a specific date range
@@ -89,6 +92,7 @@ def teamrecord(team, year):
         elif s[5] < 0:
             s.append(0)
     sched = pd.DataFrame(sched, columns = ['DATE','VISITOR','VISITOR_PTS','HOME','HOME_PTS','GAMESCORE','RESULT'])
+    sched.set_index(sched.index + 1, inplace=True)
     return sched
 
 # should give 82x7 dataframe for Celtics 2017-2018 season
