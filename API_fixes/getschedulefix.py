@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 11 16:54:44 2020
-
-@author: sanjs
-"""
-
 import pandas as pd
 from requests import get
 from bs4 import BeautifulSoup
@@ -55,4 +48,5 @@ def get_schedule_fix(season, playoffs=False):
         else:
             df = df[:playoff_index]
         df['DATE'] = df['DATE'].apply(lambda x: pd.to_datetime(x))
+    df = df.drop_duplicates()
     return df
