@@ -4,7 +4,7 @@ from basketball_reference_scraper.teams import get_roster, get_team_stats, get_o
 from basketball_reference_scraper.players import get_stats, get_game_logs
 from basketball_reference_scraper.seasons import get_schedule, get_standings
 from basketball_reference_scraper.box_scores import get_box_scores
-from API_fixes.gamelogsfix import get_game_logs_fix
+from API_fixes.getgamelogsfix import get_game_logs_fix
 
 
 # test game log read-in on Kuzma, can ignore
@@ -92,6 +92,7 @@ def teamrecord(team, year):
         elif s[5] < 0:
             s.append(0)
     sched = pd.DataFrame(sched, columns = ['DATE','VISITOR','VISITOR_PTS','HOME','HOME_PTS','GAMESCORE','RESULT'])
+    sched.set_index(sched.index + 1, inplace=True)
     return sched
 
 # should give 82x7 dataframe for Celtics 2017-2018 season
