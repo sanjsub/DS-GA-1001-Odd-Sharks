@@ -4,13 +4,16 @@ Created on Sun Nov  8 23:08:39 2020
 
 @author: sanjs
 """
+#%%
 import pandas as pd
 from basketball_reference_scraper.utils import get_player_suffix
 from requests import get
 from bs4 import BeautifulSoup
+import unicodedata
 
 def get_game_logs_fix(name, start_date, end_date, stat_type = 'BASIC', playoffs=False):
-    suffix = get_player_suffix(name).replace('/', '%2F').replace('.html', '')
+    # Changed to get_player_suffix_fix
+    suffix = get_player_suffix_fix(name).replace('/', '%2F').replace('.html', '')
     start_date_str = start_date
     end_date_str = end_date
     start_date = pd.to_datetime(start_date)
@@ -54,4 +57,50 @@ def get_game_logs_fix(name, start_date, end_date, stat_type = 'BASIC', playoffs=
     final_df.set_index(['Rk'], inplace = True)
     return final_df
 
+def get_player_suffix_fix(name):
+    normalized_name = unicodedata.normalize('NFD', name).encode('ascii', 'ignore').decode("utf-8")
+    names = normalized_name.split(' ')[1:]
+    for last_name in names:
+        initial = last_name[0].lower()
+        r = get(f'https://www.basketball-reference.com/players/{initial}')
+        if r.status_code==200:
+            soup = BeautifulSoup(r.content, 'html.parser')
+            for table in soup.find_all('table', attrs={'id': 'players'}):
+                suffixes = []              
+                for anchor in table.find_all('a'):                    
+                    if unicodedata.normalize('NFD', anchor.text).encode('ascii', 'ignore').decode("utf-8").lower() in normalized_name.lower():
+                        suffix = anchor.attrs['href']
+                        player_r = get(f'https://www.basketball-reference.com{suffix}')
+                        if player_r.status_code==200:
+                            player_soup = BeautifulSoup(player_r.content, 'html.parser')
+                            h1 = player_soup.find('h1', attrs={'itemprop': 'name'})
+                            if h1:
+                                page_name = h1.find('span').text
+                                norm_page_name = unicodedata.normalize('NFD', page_name).encode('ascii', 'ignore').decode("utf-8")
+                                if norm_page_name.lower()==normalized_name.lower():
 
+                                    return suffix
+
+
+# %%
+## Some Code tests##
+lebronlogs2 = get_game_logs_fix('Lebron James', '2014-10-30', '2015-04-13')
+#lebronname = get_player_suffix_fix("Lebron James")
+#lebronsuffix = get_player_suffix_fix("Lebron James").replace('/', '%2F').replace('.html', '')
+#%%
+lebronname = get_player_suffix_fix("Lebron James")
+print("+++++++++++++++")
+
+#%%
+lukalogs = get_player_suffix_fix('Luka Doncic')
+# %%
+lebronname, lebronsuffix
+# %%
+lukalogs = get_game_logs_fix('Luka Doncic', '2018-10-17', '2019-04-09')
+# %%
+lukalogs
+# %%
+
+# get_player_suffix_fix('Vlatko Čančar')
+get_game_logs_fix('Stephen Curry', '2019-10-24', '2020-08-13')
+# %%
