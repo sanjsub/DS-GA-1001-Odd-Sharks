@@ -1,489 +1,489 @@
-TEAM,PLAYER,AGE,VORP
-Atlanta Hawks,Pero Antić,32,-0.6
-Atlanta Hawks,Kent Bazemore,25,0.0
-Atlanta Hawks,Elton Brand,35,-0.1
-Atlanta Hawks,DeMarre Carroll,28,2.0
-Atlanta Hawks,Austin Daye,26,-0.2
-Atlanta Hawks,Al Horford,28,3.6
-Atlanta Hawks,John Jenkins,23,0.2
-Atlanta Hawks,Kyle Korver,33,3.0
-Atlanta Hawks,Shelvin Mack,24,0.1
-Atlanta Hawks,Paul Millsap,29,3.3
-Atlanta Hawks,Mike Muscala,23,0.3
-Atlanta Hawks,Adreian Payne,23,-0.9
-Atlanta Hawks,Dennis Schröder,21,0.2
-Atlanta Hawks,Mike Scott,26,0.4
-Atlanta Hawks,Thabo Sefolosha,30,0.8
-Atlanta Hawks,Jeff Teague,26,2.8
-Brooklyn Nets,Alan Anderson,32,0.2
-Brooklyn Nets,Bojan Bogdanović,25,0.1
-Brooklyn Nets,Markel Brown,23,-0.1
-Brooklyn Nets,Earl Clark,27,-0.1
-Brooklyn Nets,Brandon Davies,23,-0.3
-Brooklyn Nets,Kevin Garnett,38,0.7
-Brooklyn Nets,Jorge Gutiérrez,26,-0.1
-Brooklyn Nets,Jarrett Jack,31,0.5
-Brooklyn Nets,Cory Jefferson,24,-0.1
-Brooklyn Nets,Joe Johnson,33,1.3
-Brooklyn Nets,Jerome Jordan,28,0.1
-Brooklyn Nets,Sergey Karasev,21,0.0
-Brooklyn Nets,Andrei Kirilenko,33,0.0
-Brooklyn Nets,Brook Lopez,26,1.6
-Brooklyn Nets,Darius Morris,24,-0.3
-Brooklyn Nets,Mason Plumlee,24,0.9
-Brooklyn Nets,Mirza Teletović,29,0.1
-Brooklyn Nets,Deron Williams,30,1.2
-Brooklyn Nets,Thaddeus Young,26,1.1
-Boston Celtics,Brandon Bass,29,1.0
-Boston Celtics,Avery Bradley,24,-0.1
-Boston Celtics,Jae Crowder,24,1.0
-Boston Celtics,Gigi Datome,27,0.2
-Boston Celtics,Jeff Green,28,1.2
-Boston Celtics,Jonas Jerebko,27,0.9
-Boston Celtics,Jameer Nelson,32,0.4
-Boston Celtics,Kelly Olynyk,23,0.8
-Boston Celtics,Dwight Powell,23,0.1
-Boston Celtics,Phil Pressey,23,0.1
-Boston Celtics,Tayshaun Prince,34,0.5
-Boston Celtics,Shavlik Randolph,31,-0.1
-Boston Celtics,Rajon Rondo,28,0.6
-Boston Celtics,Marcus Smart,20,0.7
-Boston Celtics,Jared Sullinger,22,1.2
-Boston Celtics,Isaiah Thomas,25,2.3
-Boston Celtics,Marcus Thornton,27,0.6
-Boston Celtics,Evan Turner,26,0.6
-Boston Celtics,Gerald Wallace,32,-0.1
-Boston Celtics,Brandan Wright,27,2.1
-Boston Celtics,James Young,19,-0.1
-Boston Celtics,Tyler Zeller,25,1.3
-Charlotte Hornets,Bismack Biyombo,22,0.3
-Charlotte Hornets,Troy Daniels,23,-0.1
-Charlotte Hornets,P.J. Hairston,22,-0.1
-Charlotte Hornets,Gerald Henderson,27,0.4
-Charlotte Hornets,Al Jefferson,30,1.8
-Charlotte Hornets,Michael Kidd-Gilchrist,21,0.6
-Charlotte Hornets,Jason Maxiell,31,-0.3
-Charlotte Hornets,Gary Neal,30,-0.5
-Charlotte Hornets,Jannero Pargo,35,0.1
-Charlotte Hornets,Brian Roberts,29,0.1
-Charlotte Hornets,Lance Stephenson,24,-1.0
-Charlotte Hornets,Jeff Taylor,25,-0.3
-Charlotte Hornets,Noah Vonleh,19,-0.1
-Charlotte Hornets,Kemba Walker,24,2.3
-Charlotte Hornets,Marvin Williams,28,1.0
-Charlotte Hornets,Mo Williams,32,0.6
-Charlotte Hornets,Cody Zeller,22,0.5
-Chicago Bulls,Cameron Bairstow,24,-0.1
-Chicago Bulls,Aaron Brooks,30,0.5
-Chicago Bulls,Jimmy Butler,25,4.2
-Chicago Bulls,Mike Dunleavy,34,0.9
-Chicago Bulls,Pau Gasol,34,3.7
-Chicago Bulls,Taj Gibson,29,0.7
-Chicago Bulls,Kirk Hinrich,34,-0.7
-Chicago Bulls,Doug McDermott,23,-0.3
-Chicago Bulls,Nikola Mirotić,23,1.8
-Chicago Bulls,Nazr Mohammed,37,-0.1
-Chicago Bulls,E'Twaun Moore,25,0.1
-Chicago Bulls,Joakim Noah,29,2.1
-Chicago Bulls,Derrick Rose,26,0.6
-Chicago Bulls,Tony Snell,23,0.2
-Cleveland Cavaliers,Lou Amundson,32,-0.5
-Cleveland Cavaliers,Will Cherry,23,-0.1
-Cleveland Cavaliers,Matthew Dellavedova,24,-0.3
-Cleveland Cavaliers,Joe Harris,23,-0.4
-Cleveland Cavaliers,Brendan Haywood,35,-0.1
-Cleveland Cavaliers,Kyrie Irving,22,4.2
-Cleveland Cavaliers,LeBron James,30,5.7
-Cleveland Cavaliers,James Jones,34,0.2
-Cleveland Cavaliers,Alex Kirk,23,0.0
-Cleveland Cavaliers,Kevin Love,26,3.0
-Cleveland Cavaliers,Shawn Marion,36,0.3
-Cleveland Cavaliers,Mike Miller,34,-0.2
-Cleveland Cavaliers,Timofey Mozgov,28,0.7
-Cleveland Cavaliers,Kendrick Perkins,30,-1.0
-Cleveland Cavaliers,A.J. Price,28,0.0
-Cleveland Cavaliers,Iman Shumpert,24,0.4
-Cleveland Cavaliers,J.R. Smith,29,1.5
-Cleveland Cavaliers,Tristan Thompson,23,0.4
-Cleveland Cavaliers,Anderson Varejão,32,0.4
-Cleveland Cavaliers,Dion Waiters,23,-0.7
-Dallas Mavericks,Al-Farouq Aminu,24,1.0
-Dallas Mavericks,J.J. Barea,30,0.6
-Dallas Mavericks,Tyson Chandler,32,2.7
-Dallas Mavericks,Monta Ellis,29,1.3
-Dallas Mavericks,Raymond Felton,30,0.0
-Dallas Mavericks,Devin Harris,31,1.4
-Dallas Mavericks,Bernard James,29,0.1
-Dallas Mavericks,Richard Jefferson,34,0.4
-Dallas Mavericks,Ricky Ledo,22,-0.4
-Dallas Mavericks,Dirk Nowitzki,36,2.4
-Dallas Mavericks,Chandler Parsons,26,2.0
-Dallas Mavericks,Greg Smith,24,-0.1
-Dallas Mavericks,Amar'e Stoudemire,32,0.7
-Dallas Mavericks,Charlie Villanueva,30,0.6
-Denver Nuggets,Arron Afflalo,29,-0.3
-Denver Nuggets,Darrell Arthur,26,0.1
-Denver Nuggets,Will Barton,24,0.4
-Denver Nuggets,Wilson Chandler,27,0.9
-Denver Nuggets,Ian Clark,23,0.0
-Denver Nuggets,Kenneth Faried,25,1.0
-Denver Nuggets,Randy Foye,31,0.2
-Denver Nuggets,Jamaal Franklin,23,0.0
-Denver Nuggets,Danilo Gallinari,26,1.6
-Denver Nuggets,Alonzo Gee,27,0.2
-Denver Nuggets,Erick Green,23,-0.2
-Denver Nuggets,Gary Harris,20,-0.6
-Denver Nuggets,J.J. Hickson,26,-0.2
-Denver Nuggets,Joffrey Lauvergne,23,-0.2
-Denver Nuggets,Ty Lawson,27,2.8
-Denver Nuggets,JaVale McGee,27,-0.1
-Denver Nuggets,Jusuf Nurkić,20,-0.2
-Denver Nuggets,Nate Robinson,30,-0.1
-Detroit Pistons,Joel Anthony,32,0.2
-Detroit Pistons,D.J. Augustin,27,0.4
-Detroit Pistons,Caron Butler,34,0.1
-Detroit Pistons,Kentavious Caldwell-Pope,21,0.2
-Detroit Pistons,Spencer Dinwiddie,21,-0.1
-Detroit Pistons,Andre Drummond,21,1.2
-Detroit Pistons,Reggie Jackson,24,1.8
-Detroit Pistons,Brandon Jennings,25,1.6
-Detroit Pistons,John Lucas III,32,0.0
-Detroit Pistons,Cartier Martin,30,-0.3
-Detroit Pistons,Jodie Meeks,27,0.5
-Detroit Pistons,Quincy Miller,22,-0.1
-Detroit Pistons,Greg Monroe,24,2.1
-Detroit Pistons,Kyle Singler,26,0.0
-Detroit Pistons,Josh Smith,29,1.6
-Detroit Pistons,Anthony Tolliver,29,0.2
-Detroit Pistons,Shawne Williams,28,0.0
-Golden State Warriors,Leandro Barbosa,32,0.6
-Golden State Warriors,Harrison Barnes,22,1.2
-Golden State Warriors,Andrew Bogut,30,1.8
-Golden State Warriors,Stephen Curry,26,7.9
-Golden State Warriors,Festus Ezeli,25,0.0
-Golden State Warriors,Draymond Green,24,3.5
-Golden State Warriors,Justin Holiday,25,0.1
-Golden State Warriors,Andre Iguodala,31,1.5
-Golden State Warriors,Ognjen Kuzmić,24,0.0
-Golden State Warriors,David Lee,31,0.7
-Golden State Warriors,Shaun Livingston,29,0.4
-Golden State Warriors,James Michael McAdoo,22,0.0
-Golden State Warriors,Brandon Rush,29,-0.4
-Golden State Warriors,Marreese Speights,27,0.0
-Golden State Warriors,Klay Thompson,24,4.0
-Houston Rockets,Trevor Ariza,29,2.2
-Houston Rockets,Patrick Beverley,26,0.9
-Houston Rockets,Tarik Black,23,0.0
-Houston Rockets,Corey Brewer,28,0.5
-Houston Rockets,Isaiah Canaan,23,0.3
-Houston Rockets,Clint Capela,20,-0.1
-Houston Rockets,Joey Dorsey,31,-0.2
-Houston Rockets,Francisco García,33,-0.1
-Houston Rockets,James Harden,25,8.1
-Houston Rockets,Dwight Howard,29,0.5
-Houston Rockets,Nick Johnson,22,-0.3
-Houston Rockets,Terrence Jones,23,0.7
-Houston Rockets,K.J. McDaniels,21,-0.3
-Houston Rockets,Donatas Motiejūnas,24,0.8
-Houston Rockets,Kostas Papanikolaou,24,0.0
-Houston Rockets,Pablo Prigioni,37,0.6
-Houston Rockets,Alexey Shved,26,0.9
-Houston Rockets,Jason Terry,37,1.0
-Indiana Pacers,Lavoy Allen,25,0.6
-Indiana Pacers,Chris Copeland,30,-0.4
-Indiana Pacers,Paul George,24,0.0
-Indiana Pacers,Roy Hibbert,28,0.4
-Indiana Pacers,George Hill,28,2.3
-Indiana Pacers,Solomon Hill,23,0.3
-Indiana Pacers,Ian Mahinmi,28,-0.1
-Indiana Pacers,C.J. Miles,27,1.3
-Indiana Pacers,Damjan Rudež,28,-0.1
-Indiana Pacers,Luis Scola,34,0.7
-Indiana Pacers,Donald Sloan,27,0.5
-Indiana Pacers,Rodney Stuckey,28,1.1
-Indiana Pacers,C.J. Watson,30,1.2
-Indiana Pacers,David West,34,1.7
-Indiana Pacers,Shayne Whittington,23,0.1
-Los Angeles Clippers,Matt Barnes,34,1.0
-Los Angeles Clippers,Reggie Bullock,23,-0.1
-Los Angeles Clippers,Jamal Crawford,34,1.2
-Los Angeles Clippers,Jared Cunningham,23,-0.1
-Los Angeles Clippers,Glen Davis,29,-0.3
-Los Angeles Clippers,Chris Douglas-Roberts,28,-0.1
-Los Angeles Clippers,Jordan Farmar,28,0.1
-Los Angeles Clippers,Blake Griffin,25,3.6
-Los Angeles Clippers,Jordan Hamilton,24,0.0
-Los Angeles Clippers,Spencer Hawes,26,-0.1
-Los Angeles Clippers,Lester Hudson,30,0.1
-Los Angeles Clippers,Dahntay Jones,34,-0.2
-Los Angeles Clippers,DeAndre Jordan,26,3.5
-Los Angeles Clippers,Chris Paul,29,7.2
-Los Angeles Clippers,J.J. Redick,30,2.0
-Los Angeles Clippers,Austin Rivers,22,-0.3
-Los Angeles Clippers,Hedo Türkoğlu,35,0.3
-Los Angeles Clippers,Ekpe Udoh,27,0.0
-Los Angeles Clippers,C.J. Wilcox,24,-0.1
-Los Angeles Lakers,Vander Blue,22,-0.1
-Los Angeles Lakers,Carlos Boozer,33,0.1
-Los Angeles Lakers,Jabari Brown,22,-0.3
-Los Angeles Lakers,Kobe Bryant,36,0.7
-Los Angeles Lakers,Dwight Buycks,25,0.0
-Los Angeles Lakers,Jordan Clarkson,22,0.8
-Los Angeles Lakers,Ed Davis,25,1.6
-Los Angeles Lakers,Wayne Ellington,27,-0.1
-Los Angeles Lakers,Xavier Henry,23,-0.1
-Los Angeles Lakers,Jordan Hill,27,-0.1
-Los Angeles Lakers,Wesley Johnson,27,0.1
-Los Angeles Lakers,Ryan Kelly,23,-0.4
-Los Angeles Lakers,Jeremy Lin,26,0.8
-Los Angeles Lakers,Ronnie Price,31,-0.1
-Los Angeles Lakers,Julius Randle,20,0.0
-Los Angeles Lakers,Robert Sacre,25,-0.4
-Los Angeles Lakers,Nick Young,29,0.2
-Memphis Grizzlies,Jordan Adams,20,0.2
-Memphis Grizzlies,Tony Allen,33,1.5
-Memphis Grizzlies,Nick Calathes,25,0.4
-Memphis Grizzlies,Vince Carter,38,0.1
-Memphis Grizzlies,Mike Conley,27,2.7
-Memphis Grizzlies,Marc Gasol,30,4.8
-Memphis Grizzlies,JaMychal Green,24,0.0
-Memphis Grizzlies,Kosta Koufos,25,0.2
-Memphis Grizzlies,Courtney Lee,29,0.9
-Memphis Grizzlies,Jon Leuer,25,-0.1
-Memphis Grizzlies,Kalin Lucas,25,0.0
-Memphis Grizzlies,Quincy Pondexter,26,0.0
-Memphis Grizzlies,Zach Randolph,33,1.9
-Memphis Grizzlies,Russ Smith,23,-0.1
-Memphis Grizzlies,Jarnell Stokes,21,0.0
-Memphis Grizzlies,Tyrus Thomas,28,0.0
-Memphis Grizzlies,Beno Udrih,32,0.9
-Miami Heat,Chris Andersen,36,0.9
-Miami Heat,Michael Beasley,26,-0.3
-Miami Heat,Chris Bosh,30,1.3
-Miami Heat,Shannon Brown,29,-0.1
-Miami Heat,Mario Chalmers,28,-0.3
-Miami Heat,Norris Cole,26,-0.4
-Miami Heat,Andre Dawkins,23,-0.1
-Miami Heat,Luol Deng,29,1.2
-Miami Heat,Goran Dragić,28,1.8
-Miami Heat,Zoran Dragić,25,-0.1
-Miami Heat,James Ennis,24,0.1
-Miami Heat,Danny Granger,31,-0.3
-Miami Heat,Justin Hamilton,24,0.2
-Miami Heat,Udonis Haslem,34,-0.4
-Miami Heat,Tyler Johnson,22,0.2
-Miami Heat,Josh McRoberts,27,-0.1
-Miami Heat,Shabazz Napier,23,-0.3
-Miami Heat,Dwyane Wade,33,2.1
-Miami Heat,Henry Walker,27,0.0
-Miami Heat,Hassan Whiteside,25,1.8
-Milwaukee Bucks,Giannis Antetokounmpo,20,1.2
-Milwaukee Bucks,Jerryd Bayless,26,0.0
-Milwaukee Bucks,Michael Carter-Williams,23,0.5
-Milwaukee Bucks,Jared Dudley,29,1.1
-Milwaukee Bucks,Tyler Ennis,20,-0.2
-Milwaukee Bucks,John Henson,24,0.8
-Milwaukee Bucks,Ersan İlyasova,27,1.0
-Milwaukee Bucks,Chris Johnson,24,0.0
-Milwaukee Bucks,Brandon Knight,23,1.9
-Milwaukee Bucks,Kendall Marshall,23,0.1
-Milwaukee Bucks,Kenyon Martin,37,0.0
-Milwaukee Bucks,O.J. Mayo,27,0.6
-Milwaukee Bucks,Khris Middleton,23,2.2
-Milwaukee Bucks,Johnny O'Bryant,21,-0.7
-Milwaukee Bucks,Zaza Pachulia,30,1.0
-Milwaukee Bucks,Jabari Parker,19,0.3
-Milwaukee Bucks,Miles Plumlee,26,0.4
-Milwaukee Bucks,Larry Sanders,26,0.2
-Milwaukee Bucks,Nate Wolters,23,-0.2
-Minnesota Timberwolves,Jeff Adrien,28,0.0
-Minnesota Timberwolves,Anthony Bennett,21,-0.4
-Minnesota Timberwolves,Lorenzo Brown,24,-0.1
-Minnesota Timberwolves,Chase Budinger,26,0.0
-Minnesota Timberwolves,Gorgui Dieng,25,1.2
-Minnesota Timberwolves,Robbie Hummel,25,-0.4
-Minnesota Timberwolves,Sean Kilpatrick,25,0.0
-Minnesota Timberwolves,Zach LaVine,19,-1.3
-Minnesota Timberwolves,Kevin Martin,31,0.4
-Minnesota Timberwolves,Shabazz Muhammad,22,0.6
-Minnesota Timberwolves,Arinze Onuaku,27,0.1
-Minnesota Timberwolves,Nikola Peković,29,0.0
-Minnesota Timberwolves,Miroslav Raduljica,27,-0.1
-Minnesota Timberwolves,Glenn Robinson III,21,-0.2
-Minnesota Timberwolves,Ricky Rubio,24,0.3
-Minnesota Timberwolves,Ronny Turiaf,32,0.0
-Minnesota Timberwolves,Andrew Wiggins,19,-0.3
-New Orleans Pelicans,Ryan Anderson,26,0.7
-New Orleans Pelicans,Luke Babbitt,25,0.3
-New Orleans Pelicans,Dante Cunningham,27,-0.2
-New Orleans Pelicans,Anthony Davis,21,6.7
-New Orleans Pelicans,Toney Douglas,28,0.0
-New Orleans Pelicans,Tyreke Evans,25,2.2
-New Orleans Pelicans,Jimmer Fredette,25,-0.4
-New Orleans Pelicans,Eric Gordon,26,0.5
-New Orleans Pelicans,Jrue Holiday,24,1.6
-New Orleans Pelicans,Gal Mekel,26,-0.1
-New Orleans Pelicans,Darius Miller,24,-0.1
-New Orleans Pelicans,John Salmons,35,-0.1
-New Orleans Pelicans,Elliot Williams,25,0.0
-New Orleans Pelicans,Jeff Withey,24,0.1
-New Orleans Pelicans,Alexis Ajinça,26,0.4
-New York Knicks,Quincy Acy,24,-0.3
-New York Knicks,Cole Aldrich,26,0.6
-New York Knicks,Carmelo Anthony,30,1.8
-New York Knicks,Andrea Bargnani,29,0.2
-New York Knicks,José Calderón,33,-0.3
-New York Knicks,Samuel Dalembert,33,-0.1
-New York Knicks,Cleanthony Early,23,-0.5
-New York Knicks,Langston Galloway,23,-0.1
-New York Knicks,Shane Larkin,22,-0.4
-New York Knicks,Jason Smith,28,-0.8
-New York Knicks,Lance Thomas,26,-1.3
-New York Knicks,Travis Wear,24,-0.6
-Oklahoma City Thunder,Steven Adams,21,0.3
-Oklahoma City Thunder,Nick Collison,34,0.3
-Oklahoma City Thunder,Kevin Durant,26,2.8
-Oklahoma City Thunder,Serge Ibaka,25,1.6
-Oklahoma City Thunder,Grant Jerrett,21,-0.1
-Oklahoma City Thunder,Perry Jones,23,-0.4
-Oklahoma City Thunder,Enes Kanter,22,0.6
-Oklahoma City Thunder,Jeremy Lamb,22,0.6
-Oklahoma City Thunder,Mitch McGary,22,0.0
-Oklahoma City Thunder,Anthony Morrow,29,1.7
-Oklahoma City Thunder,Steve Novak,31,0.0
-Oklahoma City Thunder,Andre Roberson,23,0.4
-Oklahoma City Thunder,Ish Smith,26,-0.1
-Oklahoma City Thunder,Sebastian Telfair,29,0.1
-Oklahoma City Thunder,Russell Westbrook,26,5.8
-Orlando Magic,Dewayne Dedmon,25,-0.3
-Orlando Magic,Evan Fournier,22,0.1
-Orlando Magic,Channing Frye,31,0.2
-Orlando Magic,Aaron Gordon,19,-0.2
-Orlando Magic,Ben Gordon,31,-0.4
-Orlando Magic,Willie Green,33,-0.5
-Orlando Magic,Maurice Harkless,21,-0.3
-Orlando Magic,Tobias Harris,22,1.5
-Orlando Magic,Devyn Marble,22,-0.1
-Orlando Magic,Andrew Nicholson,25,-0.4
-Orlando Magic,Kyle O'Quinn,24,0.4
-Orlando Magic,Victor Oladipo,22,1.1
-Orlando Magic,Elfrid Payton,20,0.5
-Orlando Magic,Luke Ridnour,33,-0.2
-Orlando Magic,Nikola Vučević,24,1.8
-Philadelphia 76ers,Furkan Aldemir,23,-0.2
-Philadelphia 76ers,Robert Covington,24,1.3
-Philadelphia 76ers,Larry Drew II,24,-0.4
-Philadelphia 76ers,Tim Frazier,24,-0.2
-Philadelphia 76ers,Drew Gordon,24,-0.1
-Philadelphia 76ers,Jerami Grant,20,-0.5
-Philadelphia 76ers,Malcolm Lee,24,0.0
-Philadelphia 76ers,Luc Mbah a Moute,28,-0.4
-Philadelphia 76ers,Nerlens Noel,20,1.0
-Philadelphia 76ers,Jason Richardson,34,0.1
-Philadelphia 76ers,Thomas Robinson,23,0.0
-Philadelphia 76ers,JaKarr Sampson,21,-0.6
-Philadelphia 76ers,Henry Sims,24,-0.3
-Philadelphia 76ers,Malcolm Thomas,26,-0.2
-Philadelphia 76ers,Hollis Thompson,23,0.1
-Philadelphia 76ers,Tony Wroten,21,0.2
-Phoenix Suns,Earl Barron,33,-0.2
-Phoenix Suns,Eric Bledsoe,25,2.9
-Phoenix Suns,Seth Curry,24,0.0
-Phoenix Suns,Archie Goodwin,20,-0.2
-Phoenix Suns,Gerald Green,29,0.6
-Phoenix Suns,Alex Len,21,0.1
-Phoenix Suns,Jerel McNeal,27,-0.1
-Phoenix Suns,Marcus Morris,25,1.1
-Phoenix Suns,Markieff Morris,25,1.1
-Phoenix Suns,P.J. Tucker,29,1.4
-Phoenix Suns,T.J. Warren,21,0.2
-Portland Trail Blazers,LaMarcus Aldridge,29,3.1
-Portland Trail Blazers,Nicolas Batum,26,2.4
-Portland Trail Blazers,Steve Blake,34,0.1
-Portland Trail Blazers,Victor Claver,26,0.0
-Portland Trail Blazers,Allen Crabbe,22,0.2
-Portland Trail Blazers,Joel Freeland,27,-0.1
-Portland Trail Blazers,Chris Kaman,32,0.4
-Portland Trail Blazers,Meyers Leonard,22,0.6
-Portland Trail Blazers,Damian Lillard,24,4.9
-Portland Trail Blazers,Robin Lopez,26,0.9
-Portland Trail Blazers,Wesley Matthews,28,2.6
-Portland Trail Blazers,CJ McCollum,23,0.4
-Portland Trail Blazers,Dorell Wright,29,0.6
-Sacramento Kings,Sim Bhullar,22,0.0
-Sacramento Kings,Omri Casspi,26,0.4
-Sacramento Kings,Darren Collison,27,1.6
-Sacramento Kings,DeMarcus Cousins,24,3.2
-Sacramento Kings,Reggie Evans,34,-0.1
-Sacramento Kings,Rudy Gay,28,2.9
-Sacramento Kings,Ryan Hollins,30,0.0
-Sacramento Kings,Carl Landry,31,-0.1
-Sacramento Kings,Ray McCallum,23,0.0
-Sacramento Kings,Ben McLemore,21,-0.2
-Sacramento Kings,Andre Miller,38,0.0
-Sacramento Kings,Eric Moreland,23,0.0
-Sacramento Kings,Ramon Sessions,28,-0.2
-Sacramento Kings,Nik Stauskas,21,-0.4
-Sacramento Kings,David Stockton,23,0.0
-Sacramento Kings,Jason Thompson,28,-0.4
-Sacramento Kings,David Wear,24,0.0
-Sacramento Kings,Derrick Williams,23,0.0
-San Antonio Spurs,Kyle Anderson,21,0.1
-San Antonio Spurs,Jeff Ayres,27,0.0
-San Antonio Spurs,Aron Baynes,28,0.1
-San Antonio Spurs,Marco Belinelli,28,0.4
-San Antonio Spurs,Matt Bonner,34,0.3
-San Antonio Spurs,Boris Diaw,32,0.8
-San Antonio Spurs,Tim Duncan,38,4.0
-San Antonio Spurs,Manu Ginóbili,37,1.5
-San Antonio Spurs,Danny Green,27,3.8
-San Antonio Spurs,Cory Joseph,23,1.2
-San Antonio Spurs,Kawhi Leonard,23,4.1
-San Antonio Spurs,Patty Mills,26,0.4
-San Antonio Spurs,Tony Parker,32,0.3
-San Antonio Spurs,Tiago Splitter,30,1.1
-San Antonio Spurs,Reggie Williams,28,0.0
-Toronto Raptors,Bruno Caboclo,19,-0.1
-Toronto Raptors,DeMar DeRozan,25,0.6
-Toronto Raptors,Landry Fields,26,0.1
-Toronto Raptors,Tyler Hansbrough,29,0.2
-Toronto Raptors,Chuck Hayes,31,0.1
-Toronto Raptors,Amir Johnson,27,0.9
-Toronto Raptors,James Johnson,27,1.5
-Toronto Raptors,Kyle Lowry,28,3.1
-Toronto Raptors,Lucas Nogueira,22,0.0
-Toronto Raptors,Patrick Patterson,25,2.4
-Toronto Raptors,Terrence Ross,23,0.3
-Toronto Raptors,Greg Stiemsma,29,-0.1
-Toronto Raptors,Jonas Valančiūnas,22,1.3
-Toronto Raptors,Greivis Vásquez,28,0.5
-Toronto Raptors,Lou Williams,28,2.3
-Utah Jazz,Jerrelle Benimon,23,0.0
-Utah Jazz,Trevor Booker,27,0.7
-Utah Jazz,Trey Burke,22,0.3
-Utah Jazz,Alec Burks,23,0.1
-Utah Jazz,Patrick Christopher,26,-0.1
-Utah Jazz,Jack Cooley,23,-0.1
-Utah Jazz,Bryce Cotton,22,0.0
-Utah Jazz,Jeremy Evans,27,0.4
-Utah Jazz,Dante Exum,19,-1.1
-Utah Jazz,Derrick Favors,23,2.6
-Utah Jazz,Rudy Gobert,22,3.4
-Utah Jazz,Gordon Hayward,24,4.0
-Utah Jazz,Rodney Hood,22,0.3
-Utah Jazz,Joe Ingles,27,0.3
-Utah Jazz,Elijah Millsap,27,-0.3
-Utah Jazz,Toure' Murry,25,0.0
-Washington Wizards,Bradley Beal,21,1.1
-Washington Wizards,DeJuan Blair,25,-0.3
-Washington Wizards,Rasual Butler,35,0.4
-Washington Wizards,Will Bynum,32,-0.2
-Washington Wizards,Drew Gooden,33,0.1
-Washington Wizards,Marcin Gortat,30,2.1
-Washington Wizards,Kris Humphries,29,0.3
-Washington Wizards,Paul Pierce,37,1.7
-Washington Wizards,Otto Porter,21,0.6
-Washington Wizards,Kevin Séraphin,25,-0.6
-Washington Wizards,Garrett Temple,28,0.5
-Washington Wizards,John Wall,24,4.0
-Washington Wizards,Martell Webster,28,-0.3
+TEAM,PLAYER,AGE,MP,VORP
+Atlanta Hawks,Pero Antić,32,16.5,-0.6
+Atlanta Hawks,Kent Bazemore,25,17.7,0.0
+Atlanta Hawks,Elton Brand,35,13.5,-0.1
+Atlanta Hawks,DeMarre Carroll,28,31.3,2.0
+Atlanta Hawks,Austin Daye,26,9.5,-0.2
+Atlanta Hawks,Al Horford,28,30.5,3.6
+Atlanta Hawks,John Jenkins,23,12.4,0.2
+Atlanta Hawks,Kyle Korver,33,32.2,3.0
+Atlanta Hawks,Shelvin Mack,24,15.1,0.1
+Atlanta Hawks,Paul Millsap,29,32.7,3.3
+Atlanta Hawks,Mike Muscala,23,12.6,0.3
+Atlanta Hawks,Adreian Payne,23,6.3,-0.9
+Atlanta Hawks,Dennis Schröder,21,19.7,0.2
+Atlanta Hawks,Mike Scott,26,16.5,0.4
+Atlanta Hawks,Thabo Sefolosha,30,18.8,0.8
+Atlanta Hawks,Jeff Teague,26,30.5,2.8
+Brooklyn Nets,Alan Anderson,32,23.6,0.2
+Brooklyn Nets,Bojan Bogdanović,25,23.8,0.1
+Brooklyn Nets,Markel Brown,23,16.6,-0.1
+Brooklyn Nets,Earl Clark,27,9.3,-0.1
+Brooklyn Nets,Brandon Davies,23,6.3,-0.3
+Brooklyn Nets,Kevin Garnett,38,20.3,0.7
+Brooklyn Nets,Jorge Gutiérrez,26,4.4,-0.1
+Brooklyn Nets,Jarrett Jack,31,28.0,0.5
+Brooklyn Nets,Cory Jefferson,24,10.6,-0.1
+Brooklyn Nets,Joe Johnson,33,34.9,1.3
+Brooklyn Nets,Jerome Jordan,28,8.7,0.1
+Brooklyn Nets,Sergey Karasev,21,16.8,0.0
+Brooklyn Nets,Andrei Kirilenko,33,5.1,0.0
+Brooklyn Nets,Brook Lopez,26,29.2,1.6
+Brooklyn Nets,Darius Morris,24,7.9,-0.3
+Brooklyn Nets,Mason Plumlee,24,21.3,0.9
+Brooklyn Nets,Mirza Teletović,29,22.3,0.1
+Brooklyn Nets,Deron Williams,30,31.1,1.2
+Brooklyn Nets,Thaddeus Young,26,29.6,1.1
+Boston Celtics,Brandon Bass,29,23.5,1.0
+Boston Celtics,Avery Bradley,24,31.5,-0.1
+Boston Celtics,Jae Crowder,24,24.2,1.0
+Boston Celtics,Gigi Datome,27,10.7,0.2
+Boston Celtics,Jeff Green,28,33.1,1.2
+Boston Celtics,Jonas Jerebko,27,18.2,0.9
+Boston Celtics,Jameer Nelson,32,20.2,0.4
+Boston Celtics,Kelly Olynyk,23,22.2,0.8
+Boston Celtics,Dwight Powell,23,1.8,0.1
+Boston Celtics,Phil Pressey,23,12.0,0.1
+Boston Celtics,Tayshaun Prince,34,22.0,0.5
+Boston Celtics,Shavlik Randolph,31,5.0,-0.1
+Boston Celtics,Rajon Rondo,28,31.8,0.6
+Boston Celtics,Marcus Smart,20,27.0,0.7
+Boston Celtics,Jared Sullinger,22,27.0,1.2
+Boston Celtics,Isaiah Thomas,25,26.0,2.3
+Boston Celtics,Marcus Thornton,27,16.4,0.6
+Boston Celtics,Evan Turner,26,27.6,0.6
+Boston Celtics,Gerald Wallace,32,8.9,-0.1
+Boston Celtics,Brandan Wright,27,10.8,2.1
+Boston Celtics,James Young,19,10.7,-0.1
+Boston Celtics,Tyler Zeller,25,21.1,1.3
+Charlotte Hornets,Bismack Biyombo,22,19.4,0.3
+Charlotte Hornets,Troy Daniels,23,12.3,-0.1
+Charlotte Hornets,P.J. Hairston,22,15.3,-0.1
+Charlotte Hornets,Gerald Henderson,27,28.9,0.4
+Charlotte Hornets,Al Jefferson,30,30.6,1.8
+Charlotte Hornets,Michael Kidd-Gilchrist,21,28.9,0.6
+Charlotte Hornets,Jason Maxiell,31,14.4,-0.3
+Charlotte Hornets,Gary Neal,30,21.7,-0.5
+Charlotte Hornets,Jannero Pargo,35,8.1,0.1
+Charlotte Hornets,Brian Roberts,29,18.5,0.1
+Charlotte Hornets,Lance Stephenson,24,25.8,-1.0
+Charlotte Hornets,Jeff Taylor,25,14.8,-0.3
+Charlotte Hornets,Noah Vonleh,19,10.4,-0.1
+Charlotte Hornets,Kemba Walker,24,34.2,2.3
+Charlotte Hornets,Marvin Williams,28,26.1,1.0
+Charlotte Hornets,Mo Williams,32,30.8,0.6
+Charlotte Hornets,Cody Zeller,22,24.0,0.5
+Chicago Bulls,Cameron Bairstow,24,3.6,-0.1
+Chicago Bulls,Aaron Brooks,30,23.0,0.5
+Chicago Bulls,Jimmy Butler,25,38.7,4.2
+Chicago Bulls,Mike Dunleavy,34,29.2,0.9
+Chicago Bulls,Pau Gasol,34,34.4,3.7
+Chicago Bulls,Taj Gibson,29,27.3,0.7
+Chicago Bulls,Kirk Hinrich,34,24.4,-0.7
+Chicago Bulls,Doug McDermott,23,8.9,-0.3
+Chicago Bulls,Nikola Mirotić,23,20.2,1.8
+Chicago Bulls,Nazr Mohammed,37,5.6,-0.1
+Chicago Bulls,E'Twaun Moore,25,9.0,0.1
+Chicago Bulls,Joakim Noah,29,30.6,2.1
+Chicago Bulls,Derrick Rose,26,30.0,0.6
+Chicago Bulls,Tony Snell,23,19.6,0.2
+Cleveland Cavaliers,Lou Amundson,32,6.6,-0.5
+Cleveland Cavaliers,Will Cherry,23,8.6,-0.1
+Cleveland Cavaliers,Matthew Dellavedova,24,20.6,-0.3
+Cleveland Cavaliers,Joe Harris,23,9.7,-0.4
+Cleveland Cavaliers,Brendan Haywood,35,5.4,-0.1
+Cleveland Cavaliers,Kyrie Irving,22,36.4,4.2
+Cleveland Cavaliers,LeBron James,30,36.1,5.7
+Cleveland Cavaliers,James Jones,34,11.7,0.2
+Cleveland Cavaliers,Alex Kirk,23,2.8,0.0
+Cleveland Cavaliers,Kevin Love,26,33.8,3.0
+Cleveland Cavaliers,Shawn Marion,36,19.3,0.3
+Cleveland Cavaliers,Mike Miller,34,13.5,-0.2
+Cleveland Cavaliers,Timofey Mozgov,28,25.0,0.7
+Cleveland Cavaliers,Kendrick Perkins,30,9.8,-1.0
+Cleveland Cavaliers,A.J. Price,28,7.9,0.0
+Cleveland Cavaliers,Iman Shumpert,24,24.2,0.4
+Cleveland Cavaliers,J.R. Smith,29,31.8,1.5
+Cleveland Cavaliers,Tristan Thompson,23,26.8,0.4
+Cleveland Cavaliers,Anderson Varejão,32,24.5,0.4
+Cleveland Cavaliers,Dion Waiters,23,23.8,-0.7
+Dallas Mavericks,Al-Farouq Aminu,24,18.5,1.0
+Dallas Mavericks,J.J. Barea,30,17.7,0.6
+Dallas Mavericks,Tyson Chandler,32,30.5,2.7
+Dallas Mavericks,Monta Ellis,29,33.7,1.3
+Dallas Mavericks,Raymond Felton,30,9.7,0.0
+Dallas Mavericks,Devin Harris,31,22.2,1.4
+Dallas Mavericks,Bernard James,29,9.9,0.1
+Dallas Mavericks,Richard Jefferson,34,16.8,0.4
+Dallas Mavericks,Ricky Ledo,22,2.2,-0.4
+Dallas Mavericks,Dirk Nowitzki,36,29.6,2.4
+Dallas Mavericks,Chandler Parsons,26,33.1,2.0
+Dallas Mavericks,Greg Smith,24,8.6,-0.1
+Dallas Mavericks,Amar'e Stoudemire,32,16.5,0.7
+Dallas Mavericks,Charlie Villanueva,30,10.6,0.6
+Denver Nuggets,Arron Afflalo,29,33.0,-0.3
+Denver Nuggets,Darrell Arthur,26,17.0,0.1
+Denver Nuggets,Will Barton,24,24.4,0.4
+Denver Nuggets,Wilson Chandler,27,31.7,0.9
+Denver Nuggets,Ian Clark,23,4.4,0.0
+Denver Nuggets,Kenneth Faried,25,27.8,1.0
+Denver Nuggets,Randy Foye,31,21.7,0.2
+Denver Nuggets,Jamaal Franklin,23,4.3,0.0
+Denver Nuggets,Danilo Gallinari,26,24.2,1.6
+Denver Nuggets,Alonzo Gee,27,13.1,0.2
+Denver Nuggets,Erick Green,23,9.5,-0.2
+Denver Nuggets,Gary Harris,20,13.1,-0.6
+Denver Nuggets,J.J. Hickson,26,19.3,-0.2
+Denver Nuggets,Joffrey Lauvergne,23,11.2,-0.2
+Denver Nuggets,Ty Lawson,27,35.5,2.8
+Denver Nuggets,JaVale McGee,27,11.5,-0.1
+Denver Nuggets,Jusuf Nurkić,20,17.8,-0.2
+Denver Nuggets,Nate Robinson,30,14.1,-0.1
+Detroit Pistons,Joel Anthony,32,8.3,0.2
+Detroit Pistons,D.J. Augustin,27,23.8,0.4
+Detroit Pistons,Caron Butler,34,20.8,0.1
+Detroit Pistons,Kentavious Caldwell-Pope,21,31.5,0.2
+Detroit Pistons,Spencer Dinwiddie,21,13.4,-0.1
+Detroit Pistons,Andre Drummond,21,30.5,1.2
+Detroit Pistons,Reggie Jackson,24,32.2,1.8
+Detroit Pistons,Brandon Jennings,25,28.6,1.6
+Detroit Pistons,John Lucas III,32,13.0,0.0
+Detroit Pistons,Cartier Martin,30,8.6,-0.3
+Detroit Pistons,Jodie Meeks,27,24.4,0.5
+Detroit Pistons,Quincy Miller,22,14.5,-0.1
+Detroit Pistons,Greg Monroe,24,31.0,2.1
+Detroit Pistons,Kyle Singler,26,23.8,0.0
+Detroit Pistons,Josh Smith,29,32.0,1.6
+Detroit Pistons,Anthony Tolliver,29,22.3,0.2
+Detroit Pistons,Shawne Williams,28,8.6,0.0
+Golden State Warriors,Leandro Barbosa,32,14.9,0.6
+Golden State Warriors,Harrison Barnes,22,28.3,1.2
+Golden State Warriors,Andrew Bogut,30,23.6,1.8
+Golden State Warriors,Stephen Curry,26,32.7,7.9
+Golden State Warriors,Festus Ezeli,25,11.0,0.0
+Golden State Warriors,Draymond Green,24,31.5,3.5
+Golden State Warriors,Justin Holiday,25,11.1,0.1
+Golden State Warriors,Andre Iguodala,31,26.9,1.5
+Golden State Warriors,Ognjen Kuzmić,24,4.5,0.0
+Golden State Warriors,David Lee,31,18.4,0.7
+Golden State Warriors,Shaun Livingston,29,18.8,0.4
+Golden State Warriors,James Michael McAdoo,22,9.1,0.0
+Golden State Warriors,Brandon Rush,29,8.2,-0.4
+Golden State Warriors,Marreese Speights,27,15.9,0.0
+Golden State Warriors,Klay Thompson,24,31.9,4.0
+Houston Rockets,Trevor Ariza,29,35.7,2.2
+Houston Rockets,Patrick Beverley,26,30.8,0.9
+Houston Rockets,Tarik Black,23,15.7,0.0
+Houston Rockets,Corey Brewer,28,25.1,0.5
+Houston Rockets,Isaiah Canaan,23,14.8,0.3
+Houston Rockets,Clint Capela,20,7.5,-0.1
+Houston Rockets,Joey Dorsey,31,12.4,-0.2
+Houston Rockets,Francisco García,33,14.3,-0.1
+Houston Rockets,James Harden,25,36.8,8.1
+Houston Rockets,Dwight Howard,29,29.8,0.5
+Houston Rockets,Nick Johnson,22,9.4,-0.3
+Houston Rockets,Terrence Jones,23,26.9,0.7
+Houston Rockets,K.J. McDaniels,21,3.3,-0.3
+Houston Rockets,Donatas Motiejūnas,24,28.7,0.8
+Houston Rockets,Kostas Papanikolaou,24,18.5,0.0
+Houston Rockets,Pablo Prigioni,37,16.8,0.6
+Houston Rockets,Alexey Shved,26,6.6,0.9
+Houston Rockets,Jason Terry,37,21.3,1.0
+Indiana Pacers,Lavoy Allen,25,17.0,0.6
+Indiana Pacers,Chris Copeland,30,16.6,-0.4
+Indiana Pacers,Paul George,24,15.2,0.0
+Indiana Pacers,Roy Hibbert,28,25.3,0.4
+Indiana Pacers,George Hill,28,29.5,2.3
+Indiana Pacers,Solomon Hill,23,29.0,0.3
+Indiana Pacers,Ian Mahinmi,28,18.8,-0.1
+Indiana Pacers,C.J. Miles,27,26.3,1.3
+Indiana Pacers,Damjan Rudež,28,15.4,-0.1
+Indiana Pacers,Luis Scola,34,20.5,0.7
+Indiana Pacers,Donald Sloan,27,20.9,0.5
+Indiana Pacers,Rodney Stuckey,28,26.4,1.1
+Indiana Pacers,C.J. Watson,30,24.9,1.2
+Indiana Pacers,David West,34,28.7,1.7
+Indiana Pacers,Shayne Whittington,23,5.4,0.1
+Los Angeles Clippers,Matt Barnes,34,29.9,1.0
+Los Angeles Clippers,Reggie Bullock,23,10.5,-0.1
+Los Angeles Clippers,Jamal Crawford,34,26.6,1.2
+Los Angeles Clippers,Jared Cunningham,23,4.7,-0.1
+Los Angeles Clippers,Glen Davis,29,12.2,-0.3
+Los Angeles Clippers,Chris Douglas-Roberts,28,8.6,-0.1
+Los Angeles Clippers,Jordan Farmar,28,14.7,0.1
+Los Angeles Clippers,Blake Griffin,25,35.2,3.6
+Los Angeles Clippers,Jordan Hamilton,24,8.7,0.0
+Los Angeles Clippers,Spencer Hawes,26,17.5,-0.1
+Los Angeles Clippers,Lester Hudson,30,11.2,0.1
+Los Angeles Clippers,Dahntay Jones,34,3.7,-0.2
+Los Angeles Clippers,DeAndre Jordan,26,34.4,3.5
+Los Angeles Clippers,Chris Paul,29,34.8,7.2
+Los Angeles Clippers,J.J. Redick,30,30.9,2.0
+Los Angeles Clippers,Austin Rivers,22,19.3,-0.3
+Los Angeles Clippers,Hedo Türkoğlu,35,11.4,0.3
+Los Angeles Clippers,Ekpe Udoh,27,3.9,0.0
+Los Angeles Clippers,C.J. Wilcox,24,4.8,-0.1
+Los Angeles Lakers,Vander Blue,22,37.0,-0.1
+Los Angeles Lakers,Carlos Boozer,33,23.8,0.1
+Los Angeles Lakers,Jabari Brown,22,29.9,-0.3
+Los Angeles Lakers,Kobe Bryant,36,34.5,0.7
+Los Angeles Lakers,Dwight Buycks,25,20.5,0.0
+Los Angeles Lakers,Jordan Clarkson,22,25.0,0.8
+Los Angeles Lakers,Ed Davis,25,23.3,1.6
+Los Angeles Lakers,Wayne Ellington,27,25.8,-0.1
+Los Angeles Lakers,Xavier Henry,23,9.6,-0.1
+Los Angeles Lakers,Jordan Hill,27,26.8,-0.1
+Los Angeles Lakers,Wesley Johnson,27,29.5,0.1
+Los Angeles Lakers,Ryan Kelly,23,23.7,-0.4
+Los Angeles Lakers,Jeremy Lin,26,25.8,0.8
+Los Angeles Lakers,Ronnie Price,31,22.8,-0.1
+Los Angeles Lakers,Julius Randle,20,14.0,0.0
+Los Angeles Lakers,Robert Sacre,25,16.9,-0.4
+Los Angeles Lakers,Nick Young,29,23.8,0.2
+Memphis Grizzlies,Jordan Adams,20,8.3,0.2
+Memphis Grizzlies,Tony Allen,33,26.2,1.5
+Memphis Grizzlies,Nick Calathes,25,14.4,0.4
+Memphis Grizzlies,Vince Carter,38,16.5,0.1
+Memphis Grizzlies,Mike Conley,27,31.8,2.7
+Memphis Grizzlies,Marc Gasol,30,33.2,4.8
+Memphis Grizzlies,JaMychal Green,24,7.0,0.0
+Memphis Grizzlies,Kosta Koufos,25,16.6,0.2
+Memphis Grizzlies,Courtney Lee,29,30.6,0.9
+Memphis Grizzlies,Jon Leuer,25,13.1,-0.1
+Memphis Grizzlies,Kalin Lucas,25,6.0,0.0
+Memphis Grizzlies,Quincy Pondexter,26,18.0,0.0
+Memphis Grizzlies,Zach Randolph,33,32.5,1.9
+Memphis Grizzlies,Russ Smith,23,6.0,-0.1
+Memphis Grizzlies,Jarnell Stokes,21,6.6,0.0
+Memphis Grizzlies,Tyrus Thomas,28,3.5,0.0
+Memphis Grizzlies,Beno Udrih,32,18.9,0.9
+Miami Heat,Chris Andersen,36,18.9,0.9
+Miami Heat,Michael Beasley,26,21.0,-0.3
+Miami Heat,Chris Bosh,30,35.4,1.3
+Miami Heat,Shannon Brown,29,17.8,-0.1
+Miami Heat,Mario Chalmers,28,29.6,-0.3
+Miami Heat,Norris Cole,26,24.4,-0.4
+Miami Heat,Andre Dawkins,23,5.5,-0.1
+Miami Heat,Luol Deng,29,33.6,1.2
+Miami Heat,Goran Dragić,28,34.8,1.8
+Miami Heat,Zoran Dragić,25,6.2,-0.1
+Miami Heat,James Ennis,24,17.0,0.1
+Miami Heat,Danny Granger,31,20.4,-0.3
+Miami Heat,Justin Hamilton,24,12.0,0.2
+Miami Heat,Udonis Haslem,34,16.0,-0.4
+Miami Heat,Tyler Johnson,22,18.8,0.2
+Miami Heat,Josh McRoberts,27,17.4,-0.1
+Miami Heat,Shabazz Napier,23,19.8,-0.3
+Miami Heat,Dwyane Wade,33,31.8,2.1
+Miami Heat,Henry Walker,27,26.2,0.0
+Miami Heat,Hassan Whiteside,25,23.8,1.8
+Milwaukee Bucks,Giannis Antetokounmpo,20,31.4,1.2
+Milwaukee Bucks,Jerryd Bayless,26,22.3,0.0
+Milwaukee Bucks,Michael Carter-Williams,23,30.3,0.5
+Milwaukee Bucks,Jared Dudley,29,23.8,1.1
+Milwaukee Bucks,Tyler Ennis,20,14.1,-0.2
+Milwaukee Bucks,John Henson,24,18.3,0.8
+Milwaukee Bucks,Ersan İlyasova,27,22.7,1.0
+Milwaukee Bucks,Chris Johnson,24,16.0,0.0
+Milwaukee Bucks,Brandon Knight,23,32.5,1.9
+Milwaukee Bucks,Kendall Marshall,23,14.9,0.1
+Milwaukee Bucks,Kenyon Martin,37,9.5,0.0
+Milwaukee Bucks,O.J. Mayo,27,23.9,0.6
+Milwaukee Bucks,Khris Middleton,23,30.1,2.2
+Milwaukee Bucks,Johnny O'Bryant,21,10.8,-0.7
+Milwaukee Bucks,Zaza Pachulia,30,23.7,1.0
+Milwaukee Bucks,Jabari Parker,19,29.5,0.3
+Milwaukee Bucks,Miles Plumlee,26,9.9,0.4
+Milwaukee Bucks,Larry Sanders,26,21.7,0.2
+Milwaukee Bucks,Nate Wolters,23,12.9,-0.2
+Minnesota Timberwolves,Jeff Adrien,28,12.6,0.0
+Minnesota Timberwolves,Anthony Bennett,21,15.7,-0.4
+Minnesota Timberwolves,Lorenzo Brown,24,18.9,-0.1
+Minnesota Timberwolves,Chase Budinger,26,19.2,0.0
+Minnesota Timberwolves,Gorgui Dieng,25,30.0,1.2
+Minnesota Timberwolves,Robbie Hummel,25,16.5,-0.4
+Minnesota Timberwolves,Sean Kilpatrick,25,18.0,0.0
+Minnesota Timberwolves,Zach LaVine,19,24.7,-1.3
+Minnesota Timberwolves,Kevin Martin,31,33.4,0.4
+Minnesota Timberwolves,Shabazz Muhammad,22,22.8,0.6
+Minnesota Timberwolves,Arinze Onuaku,27,11.3,0.1
+Minnesota Timberwolves,Nikola Peković,29,26.3,0.0
+Minnesota Timberwolves,Miroslav Raduljica,27,4.6,-0.1
+Minnesota Timberwolves,Glenn Robinson III,21,4.3,-0.2
+Minnesota Timberwolves,Ricky Rubio,24,31.5,0.3
+Minnesota Timberwolves,Ronny Turiaf,32,9.5,0.0
+Minnesota Timberwolves,Andrew Wiggins,19,36.2,-0.3
+New Orleans Pelicans,Ryan Anderson,26,27.5,0.7
+New Orleans Pelicans,Luke Babbitt,25,13.2,0.3
+New Orleans Pelicans,Dante Cunningham,27,25.0,-0.2
+New Orleans Pelicans,Anthony Davis,21,36.1,6.7
+New Orleans Pelicans,Toney Douglas,28,14.8,0.0
+New Orleans Pelicans,Tyreke Evans,25,34.1,2.2
+New Orleans Pelicans,Jimmer Fredette,25,10.2,-0.4
+New Orleans Pelicans,Eric Gordon,26,33.1,0.5
+New Orleans Pelicans,Jrue Holiday,24,32.6,1.6
+New Orleans Pelicans,Gal Mekel,26,10.8,-0.1
+New Orleans Pelicans,Darius Miller,24,8.6,-0.1
+New Orleans Pelicans,John Salmons,35,12.9,-0.1
+New Orleans Pelicans,Elliot Williams,25,9.6,0.0
+New Orleans Pelicans,Jeff Withey,24,7.0,0.1
+New Orleans Pelicans,Alexis Ajinça,26,14.1,0.4
+New York Knicks,Quincy Acy,24,18.9,-0.3
+New York Knicks,Cole Aldrich,26,16.0,0.6
+New York Knicks,Carmelo Anthony,30,35.7,1.8
+New York Knicks,Andrea Bargnani,29,27.1,0.2
+New York Knicks,José Calderón,33,30.2,-0.3
+New York Knicks,Samuel Dalembert,33,17.0,-0.1
+New York Knicks,Cleanthony Early,23,16.6,-0.5
+New York Knicks,Langston Galloway,23,32.4,-0.1
+New York Knicks,Shane Larkin,22,24.5,-0.4
+New York Knicks,Jason Smith,28,21.8,-0.8
+New York Knicks,Lance Thomas,26,26.0,-1.3
+New York Knicks,Travis Wear,24,13.2,-0.6
+Oklahoma City Thunder,Steven Adams,21,25.3,0.3
+Oklahoma City Thunder,Nick Collison,34,16.7,0.3
+Oklahoma City Thunder,Kevin Durant,26,33.8,2.8
+Oklahoma City Thunder,Serge Ibaka,25,33.1,1.6
+Oklahoma City Thunder,Grant Jerrett,21,5.0,-0.1
+Oklahoma City Thunder,Perry Jones,23,14.7,-0.4
+Oklahoma City Thunder,Enes Kanter,22,31.1,0.6
+Oklahoma City Thunder,Jeremy Lamb,22,13.5,0.6
+Oklahoma City Thunder,Mitch McGary,22,15.2,0.0
+Oklahoma City Thunder,Anthony Morrow,29,24.4,1.7
+Oklahoma City Thunder,Steve Novak,31,6.8,0.0
+Oklahoma City Thunder,Andre Roberson,23,19.2,0.4
+Oklahoma City Thunder,Ish Smith,26,5.2,-0.1
+Oklahoma City Thunder,Sebastian Telfair,29,20.4,0.1
+Oklahoma City Thunder,Russell Westbrook,26,34.4,5.8
+Orlando Magic,Dewayne Dedmon,25,14.3,-0.3
+Orlando Magic,Evan Fournier,22,28.6,0.1
+Orlando Magic,Channing Frye,31,24.9,0.2
+Orlando Magic,Aaron Gordon,19,17.0,-0.2
+Orlando Magic,Ben Gordon,31,14.1,-0.4
+Orlando Magic,Willie Green,33,18.3,-0.5
+Orlando Magic,Maurice Harkless,21,15.0,-0.3
+Orlando Magic,Tobias Harris,22,34.8,1.5
+Orlando Magic,Devyn Marble,22,13.0,-0.1
+Orlando Magic,Andrew Nicholson,25,12.3,-0.4
+Orlando Magic,Kyle O'Quinn,24,16.2,0.4
+Orlando Magic,Victor Oladipo,22,35.7,1.1
+Orlando Magic,Elfrid Payton,20,30.4,0.5
+Orlando Magic,Luke Ridnour,33,14.5,-0.2
+Orlando Magic,Nikola Vučević,24,34.2,1.8
+Philadelphia 76ers,Furkan Aldemir,23,13.2,-0.2
+Philadelphia 76ers,Robert Covington,24,27.9,1.3
+Philadelphia 76ers,Larry Drew II,24,18.3,-0.4
+Philadelphia 76ers,Tim Frazier,24,28.5,-0.2
+Philadelphia 76ers,Drew Gordon,24,7.9,-0.1
+Philadelphia 76ers,Jerami Grant,20,21.2,-0.5
+Philadelphia 76ers,Malcolm Lee,24,2.0,0.0
+Philadelphia 76ers,Luc Mbah a Moute,28,28.6,-0.4
+Philadelphia 76ers,Nerlens Noel,20,30.8,1.0
+Philadelphia 76ers,Jason Richardson,34,21.9,0.1
+Philadelphia 76ers,Thomas Robinson,23,18.5,0.0
+Philadelphia 76ers,JaKarr Sampson,21,15.3,-0.6
+Philadelphia 76ers,Henry Sims,24,19.2,-0.3
+Philadelphia 76ers,Malcolm Thomas,26,11.4,-0.2
+Philadelphia 76ers,Hollis Thompson,23,25.0,0.1
+Philadelphia 76ers,Tony Wroten,21,29.8,0.2
+Phoenix Suns,Earl Barron,33,8.9,-0.2
+Phoenix Suns,Eric Bledsoe,25,34.6,2.9
+Phoenix Suns,Seth Curry,24,4.0,0.0
+Phoenix Suns,Archie Goodwin,20,13.0,-0.2
+Phoenix Suns,Gerald Green,29,19.5,0.6
+Phoenix Suns,Alex Len,21,22.0,0.1
+Phoenix Suns,Jerel McNeal,27,6.0,-0.1
+Phoenix Suns,Marcus Morris,25,25.2,1.1
+Phoenix Suns,Markieff Morris,25,31.5,1.1
+Phoenix Suns,P.J. Tucker,29,30.6,1.4
+Phoenix Suns,T.J. Warren,21,15.4,0.2
+Portland Trail Blazers,LaMarcus Aldridge,29,35.4,3.1
+Portland Trail Blazers,Nicolas Batum,26,33.5,2.4
+Portland Trail Blazers,Steve Blake,34,18.9,0.1
+Portland Trail Blazers,Victor Claver,26,7.6,0.0
+Portland Trail Blazers,Allen Crabbe,22,13.4,0.2
+Portland Trail Blazers,Joel Freeland,27,12.9,-0.1
+Portland Trail Blazers,Chris Kaman,32,18.9,0.4
+Portland Trail Blazers,Meyers Leonard,22,15.4,0.6
+Portland Trail Blazers,Damian Lillard,24,35.7,4.9
+Portland Trail Blazers,Robin Lopez,26,27.8,0.9
+Portland Trail Blazers,Wesley Matthews,28,33.7,2.6
+Portland Trail Blazers,CJ McCollum,23,15.7,0.4
+Portland Trail Blazers,Dorell Wright,29,12.3,0.6
+Sacramento Kings,Sim Bhullar,22,1.0,0.0
+Sacramento Kings,Omri Casspi,26,21.1,0.4
+Sacramento Kings,Darren Collison,27,34.8,1.6
+Sacramento Kings,DeMarcus Cousins,24,34.1,3.2
+Sacramento Kings,Reggie Evans,34,16.3,-0.1
+Sacramento Kings,Rudy Gay,28,35.4,2.9
+Sacramento Kings,Ryan Hollins,30,9.6,0.0
+Sacramento Kings,Carl Landry,31,17.0,-0.1
+Sacramento Kings,Ray McCallum,23,21.1,0.0
+Sacramento Kings,Ben McLemore,21,32.6,-0.2
+Sacramento Kings,Andre Miller,38,20.7,0.0
+Sacramento Kings,Eric Moreland,23,0.7,0.0
+Sacramento Kings,Ramon Sessions,28,17.8,-0.2
+Sacramento Kings,Nik Stauskas,21,15.4,-0.4
+Sacramento Kings,David Stockton,23,11.0,0.0
+Sacramento Kings,Jason Thompson,28,24.6,-0.4
+Sacramento Kings,David Wear,24,3.5,0.0
+Sacramento Kings,Derrick Williams,23,19.8,0.0
+San Antonio Spurs,Kyle Anderson,21,10.8,0.1
+San Antonio Spurs,Jeff Ayres,27,7.5,0.0
+San Antonio Spurs,Aron Baynes,28,16.0,0.1
+San Antonio Spurs,Marco Belinelli,28,22.4,0.4
+San Antonio Spurs,Matt Bonner,34,13.0,0.3
+San Antonio Spurs,Boris Diaw,32,24.5,0.8
+San Antonio Spurs,Tim Duncan,38,28.9,4.0
+San Antonio Spurs,Manu Ginóbili,37,22.7,1.5
+San Antonio Spurs,Danny Green,27,28.5,3.8
+San Antonio Spurs,Cory Joseph,23,18.3,1.2
+San Antonio Spurs,Kawhi Leonard,23,31.8,4.1
+San Antonio Spurs,Patty Mills,26,15.7,0.4
+San Antonio Spurs,Tony Parker,32,28.7,0.3
+San Antonio Spurs,Tiago Splitter,30,19.8,1.1
+San Antonio Spurs,Reggie Williams,28,5.3,0.0
+Toronto Raptors,Bruno Caboclo,19,2.9,-0.1
+Toronto Raptors,DeMar DeRozan,25,35.0,0.6
+Toronto Raptors,Landry Fields,26,8.3,0.1
+Toronto Raptors,Tyler Hansbrough,29,14.3,0.2
+Toronto Raptors,Chuck Hayes,31,8.8,0.1
+Toronto Raptors,Amir Johnson,27,26.4,0.9
+Toronto Raptors,James Johnson,27,19.6,1.5
+Toronto Raptors,Kyle Lowry,28,34.5,3.1
+Toronto Raptors,Lucas Nogueira,22,3.8,0.0
+Toronto Raptors,Patrick Patterson,25,26.6,2.4
+Toronto Raptors,Terrence Ross,23,25.5,0.3
+Toronto Raptors,Greg Stiemsma,29,3.9,-0.1
+Toronto Raptors,Jonas Valančiūnas,22,26.2,1.3
+Toronto Raptors,Greivis Vásquez,28,24.3,0.5
+Toronto Raptors,Lou Williams,28,25.2,2.3
+Utah Jazz,Jerrelle Benimon,23,1.5,0.0
+Utah Jazz,Trevor Booker,27,19.8,0.7
+Utah Jazz,Trey Burke,22,30.1,0.3
+Utah Jazz,Alec Burks,23,33.3,0.1
+Utah Jazz,Patrick Christopher,26,7.3,-0.1
+Utah Jazz,Jack Cooley,23,5.4,-0.1
+Utah Jazz,Bryce Cotton,22,10.6,0.0
+Utah Jazz,Jeremy Evans,27,7.0,0.4
+Utah Jazz,Dante Exum,19,22.2,-1.1
+Utah Jazz,Derrick Favors,23,30.8,2.6
+Utah Jazz,Rudy Gobert,22,26.3,3.4
+Utah Jazz,Gordon Hayward,24,34.4,4.0
+Utah Jazz,Rodney Hood,22,21.3,0.3
+Utah Jazz,Joe Ingles,27,21.2,0.3
+Utah Jazz,Elijah Millsap,27,19.7,-0.3
+Utah Jazz,Toure' Murry,25,1.0,0.0
+Washington Wizards,Bradley Beal,21,33.4,1.1
+Washington Wizards,DeJuan Blair,25,6.2,-0.3
+Washington Wizards,Rasual Butler,35,20.1,0.4
+Washington Wizards,Will Bynum,32,9.6,-0.2
+Washington Wizards,Drew Gooden,33,16.9,0.1
+Washington Wizards,Marcin Gortat,30,29.9,2.1
+Washington Wizards,Kris Humphries,29,21.0,0.3
+Washington Wizards,Paul Pierce,37,26.2,1.7
+Washington Wizards,Otto Porter,21,19.4,0.6
+Washington Wizards,Kevin Séraphin,25,15.6,-0.6
+Washington Wizards,Garrett Temple,28,14.1,0.5
+Washington Wizards,John Wall,24,35.9,4.0
+Washington Wizards,Martell Webster,28,11.0,-0.3
