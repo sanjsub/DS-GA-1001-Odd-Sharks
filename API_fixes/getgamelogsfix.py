@@ -31,7 +31,7 @@ def get_game_logs_fix(name, start_date, end_date, stat_type = 'BASIC', playoffs=
             selector = 'div_pgl_advanced'
     final_df = None
     for year in years:
-        if stat_type == 'BASIC':
+        if stat_type == 'BASIC':         
             r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url={suffix}%2Fgamelog%2F{year}&div={selector}')
         elif stat_type == 'ADVANCED':
             r = get(f'https://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url={suffix}%2Fgamelog-advanced%2F{year}&div={selector}')
@@ -58,8 +58,13 @@ def get_game_logs_fix(name, start_date, end_date, stat_type = 'BASIC', playoffs=
     return final_df
 
 def get_player_suffix_fix(name):
+    
+    if name.lower() in repeat_players_list:
+        return get_repeat_player_suffix(name)
+    
     normalized_name = unicodedata.normalize('NFD', name).encode('ascii', 'ignore').decode("utf-8")
     names = normalized_name.split(' ')[1:]
+    potential_suffixes = [] ## adding this for now
     for last_name in names:
         initial = last_name[0].lower()
         r = get(f'https://www.basketball-reference.com/players/{initial}')
@@ -81,10 +86,71 @@ def get_player_suffix_fix(name):
 
                                     return suffix
 
+def get_repeat_player_suffix(name):
+    ''' Get repeat player suffix. Might want to add in other params to deal with 
+    the repeat players who are still ambiguous such as :
+    Chris Johnson (x2), Chris Wright (x2), Gary Payton (maybe not since the 
+    older version stoppped playing in 2007, Marcus Williams (x2), Mike James (x2), 
+    Tony Mitchell (x2)'''
+
+    ## Note that this function assumes no repeat players have accent marks 
+    ## in their names 
+
+    if name.lower() in repeat_players_dict['duplicated']:
+        ## We must actually address this situation differently or figure solution
+        return repeat_players_dict['duplicated'][name.lower()]
+
+    return repeat_players_dict['unique'][name.lower()]
+
+    
+    return repeat_players[name]
+
+
+
+repeat_players_dict = {'unique': {'dee brown': '/players/b/brownde03.html',
+ 'bobby jones': '/players/j/jonesbo02.html',
+ 'chris smith': '/players/s/smithch05.html',
+ 'david lee': '/players/l/leeda02.html',
+ 'gary payton': '/players/p/paytoga02.html',
+ 'gary trent': '/players/t/trentga02.html',
+ 'george king': '/players/k/kingge03.html',
+ 'gerald henderson': '/players/h/hendege02.html',
+ 'glen rice': '/players/r/ricegl02.html',
+ 'glenn robinson': '/players/r/robingl02.html',
+ 'greg smith': '/players/s/smithgr02.html',
+ 'jaren jackson': '/players/j/jacksja02.html',
+ 'kevin porter': '/players/p/porteke02.html',
+ 'larry drew': '/players/d/drewla02.html',
+ 'larry nance': '/players/n/nancela02.html',
+ 'luke jackson': '/players/j/jackslu02.html',
+ 'mike dunleavy': '/players/d/dunlemi02.html',
+ 'patrick ewing': '/players/e/ewingpa02.html',
+ 'reggie williams': '/players/w/willire02.html',
+ 'tim hardaway': '/players/h/hardati02.html',
+ 'walker russell': '/players/r/russewa02.html'},
+ 
+ 'duplicated' : {'chris johnson': '/players/j/johnsch04.html',
+ 'chris wright': '/players/w/wrighch02.html',
+ 'marcus williams': '/players/w/willima04.html',
+ 'mike james': '/players/j/jamesmi02.html',
+ 'tony mitchell': '/players/m/mitchto02.html',
+ }}
+
+repeat_players_list = ['dee brown', 'bobby jones', 'chris johnson', 
+                       'chris smith', 'chris wright', 'david lee', 
+                       'gary payton', 'gary trent', 'george king', 
+                       'gerald henderson', 'glen rice', 'glenn robinson', 
+                       'greg smith', 'jaren jackson', 'kevin porter', 
+                       'larry drew', 'larry nance', 'luke jackson', 
+                       'marcus williams', 'mike dunleavy', 'mike james', 
+                       'patrick ewing', 'reggie williams', 'tim hardaway', 
+                       'tony mitchell', 'walker russell']
+
 
 # %%
 ## Some Code tests##
-lebronlogs2 = get_game_logs_fix('Lebron James', '2014-10-30', '2015-04-13')
+dunleavy = get_game_logs_fix('Mike Dunleavy', '2014-10-30', '2015-04-13')
+chriswright = get_game_logs_fix('Chris Wright', '2013-03-01', '2015-04-13')
 #lebronname = get_player_suffix_fix("Lebron James")
 #lebronsuffix = get_player_suffix_fix("Lebron James").replace('/', '%2F').replace('.html', '')
 #%%
@@ -92,7 +158,8 @@ lebronname = get_player_suffix_fix("Lebron James")
 print("+++++++++++++++")
 
 #%%
-lukalogs = get_player_suffix_fix('Luka Doncic')
+dunleavyname = get_player_suffix_fix('Chris Wright')
+dunleavyname
 # %%
 lebronname, lebronsuffix
 # %%
@@ -103,4 +170,12 @@ lukalogs
 
 # get_player_suffix_fix('Vlatko Čančar')
 get_game_logs_fix('Stephen Curry', '2019-10-24', '2020-08-13')
+# %%
+d = {key.lower() : repeat_players[key] for key in repeat_players}
+# %%
+d.keys()
+# %%
+chriswright
+# %%
+dunleavy
 # %%
