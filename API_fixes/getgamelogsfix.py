@@ -149,33 +149,33 @@ repeat_players_list = ['dee brown', 'bobby jones', 'chris johnson',
 
 # %%
 ## Some Code tests##
-dunleavy = get_game_logs_fix('Mike Dunleavy', '2014-10-30', '2015-04-13')
-chriswright = get_game_logs_fix('Chris Wright', '2013-03-01', '2015-04-13')
+#dunleavy = get_game_logs_fix('Mike Dunleavy', '2014-10-30', '2015-04-13')
+#chriswright = get_game_logs_fix('Chris Wright', '2013-03-01', '2015-04-13')
 #lebronname = get_player_suffix_fix("Lebron James")
 #lebronsuffix = get_player_suffix_fix("Lebron James").replace('/', '%2F').replace('.html', '')
 #%%
-lebronname = get_player_suffix_fix("Lebron James")
-print("+++++++++++++++")
+#lebronname = get_player_suffix_fix("Lebron James")
+#print("+++++++++++++++")
 
 #%%
-dunleavyname = get_player_suffix_fix('Chris Wright')
-dunleavyname
-# %%
-lebronname, lebronsuffix
-# %%
-lukalogs = get_game_logs_fix('Luka Doncic', '2018-10-17', '2019-04-09')
-# %%
-lukalogs
-# %%
+# dunleavyname = get_player_suffix_fix('Chris Wright')
+# dunleavyname
+# # %%
+# lebronname, lebronsuffix
+# # %%
+# lukalogs = get_game_logs_fix('Luka Doncic', '2018-10-17', '2019-04-09')
+# # %%
+# lukalogs
+# # %%
 
-# get_player_suffix_fix('Vlatko Čančar')
-get_game_logs_fix('Stephen Curry', '2019-10-24', '2020-08-13')
-# %%
-d = {key.lower() : repeat_players[key] for key in repeat_players}
-# %%
-d.keys()
-# %%
-chriswright
-# %%
-dunleavy
-# %%
+# # get_player_suffix_fix('Vlatko Čančar')
+# get_game_logs_fix('Stephen Curry', '2019-10-24', '2020-08-13')
+# # %%
+# d = {key.lower() : repeat_players[key] for key in repeat_players}
+# # %%
+# d.keys()
+# # %%
+# chriswright
+# # %%
+# dunleavy
+# # %%

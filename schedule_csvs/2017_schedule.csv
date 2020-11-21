@@ -1,0 +1,1231 @@
+DATE,VISITOR,VISITOR_PTS,HOME,HOME_PTS,HOME_WIN,WINNING_TEAM,HOME_CUM_WIN_PCT,AWAY_CUM_WIN_PCT,HOME_ROLL_WIN_PCT,AWAY_ROLL_WIN_PCT
+2016-10-25,New York Knicks,88,Cleveland Cavaliers,117,True,Cleveland Cavaliers,0.5,0.5,0.5,0.5
+2016-10-25,Utah Jazz,104,Portland Trail Blazers,113,True,Portland Trail Blazers,0.5,0.5,0.5,0.5
+2016-10-25,San Antonio Spurs,129,Golden State Warriors,100,False,San Antonio Spurs,0.5,0.5,0.5,0.5
+2016-10-26,Dallas Mavericks,121,Indiana Pacers,130,True,Indiana Pacers,0.5,0.5,0.5,0.5
+2016-10-26,Miami Heat,108,Orlando Magic,96,False,Miami Heat,0.5,0.5,0.5,0.5
+2016-10-26,Detroit Pistons,91,Toronto Raptors,109,True,Toronto Raptors,0.5,0.5,0.5,0.5
+2016-10-26,Brooklyn Nets,117,Boston Celtics,122,True,Boston Celtics,0.5,0.5,0.5,0.5
+2016-10-26,Charlotte Hornets,107,Milwaukee Bucks,96,False,Charlotte Hornets,0.5,0.5,0.5,0.5
+2016-10-26,Denver Nuggets,107,New Orleans Pelicans,102,False,Denver Nuggets,0.5,0.5,0.5,0.5
+2016-10-26,Minnesota Timberwolves,98,Memphis Grizzlies,102,True,Memphis Grizzlies,0.5,0.5,0.5,0.5
+2016-10-26,Oklahoma City Thunder,103,Philadelphia 76ers,97,False,Oklahoma City Thunder,0.5,0.5,0.5,0.5
+2016-10-26,Sacramento Kings,113,Phoenix Suns,94,False,Sacramento Kings,0.5,0.5,0.5,0.5
+2016-10-26,Houston Rockets,114,Los Angeles Lakers,120,True,Los Angeles Lakers,0.5,0.5,0.5,0.5
+2016-10-27,Washington Wizards,99,Atlanta Hawks,114,True,Atlanta Hawks,0.5,0.5,0.5,0.5
+2016-10-27,Boston Celtics,99,Chicago Bulls,105,True,Chicago Bulls,0.5,1.0,0.5,1.0
+2016-10-27,Los Angeles Clippers,114,Portland Trail Blazers,106,False,Los Angeles Clippers,1.0,0.5,1.0,0.5
+2016-10-27,San Antonio Spurs,102,Sacramento Kings,94,False,San Antonio Spurs,1.0,1.0,1.0,1.0
+2016-10-28,Cleveland Cavaliers,94,Toronto Raptors,91,False,Cleveland Cavaliers,1.0,1.0,1.0,1.0
+2016-10-28,Indiana Pacers,94,Brooklyn Nets,103,True,Brooklyn Nets,0.0,1.0,0.0,1.0
+2016-10-28,Orlando Magic,82,Detroit Pistons,108,True,Detroit Pistons,0.0,0.0,0.0,0.0
+2016-10-28,Phoenix Suns,110,Oklahoma City Thunder,113,True,Oklahoma City Thunder,1.0,0.0,1.0,0.0
+2016-10-28,Charlotte Hornets,97,Miami Heat,91,False,Charlotte Hornets,1.0,1.0,1.0,1.0
+2016-10-28,Houston Rockets,106,Dallas Mavericks,98,False,Houston Rockets,0.0,0.0,0.0,0.0
+2016-10-28,Los Angeles Lakers,89,Utah Jazz,96,True,Utah Jazz,0.0,1.0,0.0,1.0
+2016-10-28,Golden State Warriors,122,New Orleans Pelicans,114,False,Golden State Warriors,0.0,0.0,0.0,0.0
+2016-10-29,Atlanta Hawks,104,Philadelphia 76ers,72,False,Atlanta Hawks,0.0,1.0,0.0,1.0
+2016-10-29,Boston Celtics,104,Charlotte Hornets,98,False,Boston Celtics,1.0,0.5,1.0,0.5
+2016-10-29,Orlando Magic,99,Cleveland Cavaliers,105,True,Cleveland Cavaliers,1.0,0.0,1.0,0.0
+2016-10-29,Memphis Grizzlies,104,New York Knicks,111,True,New York Knicks,0.0,1.0,0.0,1.0
+2016-10-29,New Orleans Pelicans,79,San Antonio Spurs,98,True,San Antonio Spurs,1.0,0.0,1.0,0.0
+2016-10-29,Brooklyn Nets,108,Milwaukee Bucks,110,True,Milwaukee Bucks,0.0,0.5,0.0,0.5
+2016-10-29,Indiana Pacers,101,Chicago Bulls,118,True,Chicago Bulls,1.0,0.5,1.0,0.5
+2016-10-29,Portland Trail Blazers,115,Denver Nuggets,113,False,Portland Trail Blazers,1.0,0.5,1.0,0.5
+2016-10-29,Minnesota Timberwolves,103,Sacramento Kings,106,True,Sacramento Kings,0.5,0.0,0.5,0.0
+2016-10-30,Utah Jazz,75,Los Angeles Clippers,88,True,Los Angeles Clippers,1.0,0.5,1.0,0.5
+2016-10-30,Milwaukee Bucks,83,Detroit Pistons,98,True,Detroit Pistons,0.5,0.5,0.5,0.5
+2016-10-30,San Antonio Spurs,106,Miami Heat,99,False,San Antonio Spurs,0.5,1.0,0.5,1.0
+2016-10-30,Golden State Warriors,106,Phoenix Suns,100,False,Golden State Warriors,0.0,0.5,0.0,0.5
+2016-10-30,Los Angeles Lakers,96,Oklahoma City Thunder,113,True,Oklahoma City Thunder,1.0,0.5,1.0,0.5
+2016-10-30,Dallas Mavericks,92,Houston Rockets,93,True,Houston Rockets,0.5,0.0,0.5,0.0
+2016-10-30,Washington Wizards,103,Memphis Grizzlies,112,True,Memphis Grizzlies,0.5,0.0,0.5,0.0
+2016-10-31,Sacramento Kings,95,Atlanta Hawks,106,True,Atlanta Hawks,1.0,0.6666666666666666,1.0,0.6666666666666666
+2016-10-31,Chicago Bulls,118,Brooklyn Nets,88,False,Chicago Bulls,0.3333333333333333,1.0,0.3333333333333333,1.0
+2016-10-31,Denver Nuggets,102,Toronto Raptors,105,True,Toronto Raptors,0.5,0.5,0.5,0.5
+2016-10-31,Phoenix Suns,98,Los Angeles Clippers,116,True,Los Angeles Clippers,1.0,0.0,1.0,0.0
+2016-11-01,Houston Rockets,120,Cleveland Cavaliers,128,True,Cleveland Cavaliers,1.0,0.6666666666666666,1.0,0.6666666666666666
+2016-11-01,Los Angeles Lakers,108,Indiana Pacers,115,True,Indiana Pacers,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+2016-11-01,Orlando Magic,103,Philadelphia 76ers,101,False,Orlando Magic,0.0,0.0,0.0,0.0
+2016-11-01,New York Knicks,89,Detroit Pistons,102,True,Detroit Pistons,0.6666666666666666,0.5,0.6666666666666666,0.5
+2016-11-01,Sacramento Kings,96,Miami Heat,108,True,Miami Heat,0.3333333333333333,0.5,0.3333333333333333,0.5
+2016-11-01,Memphis Grizzlies,80,Minnesota Timberwolves,116,True,Minnesota Timberwolves,0.0,0.6666666666666666,0.0,0.6666666666666666
+2016-11-01,Milwaukee Bucks,117,New Orleans Pelicans,113,False,Milwaukee Bucks,0.0,0.3333333333333333,0.0,0.3333333333333333
+2016-11-01,Utah Jazz,106,San Antonio Spurs,91,False,Utah Jazz,1.0,0.3333333333333333,1.0,0.3333333333333333
+2016-11-01,Golden State Warriors,127,Portland Trail Blazers,104,False,Golden State Warriors,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.6666666666666666
+2016-11-02,Philadelphia 76ers,93,Charlotte Hornets,109,True,Charlotte Hornets,0.6666666666666666,0.0,0.6666666666666666,0.0
+2016-11-02,Toronto Raptors,113,Washington Wizards,103,False,Toronto Raptors,0.0,0.6666666666666666,0.0,0.6666666666666666
+2016-11-02,Los Angeles Lakers,123,Atlanta Hawks,116,False,Los Angeles Lakers,1.0,0.25,1.0,0.25
+2016-11-02,Detroit Pistons,101,Brooklyn Nets,109,True,Brooklyn Nets,0.25,0.75,0.25,0.75
+2016-11-02,Houston Rockets,118,New York Knicks,99,False,Houston Rockets,0.3333333333333333,0.5,0.3333333333333333,0.5
+2016-11-02,Chicago Bulls,100,Boston Celtics,107,True,Boston Celtics,0.6666666666666666,1.0,0.6666666666666666,1.0
+2016-11-02,New Orleans Pelicans,83,Memphis Grizzlies,89,True,Memphis Grizzlies,0.5,0.0,0.5,0.0
+2016-11-02,Dallas Mavericks,81,Utah Jazz,97,True,Utah Jazz,0.5,0.0,0.5,0.0
+2016-11-02,Portland Trail Blazers,115,Phoenix Suns,118,True,Phoenix Suns,0.0,0.5,0.0,0.5
+2016-11-02,Oklahoma City Thunder,85,Los Angeles Clippers,83,False,Oklahoma City Thunder,1.0,1.0,1.0,1.0
+2016-11-03,Sacramento Kings,94,Orlando Magic,102,True,Orlando Magic,0.25,0.4,0.25,0.4
+2016-11-03,Boston Celtics,122,Cleveland Cavaliers,128,True,Cleveland Cavaliers,1.0,0.75,1.0,0.75
+2016-11-03,Indiana Pacers,107,Milwaukee Bucks,125,True,Milwaukee Bucks,0.5,0.5,0.5,0.5
+2016-11-03,Denver Nuggets,102,Minnesota Timberwolves,99,False,Denver Nuggets,0.3333333333333333,0.3333333333333333,0.3333333333333333,0.3333333333333333
+2016-11-03,Oklahoma City Thunder,96,Golden State Warriors,122,True,Golden State Warriors,0.75,1.0,0.75,1.0
+2016-11-04,Atlanta Hawks,92,Washington Wizards,95,True,Washington Wizards,0.0,0.75,0.0,0.75
+2016-11-04,Charlotte Hornets,99,Brooklyn Nets,95,False,Charlotte Hornets,0.4,0.75,0.4,0.75
+2016-11-04,Miami Heat,87,Toronto Raptors,96,True,Toronto Raptors,0.75,0.5,0.75,0.5
+2016-11-04,New York Knicks,117,Chicago Bulls,104,False,New York Knicks,0.75,0.25,0.75,0.25
+2016-11-04,Los Angeles Clippers,99,Memphis Grizzlies,88,False,Los Angeles Clippers,0.6,0.75,0.6,0.75
+2016-11-04,Phoenix Suns,112,New Orleans Pelicans,111,False,Phoenix Suns,0.0,0.2,0.0,0.2
+2016-11-04,Portland Trail Blazers,105,Dallas Mavericks,95,False,Portland Trail Blazers,0.0,0.4,0.0,0.4
+2016-11-04,San Antonio Spurs,100,Utah Jazz,86,False,San Antonio Spurs,0.6,0.8,0.6,0.8
+2016-11-04,Golden State Warriors,97,Los Angeles Lakers,117,True,Los Angeles Lakers,0.4,0.8,0.4,0.8
+2016-11-05,Minnesota Timberwolves,92,Oklahoma City Thunder,112,True,Oklahoma City Thunder,0.8,0.25,0.8,0.25
+2016-11-05,Denver Nuggets,86,Detroit Pistons,103,True,Detroit Pistons,0.6,0.5,0.6,0.5
+2016-11-05,Chicago Bulls,94,Indiana Pacers,111,True,Indiana Pacers,0.4,0.6,0.4,0.6
+2016-11-05,Washington Wizards,86,Orlando Magic,88,True,Orlando Magic,0.4,0.25,0.4,0.25
+2016-11-05,Cleveland Cavaliers,102,Philadelphia 76ers,101,False,Cleveland Cavaliers,0.0,1.0,0.0,1.0
+2016-11-05,Houston Rockets,97,Atlanta Hawks,112,True,Atlanta Hawks,0.6,0.6,0.6,0.6
+2016-11-05,Sacramento Kings,91,Milwaukee Bucks,117,True,Milwaukee Bucks,0.6,0.3333333333333333,0.6,0.2
+2016-11-05,Los Angeles Clippers,116,San Antonio Spurs,92,False,Los Angeles Clippers,0.8333333333333334,0.8,0.8,0.8
+2016-11-06,Utah Jazz,114,New York Knicks,109,False,Utah Jazz,0.4,0.5,0.4,0.6
+2016-11-06,Portland Trail Blazers,100,Memphis Grizzlies,94,False,Portland Trail Blazers,0.5,0.5,0.4,0.4
+2016-11-06,Sacramento Kings,96,Toronto Raptors,91,False,Sacramento Kings,0.8,0.2857142857142857,0.8,0.2
+2016-11-06,Milwaukee Bucks,75,Dallas Mavericks,86,True,Dallas Mavericks,0.0,0.6666666666666666,0.0,0.8
+2016-11-06,Denver Nuggets,123,Boston Celtics,107,False,Denver Nuggets,0.6,0.4,0.6,0.4
+2016-11-06,Phoenix Suns,108,Los Angeles Lakers,119,True,Los Angeles Lakers,0.5,0.3333333333333333,0.4,0.4
+2016-11-07,Indiana Pacers,100,Charlotte Hornets,122,True,Charlotte Hornets,0.8,0.5,0.8,0.4
+2016-11-07,Utah Jazz,109,Philadelphia 76ers,84,False,Utah Jazz,0.0,0.5714285714285714,0.0,0.6
+2016-11-07,Houston Rockets,114,Washington Wizards,106,False,Houston Rockets,0.2,0.5,0.2,0.6
+2016-11-07,Orlando Magic,80,Chicago Bulls,112,True,Chicago Bulls,0.5,0.5,0.4,0.6
+2016-11-07,Miami Heat,85,Oklahoma City Thunder,97,True,Oklahoma City Thunder,0.8333333333333334,0.4,0.8,0.4
+2016-11-07,New Orleans Pelicans,106,Golden State Warriors,116,True,Golden State Warriors,0.6666666666666666,0.0,0.8,0.0
+2016-11-07,Detroit Pistons,82,Los Angeles Clippers,114,True,Los Angeles Clippers,0.8333333333333334,0.6666666666666666,0.8,0.8
+2016-11-08,Atlanta Hawks,110,Cleveland Cavaliers,106,False,Atlanta Hawks,1.0,0.6666666666666666,1.0,0.6
+2016-11-08,Minnesota Timberwolves,110,Brooklyn Nets,119,True,Brooklyn Nets,0.3333333333333333,0.2,0.4,0.2
+2016-11-08,Denver Nuggets,107,Memphis Grizzlies,108,True,Memphis Grizzlies,0.42857142857142855,0.5,0.4,0.4
+2016-11-08,Phoenix Suns,121,Portland Trail Blazers,124,True,Portland Trail Blazers,0.5714285714285714,0.2857142857142857,0.6,0.4
+2016-11-08,Dallas Mavericks,109,Los Angeles Lakers,97,False,Dallas Mavericks,0.5714285714285714,0.16666666666666666,0.6,0.2
+2016-11-08,New Orleans Pelicans,94,Sacramento Kings,102,True,Sacramento Kings,0.375,0.0,0.2,0.0
+2016-11-09,Utah Jazz,98,Charlotte Hornets,104,True,Charlotte Hornets,0.8333333333333334,0.625,0.8,0.8
+2016-11-09,Philadelphia 76ers,115,Indiana Pacers,122,True,Indiana Pacers,0.42857142857142855,0.0,0.4,0.0
+2016-11-09,Brooklyn Nets,96,New York Knicks,110,True,New York Knicks,0.3333333333333333,0.42857142857142855,0.4,0.4
+2016-11-09,Minnesota Timberwolves,123,Orlando Magic,107,False,Minnesota Timberwolves,0.42857142857142855,0.16666666666666666,0.6,0.2
+2016-11-09,Boston Celtics,93,Washington Wizards,118,True,Washington Wizards,0.16666666666666666,0.5,0.2,0.4
+2016-11-09,Chicago Bulls,107,Atlanta Hawks,115,True,Atlanta Hawks,0.7142857142857143,0.5714285714285714,0.6,0.4
+2016-11-09,Toronto Raptors,112,Oklahoma City Thunder,102,False,Toronto Raptors,0.8571428571428571,0.6666666666666666,0.8,0.6
+2016-11-09,Detroit Pistons,100,Phoenix Suns,107,True,Phoenix Suns,0.25,0.5714285714285714,0.4,0.6
+2016-11-09,Houston Rockets,101,San Antonio Spurs,99,False,Houston Rockets,0.7142857142857143,0.5714285714285714,0.6,0.6
+2016-11-09,Dallas Mavericks,95,Golden State Warriors,116,True,Golden State Warriors,0.7142857142857143,0.2857142857142857,0.8,0.4
+2016-11-09,Portland Trail Blazers,80,Los Angeles Clippers,111,True,Los Angeles Clippers,0.8571428571428571,0.625,0.8,0.6
+2016-11-10,Chicago Bulls,98,Miami Heat,95,False,Chicago Bulls,0.3333333333333333,0.5,0.2,0.2
+2016-11-10,New Orleans Pelicans,112,Milwaukee Bucks,106,False,New Orleans Pelicans,0.5714285714285714,0.0,0.6,0.0
+2016-11-10,Golden State Warriors,125,Denver Nuggets,101,False,Golden State Warriors,0.42857142857142855,0.75,0.4,0.8
+2016-11-10,Los Angeles Lakers,101,Sacramento Kings,91,False,Los Angeles Lakers,0.4444444444444444,0.5,0.4,0.6
+2016-11-11,Toronto Raptors,113,Charlotte Hornets,111,False,Toronto Raptors,0.8571428571428571,0.7142857142857143,0.8,0.8
+2016-11-11,Utah Jazz,87,Orlando Magic,74,False,Utah Jazz,0.375,0.5555555555555556,0.6,0.6
+2016-11-11,Indiana Pacers,105,Philadelphia 76ers,109,True,Philadelphia 76ers,0.0,0.5,0.0,0.6
+2016-11-11,Cleveland Cavaliers,105,Washington Wizards,94,False,Cleveland Cavaliers,0.2857142857142857,0.8571428571428571,0.4,0.8
+2016-11-11,New York Knicks,87,Boston Celtics,115,True,Boston Celtics,0.42857142857142855,0.42857142857142855,0.4,0.4
+2016-11-11,Los Angeles Clippers,110,Oklahoma City Thunder,108,False,Los Angeles Clippers,0.75,0.875,0.6,0.8
+2016-11-11,Detroit Pistons,86,San Antonio Spurs,96,True,San Antonio Spurs,0.625,0.5,0.4,0.4
+2016-11-11,Sacramento Kings,120,Portland Trail Blazers,122,True,Portland Trail Blazers,0.5555555555555556,0.4,0.6,0.4
+2016-11-12,Boston Celtics,105,Indiana Pacers,99,False,Boston Celtics,0.4444444444444444,0.5,0.4,0.4
+2016-11-12,Los Angeles Lakers,126,New Orleans Pelicans,99,False,Los Angeles Lakers,0.1111111111111111,0.5555555555555556,0.2,0.8
+2016-11-12,Philadelphia 76ers,96,Atlanta Hawks,117,True,Atlanta Hawks,0.75,0.125,0.6,0.2
+2016-11-12,New York Knicks,107,Toronto Raptors,118,True,Toronto Raptors,0.75,0.375,0.8,0.4
+2016-11-12,Washington Wizards,95,Chicago Bulls,106,True,Chicago Bulls,0.5555555555555556,0.25,0.4,0.4
+2016-11-12,San Antonio Spurs,106,Houston Rockets,100,False,San Antonio Spurs,0.625,0.6666666666666666,0.6,0.4
+2016-11-12,Utah Jazz,102,Miami Heat,91,False,Utah Jazz,0.2857142857142857,0.6,0.2,0.6
+2016-11-12,Los Angeles Clippers,119,Minnesota Timberwolves,105,False,Los Angeles Clippers,0.2857142857142857,0.8888888888888888,0.4,1.0
+2016-11-12,Memphis Grizzlies,96,Milwaukee Bucks,106,True,Milwaukee Bucks,0.5,0.5,0.6,0.4
+2016-11-12,Detroit Pistons,106,Denver Nuggets,95,False,Detroit Pistons,0.375,0.4444444444444444,0.4,0.2
+2016-11-12,Brooklyn Nets,122,Phoenix Suns,104,False,Brooklyn Nets,0.3333333333333333,0.375,0.6,0.4
+2016-11-13,Charlotte Hornets,93,Cleveland Cavaliers,100,True,Cleveland Cavaliers,0.875,0.75,0.8,0.8
+2016-11-13,Los Angeles Lakers,99,Minnesota Timberwolves,125,True,Minnesota Timberwolves,0.25,0.6,0.2,0.8
+2016-11-13,Orlando Magic,119,Oklahoma City Thunder,117,False,Orlando Magic,0.6666666666666666,0.3333333333333333,0.4,0.4
+2016-11-13,Phoenix Suns,120,Golden State Warriors,133,True,Golden State Warriors,0.7777777777777778,0.3,0.8,0.4
+2016-11-13,Denver Nuggets,105,Portland Trail Blazers,112,True,Portland Trail Blazers,0.6,0.3333333333333333,0.8,0.2
+2016-11-14,Orlando Magic,69,Indiana Pacers,88,True,Indiana Pacers,0.4,0.4,0.4,0.4
+2016-11-14,Oklahoma City Thunder,88,Detroit Pistons,104,True,Detroit Pistons,0.5,0.6,0.4,0.4
+2016-11-14,Dallas Mavericks,77,New York Knicks,93,True,New York Knicks,0.3333333333333333,0.25,0.4,0.4
+2016-11-14,Philadelphia 76ers,88,Houston Rockets,115,True,Houston Rockets,0.5555555555555556,0.1111111111111111,0.6,0.2
+2016-11-14,Boston Celtics,105,New Orleans Pelicans,106,True,New Orleans Pelicans,0.1,0.5555555555555556,0.2,0.4
+2016-11-14,Miami Heat,90,San Antonio Spurs,94,True,San Antonio Spurs,0.7,0.25,0.6,0.2
+2016-11-14,Memphis Grizzlies,102,Utah Jazz,96,False,Memphis Grizzlies,0.6363636363636364,0.4444444444444444,0.8,0.4
+2016-11-14,Brooklyn Nets,95,Los Angeles Clippers,127,True,Los Angeles Clippers,0.9,0.4444444444444444,1.0,0.6
+2016-11-15,Toronto Raptors,117,Cleveland Cavaliers,121,True,Cleveland Cavaliers,0.8888888888888888,0.7777777777777778,0.8,0.8
+2016-11-15,Atlanta Hawks,93,Miami Heat,90,False,Atlanta Hawks,0.2222222222222222,0.7777777777777778,0.0,0.8
+2016-11-15,Charlotte Hornets,115,Minnesota Timberwolves,108,False,Charlotte Hornets,0.3333333333333333,0.6666666666666666,0.4,0.6
+2016-11-15,Chicago Bulls,113,Portland Trail Blazers,88,False,Chicago Bulls,0.6363636363636364,0.6,0.8,0.6
+2016-11-15,Brooklyn Nets,118,Los Angeles Lakers,125,True,Los Angeles Lakers,0.5454545454545454,0.4,0.6,0.4
+2016-11-16,Cleveland Cavaliers,93,Indiana Pacers,103,True,Indiana Pacers,0.45454545454545453,0.9,0.4,0.8
+2016-11-16,New Orleans Pelicans,82,Orlando Magic,89,True,Orlando Magic,0.36363636363636365,0.18181818181818182,0.2,0.4
+2016-11-16,Washington Wizards,102,Philadelphia 76ers,109,True,Philadelphia 76ers,0.1,0.2222222222222222,0.2,0.2
+2016-11-16,Milwaukee Bucks,100,Atlanta Hawks,107,True,Atlanta Hawks,0.8,0.5555555555555556,1.0,0.6
+2016-11-16,Dallas Mavericks,83,Boston Celtics,90,True,Boston Celtics,0.5,0.2222222222222222,0.4,0.4
+2016-11-16,Detroit Pistons,102,New York Knicks,105,True,New York Knicks,0.4,0.5454545454545454,0.4,0.4
+2016-11-16,Houston Rockets,103,Oklahoma City Thunder,105,True,Oklahoma City Thunder,0.5454545454545454,0.6,0.2,0.6
+2016-11-16,Golden State Warriors,127,Toronto Raptors,121,False,Golden State Warriors,0.7,0.8,0.6,0.8
+2016-11-16,Phoenix Suns,104,Denver Nuggets,120,True,Denver Nuggets,0.3,0.2727272727272727,0.2,0.2
+2016-11-16,Memphis Grizzlies,111,Los Angeles Clippers,107,False,Memphis Grizzlies,0.9090909090909091,0.5,1.0,0.4
+2016-11-16,San Antonio Spurs,110,Sacramento Kings,105,False,San Antonio Spurs,0.36363636363636365,0.7272727272727273,0.4,0.6
+2016-11-17,New York Knicks,112,Washington Wizards,119,True,Washington Wizards,0.2,0.45454545454545453,0.2,0.6
+2016-11-17,Milwaukee Bucks,73,Miami Heat,96,True,Miami Heat,0.2,0.5,0.0,0.4
+2016-11-17,Portland Trail Blazers,109,Houston Rockets,126,True,Houston Rockets,0.5454545454545454,0.5833333333333334,0.6,0.6
+2016-11-17,Philadelphia 76ers,86,Minnesota Timberwolves,110,True,Minnesota Timberwolves,0.3,0.18181818181818182,0.4,0.4
+2016-11-17,Chicago Bulls,85,Utah Jazz,77,False,Chicago Bulls,0.5833333333333334,0.6363636363636364,0.6,0.8
+2016-11-18,Atlanta Hawks,96,Charlotte Hornets,100,True,Charlotte Hornets,0.7,0.8181818181818182,0.6,1.0
+2016-11-18,Phoenix Suns,116,Indiana Pacers,96,False,Phoenix Suns,0.5,0.25,0.6,0.2
+2016-11-18,Detroit Pistons,81,Cleveland Cavaliers,104,True,Cleveland Cavaliers,0.8181818181818182,0.5,0.6,0.4
+2016-11-18,Golden State Warriors,104,Boston Celtics,88,False,Golden State Warriors,0.5454545454545454,0.8181818181818182,0.6,1.0
+2016-11-18,Portland Trail Blazers,101,New Orleans Pelicans,113,True,New Orleans Pelicans,0.16666666666666666,0.5384615384615384,0.4,0.4
+2016-11-18,Brooklyn Nets,105,Oklahoma City Thunder,124,True,Oklahoma City Thunder,0.5833333333333334,0.36363636363636365,0.2,0.4
+2016-11-18,Memphis Grizzlies,80,Dallas Mavericks,64,False,Memphis Grizzlies,0.2,0.5454545454545454,0.4,0.6
+2016-11-18,Toronto Raptors,113,Denver Nuggets,111,False,Toronto Raptors,0.36363636363636365,0.6363636363636364,0.2,0.6
+2016-11-18,San Antonio Spurs,116,Los Angeles Lakers,107,False,San Antonio Spurs,0.5833333333333334,0.75,0.6,0.8
+2016-11-18,Los Angeles Clippers,121,Sacramento Kings,115,False,Los Angeles Clippers,0.3333333333333333,0.8333333333333334,0.4,0.8
+2016-11-19,Utah Jazz,102,Houston Rockets,111,True,Houston Rockets,0.5833333333333334,0.5384615384615384,0.6,0.4
+2016-11-19,Boston Celtics,94,Detroit Pistons,92,False,Boston Celtics,0.46153846153846156,0.5,0.4,0.6
+2016-11-19,Charlotte Hornets,116,New Orleans Pelicans,121,True,New Orleans Pelicans,0.23076923076923078,0.7272727272727273,0.6,0.6
+2016-11-19,Dallas Mavericks,87,Orlando Magic,95,True,Orlando Magic,0.4166666666666667,0.18181818181818182,0.4,0.2
+2016-11-19,Miami Heat,114,Washington Wizards,111,False,Miami Heat,0.2727272727272727,0.2727272727272727,0.4,0.2
+2016-11-19,Phoenix Suns,105,Philadelphia 76ers,120,True,Philadelphia 76ers,0.16666666666666666,0.3076923076923077,0.4,0.4
+2016-11-19,Minnesota Timberwolves,71,Memphis Grizzlies,93,True,Memphis Grizzlies,0.5833333333333334,0.36363636363636365,0.8,0.6
+2016-11-19,Golden State Warriors,124,Milwaukee Bucks,121,False,Golden State Warriors,0.45454545454545453,0.8333333333333334,0.2,1.0
+2016-11-19,Chicago Bulls,95,Los Angeles Clippers,102,True,Los Angeles Clippers,0.8461538461538461,0.6666666666666666,0.8,0.8
+2016-11-20,Atlanta Hawks,94,New York Knicks,104,True,New York Knicks,0.4166666666666667,0.75,0.4,0.8
+2016-11-20,Portland Trail Blazers,129,Brooklyn Nets,109,False,Portland Trail Blazers,0.3333333333333333,0.5,0.2,0.4
+2016-11-20,Indiana Pacers,115,Oklahoma City Thunder,111,False,Indiana Pacers,0.6153846153846154,0.46153846153846156,0.4,0.4
+2016-11-20,Utah Jazz,91,Denver Nuggets,105,True,Denver Nuggets,0.3333333333333333,0.5,0.2,0.4
+2016-11-20,Toronto Raptors,99,Sacramento Kings,102,True,Sacramento Kings,0.3076923076923077,0.6666666666666666,0.2,0.6
+2016-11-20,Chicago Bulls,118,Los Angeles Lakers,110,False,Chicago Bulls,0.5384615384615384,0.6153846153846154,0.6,0.8
+2016-11-21,Memphis Grizzlies,105,Charlotte Hornets,90,False,Memphis Grizzlies,0.6666666666666666,0.6153846153846154,0.4,0.8
+2016-11-21,Golden State Warriors,120,Indiana Pacers,83,False,Golden State Warriors,0.5,0.8461538461538461,0.6,1.0
+2016-11-21,Miami Heat,94,Philadelphia 76ers,101,True,Philadelphia 76ers,0.23076923076923078,0.3333333333333333,0.4,0.4
+2016-11-21,Phoenix Suns,101,Washington Wizards,106,True,Washington Wizards,0.25,0.2857142857142857,0.2,0.2
+2016-11-21,Houston Rockets,99,Detroit Pistons,96,False,Houston Rockets,0.42857142857142855,0.6153846153846154,0.4,0.6
+2016-11-21,Orlando Magic,89,Milwaukee Bucks,93,True,Milwaukee Bucks,0.4166666666666667,0.46153846153846156,0.2,0.6
+2016-11-21,Boston Celtics,99,Minnesota Timberwolves,93,False,Boston Celtics,0.3333333333333333,0.5384615384615384,0.4,0.6
+2016-11-21,Dallas Mavericks,91,San Antonio Spurs,96,True,San Antonio Spurs,0.7692307692307693,0.16666666666666666,1.0,0.0
+2016-11-21,Toronto Raptors,115,Los Angeles Clippers,123,True,Los Angeles Clippers,0.8571428571428571,0.6153846153846154,0.8,0.4
+2016-11-22,New Orleans Pelicans,112,Atlanta Hawks,94,False,New Orleans Pelicans,0.6923076923076923,0.2857142857142857,0.6,0.6
+2016-11-22,Portland Trail Blazers,103,New York Knicks,107,True,New York Knicks,0.46153846153846156,0.5333333333333333,0.6,0.4
+2016-11-22,Chicago Bulls,107,Denver Nuggets,110,True,Denver Nuggets,0.38461538461538464,0.6428571428571429,0.4,0.8
+2016-11-22,Oklahoma City Thunder,109,Los Angeles Lakers,111,True,Los Angeles Lakers,0.5,0.5714285714285714,0.4,0.4
+2016-11-23,San Antonio Spurs,119,Charlotte Hornets,114,False,San Antonio Spurs,0.6153846153846154,0.7857142857142857,0.4,1.0
+2016-11-23,Portland Trail Blazers,125,Cleveland Cavaliers,137,True,Cleveland Cavaliers,0.8333333333333334,0.5,0.8,0.2
+2016-11-23,Atlanta Hawks,96,Indiana Pacers,85,False,Atlanta Hawks,0.4666666666666667,0.6428571428571429,0.6,0.4
+2016-11-23,Phoenix Suns,92,Orlando Magic,87,False,Phoenix Suns,0.42857142857142855,0.26666666666666666,0.6,0.2
+2016-11-23,Memphis Grizzlies,104,Philadelphia 76ers,99,False,Memphis Grizzlies,0.2857142857142857,0.6428571428571429,0.6,1.0
+2016-11-23,Boston Celtics,111,Brooklyn Nets,92,False,Boston Celtics,0.3076923076923077,0.5714285714285714,0.2,0.6
+2016-11-23,Miami Heat,84,Detroit Pistons,107,True,Detroit Pistons,0.4,0.3076923076923077,0.2,0.4
+2016-11-23,Toronto Raptors,115,Houston Rockets,102,False,Toronto Raptors,0.6428571428571429,0.5714285714285714,0.8,0.2
+2016-11-23,Los Angeles Clippers,124,Dallas Mavericks,104,False,Los Angeles Clippers,0.15384615384615385,0.8666666666666667,0.0,0.8
+2016-11-23,Denver Nuggets,83,Utah Jazz,108,True,Utah Jazz,0.4666666666666667,0.42857142857142855,0.2,0.6
+2016-11-23,Minnesota Timberwolves,96,New Orleans Pelicans,117,True,New Orleans Pelicans,0.3333333333333333,0.3076923076923077,0.8,0.4
+2016-11-23,Los Angeles Lakers,106,Golden State Warriors,149,True,Golden State Warriors,0.8571428571428571,0.5333333333333333,1.0,0.4
+2016-11-23,Oklahoma City Thunder,101,Sacramento Kings,116,True,Sacramento Kings,0.35714285714285715,0.5333333333333333,0.2,0.4
+2016-11-25,San Antonio Spurs,109,Boston Celtics,103,False,San Antonio Spurs,0.6,0.8,0.8,1.0
+2016-11-25,Washington Wizards,94,Orlando Magic,91,False,Washington Wizards,0.4,0.3076923076923077,0.4,0.4
+2016-11-25,Dallas Mavericks,90,Cleveland Cavaliers,128,True,Cleveland Cavaliers,0.8461538461538461,0.14285714285714285,0.8,0.0
+2016-11-25,Los Angeles Clippers,97,Detroit Pistons,108,True,Detroit Pistons,0.4375,0.875,0.2,0.8
+2016-11-25,Charlotte Hornets,111,New York Knicks,113,True,New York Knicks,0.5,0.5714285714285714,0.8,0.4
+2016-11-25,Chicago Bulls,105,Philadelphia 76ers,89,False,Chicago Bulls,0.26666666666666666,0.6,0.6,0.6
+2016-11-25,Brooklyn Nets,97,Indiana Pacers,118,True,Indiana Pacers,0.4375,0.2857142857142857,0.4,0.0
+2016-11-25,Miami Heat,90,Memphis Grizzlies,81,False,Miami Heat,0.6666666666666666,0.2857142857142857,1.0,0.4
+2016-11-25,Toronto Raptors,105,Milwaukee Bucks,99,False,Toronto Raptors,0.46153846153846156,0.6,0.4,0.4
+2016-11-25,Atlanta Hawks,68,Utah Jazz,95,True,Utah Jazz,0.5,0.6666666666666666,0.2,0.4
+2016-11-25,Oklahoma City Thunder,132,Denver Nuggets,129,False,Oklahoma City Thunder,0.4,0.5,0.6,0.4
+2016-11-25,Minnesota Timberwolves,98,Phoenix Suns,85,False,Minnesota Timberwolves,0.3125,0.2857142857142857,0.4,0.2
+2016-11-25,New Orleans Pelicans,104,Portland Trail Blazers,119,True,Portland Trail Blazers,0.47058823529411764,0.375,0.2,0.8
+2016-11-25,Golden State Warriors,109,Los Angeles Lakers,85,False,Golden State Warriors,0.5,0.8666666666666667,0.4,1.0
+2016-11-25,Houston Rockets,117,Sacramento Kings,104,False,Houston Rockets,0.4,0.6,0.4,0.6
+2016-11-26,New York Knicks,102,Charlotte Hornets,107,True,Charlotte Hornets,0.5333333333333333,0.5333333333333333,0.2,0.8
+2016-11-26,San Antonio Spurs,112,Washington Wizards,100,False,San Antonio Spurs,0.35714285714285715,0.8125,0.6,1.0
+2016-11-26,Memphis Grizzlies,110,Miami Heat,107,False,Memphis Grizzlies,0.3333333333333333,0.625,0.6,0.8
+2016-11-26,Detroit Pistons,88,Oklahoma City Thunder,106,True,Oklahoma City Thunder,0.5294117647058824,0.47058823529411764,0.4,0.4
+2016-11-26,Minnesota Timberwolves,102,Golden State Warriors,115,True,Golden State Warriors,0.875,0.3333333333333333,1.0,0.4
+2016-11-27,Cleveland Cavaliers,112,Philadelphia 76ers,108,False,Cleveland Cavaliers,0.25,0.8571428571428571,0.4,0.8
+2016-11-27,Denver Nuggets,120,Phoenix Suns,114,False,Denver Nuggets,0.29411764705882354,0.375,0.4,0.4
+2016-11-27,Sacramento Kings,122,Brooklyn Nets,105,False,Sacramento Kings,0.26666666666666666,0.375,0.0,0.4
+2016-11-27,Los Angeles Clippers,70,Indiana Pacers,91,True,Indiana Pacers,0.47058823529411764,0.8235294117647058,0.4,0.8
+2016-11-27,Milwaukee Bucks,104,Orlando Magic,96,False,Milwaukee Bucks,0.375,0.42857142857142855,0.4,0.2
+2016-11-27,New Orleans Pelicans,81,Dallas Mavericks,91,True,Dallas Mavericks,0.13333333333333333,0.35294117647058826,0.0,0.8
+2016-11-27,Houston Rockets,130,Portland Trail Blazers,114,False,Houston Rockets,0.5,0.625,0.4,0.8
+2016-11-27,Atlanta Hawks,94,Los Angeles Lakers,109,True,Los Angeles Lakers,0.47058823529411764,0.625,0.2,0.2
+2016-11-28,Sacramento Kings,95,Washington Wizards,101,True,Washington Wizards,0.3333333333333333,0.4117647058823529,0.6,0.6
+2016-11-28,Boston Celtics,112,Miami Heat,104,False,Boston Celtics,0.3125,0.5625,0.4,0.6
+2016-11-28,Oklahoma City Thunder,112,New York Knicks,103,False,Oklahoma City Thunder,0.5,0.5555555555555556,0.6,0.4
+2016-11-28,Philadelphia 76ers,95,Toronto Raptors,122,True,Toronto Raptors,0.625,0.23529411764705882,0.6,0.4
+2016-11-28,Charlotte Hornets,104,Memphis Grizzlies,85,False,Charlotte Hornets,0.6470588235294118,0.5625,0.8,0.2
+2016-11-28,Utah Jazz,112,Minnesota Timberwolves,103,False,Utah Jazz,0.3125,0.5294117647058824,0.2,0.4
+2016-11-28,Atlanta Hawks,100,Golden State Warriors,105,True,Golden State Warriors,0.8823529411764706,0.5882352941176471,1.0,0.2
+2016-11-29,Detroit Pistons,112,Charlotte Hornets,89,False,Detroit Pistons,0.5882352941176471,0.4444444444444444,0.4,0.4
+2016-11-29,Los Angeles Clippers,122,Brooklyn Nets,127,True,Brooklyn Nets,0.25,0.7777777777777778,0.0,0.6
+2016-11-29,Cleveland Cavaliers,101,Milwaukee Bucks,118,True,Milwaukee Bucks,0.4666666666666667,0.8666666666666667,0.4,0.8
+2016-11-29,Los Angeles Lakers,88,New Orleans Pelicans,105,True,New Orleans Pelicans,0.3333333333333333,0.5,0.6,0.4
+2016-11-29,Orlando Magic,95,San Antonio Spurs,83,False,Orlando Magic,0.8235294117647058,0.35294117647058826,1.0,0.2
+2016-11-29,Houston Rockets,101,Utah Jazz,120,True,Utah Jazz,0.5555555555555556,0.6470588235294118,0.6,0.8
+2016-11-30,Detroit Pistons,121,Boston Celtics,114,False,Detroit Pistons,0.5882352941176471,0.47368421052631576,0.8,0.6
+2016-11-30,Memphis Grizzlies,105,Toronto Raptors,120,True,Toronto Raptors,0.6470588235294118,0.6111111111111112,0.6,0.6
+2016-11-30,Los Angeles Lakers,96,Chicago Bulls,90,False,Los Angeles Lakers,0.625,0.47368421052631576,0.6,0.4
+2016-11-30,New York Knicks,106,Minnesota Timberwolves,104,False,New York Knicks,0.29411764705882354,0.47058823529411764,0.2,0.6
+2016-11-30,Washington Wizards,115,Oklahoma City Thunder,126,True,Oklahoma City Thunder,0.5789473684210527,0.375,0.6,0.6
+2016-11-30,San Antonio Spurs,94,Dallas Mavericks,87,False,San Antonio Spurs,0.1875,0.7777777777777778,0.2,0.8
+2016-11-30,Miami Heat,106,Denver Nuggets,98,False,Miami Heat,0.4117647058823529,0.29411764705882354,0.6,0.2
+2016-11-30,Atlanta Hawks,107,Phoenix Suns,109,True,Phoenix Suns,0.2777777777777778,0.5555555555555556,0.2,0.2
+2016-11-30,Indiana Pacers,109,Portland Trail Blazers,131,True,Portland Trail Blazers,0.47368421052631576,0.5,0.4,0.6
+2016-12-01,Dallas Mavericks,87,Charlotte Hornets,97,True,Charlotte Hornets,0.5555555555555556,0.17647058823529413,0.4,0.2
+2016-12-01,Milwaukee Bucks,111,Brooklyn Nets,93,False,Milwaukee Bucks,0.29411764705882354,0.5,0.2,0.6
+2016-12-01,Los Angeles Clippers,113,Cleveland Cavaliers,94,False,Los Angeles Clippers,0.8125,0.7368421052631579,0.8,0.4
+2016-12-01,Orlando Magic,94,Memphis Grizzlies,95,True,Memphis Grizzlies,0.5789473684210527,0.3888888888888889,0.4,0.2
+2016-12-01,Miami Heat,111,Utah Jazz,110,False,Miami Heat,0.5789473684210527,0.3333333333333333,0.8,0.4
+2016-12-01,Houston Rockets,132,Golden State Warriors,127,False,Houston Rockets,0.8888888888888888,0.6111111111111112,1.0,0.6
+2016-12-02,Orlando Magic,105,Philadelphia 76ers,88,False,Orlando Magic,0.2222222222222222,0.3684210526315789,0.2,0.2
+2016-12-02,Sacramento Kings,92,Boston Celtics,97,True,Boston Celtics,0.5555555555555556,0.3888888888888889,0.6,0.6
+2016-12-02,Minnesota Timberwolves,114,New York Knicks,118,True,New York Knicks,0.5,0.2777777777777778,0.6,0.2
+2016-12-02,Los Angeles Lakers,80,Toronto Raptors,113,True,Toronto Raptors,0.6666666666666666,0.5,0.8,0.4
+2016-12-02,Detroit Pistons,121,Atlanta Hawks,85,False,Detroit Pistons,0.5263157894736842,0.5,0.2,0.8
+2016-12-02,Cleveland Cavaliers,105,Chicago Bulls,111,True,Chicago Bulls,0.5882352941176471,0.7647058823529411,0.4,0.6
+2016-12-02,Los Angeles Clippers,114,New Orleans Pelicans,96,False,Los Angeles Clippers,0.3684210526315789,0.75,0.6,0.4
+2016-12-02,Washington Wizards,105,San Antonio Spurs,107,True,San Antonio Spurs,0.7894736842105263,0.35294117647058826,0.8,0.6
+2016-12-02,Houston Rockets,128,Denver Nuggets,110,False,Houston Rockets,0.3888888888888889,0.631578947368421,0.4,0.6
+2016-12-03,Brooklyn Nets,103,Milwaukee Bucks,112,True,Milwaukee Bucks,0.5294117647058824,0.2777777777777778,0.8,0.2
+2016-12-03,Minnesota Timberwolves,125,Charlotte Hornets,120,False,Minnesota Timberwolves,0.5789473684210527,0.2631578947368421,0.6,0.2
+2016-12-03,Boston Celtics,107,Philadelphia 76ers,106,False,Boston Celtics,0.21052631578947367,0.5789473684210527,0.0,0.6
+2016-12-03,Atlanta Hawks,84,Toronto Raptors,128,True,Toronto Raptors,0.6842105263157895,0.5,1.0,0.0
+2016-12-03,Los Angeles Lakers,100,Memphis Grizzlies,103,True,Memphis Grizzlies,0.6,0.47619047619047616,0.4,0.4
+2016-12-03,Chicago Bulls,82,Dallas Mavericks,107,True,Dallas Mavericks,0.16666666666666666,0.6111111111111112,0.2,0.6
+2016-12-03,Denver Nuggets,98,Utah Jazz,105,True,Utah Jazz,0.55,0.3684210526315789,0.8,0.2
+2016-12-03,Miami Heat,92,Portland Trail Blazers,99,True,Portland Trail Blazers,0.5,0.3684210526315789,0.4,0.6
+2016-12-03,Phoenix Suns,109,Golden State Warriors,138,True,Golden State Warriors,0.8421052631578947,0.3157894736842105,0.8,0.4
+2016-12-04,Orlando Magic,98,Detroit Pistons,92,False,Orlando Magic,0.5238095238095238,0.4,0.8,0.4
+2016-12-04,New Orleans Pelicans,92,Oklahoma City Thunder,101,True,Oklahoma City Thunder,0.6,0.35,0.8,0.4
+2016-12-04,Sacramento Kings,98,New York Knicks,106,True,New York Knicks,0.5263157894736842,0.3684210526315789,0.6,0.4
+2016-12-04,Indiana Pacers,111,Los Angeles Clippers,102,False,Indiana Pacers,0.7619047619047619,0.47368421052631576,0.4,0.4
+2016-12-05,Denver Nuggets,106,Philadelphia 76ers,98,False,Denver Nuggets,0.2,0.35,0.0,0.2
+2016-12-05,Oklahoma City Thunder,102,Atlanta Hawks,99,False,Oklahoma City Thunder,0.47619047619047616,0.6190476190476191,0.0,1.0
+2016-12-05,Washington Wizards,118,Brooklyn Nets,113,False,Washington Wizards,0.2631578947368421,0.3333333333333333,0.2,0.4
+2016-12-05,Cleveland Cavaliers,116,Toronto Raptors,112,False,Cleveland Cavaliers,0.7,0.7222222222222222,1.0,0.4
+2016-12-05,Portland Trail Blazers,112,Chicago Bulls,110,False,Portland Trail Blazers,0.5789473684210527,0.5238095238095238,0.4,0.6
+2016-12-05,Boston Celtics,106,Houston Rockets,107,True,Houston Rockets,0.65,0.6,0.8,0.6
+2016-12-05,San Antonio Spurs,97,Milwaukee Bucks,96,False,San Antonio Spurs,0.5555555555555556,0.8,0.8,0.8
+2016-12-05,Memphis Grizzlies,110,New Orleans Pelicans,108,False,Memphis Grizzlies,0.3333333333333333,0.6190476190476191,0.2,0.6
+2016-12-05,Charlotte Hornets,109,Dallas Mavericks,101,False,Charlotte Hornets,0.21052631578947367,0.55,0.4,0.6
+2016-12-05,Indiana Pacers,106,Golden State Warriors,142,True,Golden State Warriors,0.85,0.5,0.8,0.6
+2016-12-05,Utah Jazz,107,Los Angeles Lakers,101,False,Utah Jazz,0.45454545454545453,0.5714285714285714,0.4,0.8
+2016-12-06,Orlando Magic,124,Washington Wizards,116,False,Orlando Magic,0.3684210526315789,0.42857142857142855,0.4,0.6
+2016-12-06,Chicago Bulls,91,Detroit Pistons,102,True,Detroit Pistons,0.5,0.55,0.6,0.4
+2016-12-06,New York Knicks,114,Miami Heat,103,False,New York Knicks,0.35,0.55,0.4,0.6
+2016-12-06,Philadelphia 76ers,91,Memphis Grizzlies,96,True,Memphis Grizzlies,0.6363636363636364,0.19047619047619047,0.6,0.0
+2016-12-06,San Antonio Spurs,105,Minnesota Timberwolves,91,False,San Antonio Spurs,0.3,0.8095238095238095,0.2,0.8
+2016-12-06,Phoenix Suns,105,Utah Jazz,112,True,Utah Jazz,0.5909090909090909,0.3,0.8,0.4
+2016-12-07,Detroit Pistons,77,Charlotte Hornets,87,True,Charlotte Hornets,0.5714285714285714,0.5217391304347826,0.6,0.8
+2016-12-07,Boston Celtics,117,Orlando Magic,87,False,Boston Celtics,0.45454545454545453,0.5714285714285714,0.8,0.6
+2016-12-07,Miami Heat,95,Atlanta Hawks,103,True,Atlanta Hawks,0.45454545454545453,0.3333333333333333,0.0,0.4
+2016-12-07,Denver Nuggets,111,Brooklyn Nets,116,True,Brooklyn Nets,0.25,0.38095238095238093,0.2,0.4
+2016-12-07,Los Angeles Lakers,95,Houston Rockets,134,True,Houston Rockets,0.6666666666666666,0.43478260869565216,0.8,0.2
+2016-12-07,Portland Trail Blazers,107,Milwaukee Bucks,115,True,Milwaukee Bucks,0.5263157894736842,0.5454545454545454,0.8,0.8
+2016-12-07,Cleveland Cavaliers,126,New York Knicks,94,False,Cleveland Cavaliers,0.5714285714285714,0.7368421052631579,0.8,0.4
+2016-12-07,Sacramento Kings,120,Dallas Mavericks,89,False,Sacramento Kings,0.2,0.35,0.4,0.2
+2016-12-07,Indiana Pacers,109,Phoenix Suns,94,False,Indiana Pacers,0.2857142857142857,0.47619047619047616,0.2,0.6
+2016-12-07,Golden State Warriors,115,Los Angeles Clippers,98,False,Golden State Warriors,0.7272727272727273,0.8571428571428571,0.4,0.8
+2016-12-08,Minnesota Timberwolves,110,Toronto Raptors,124,True,Toronto Raptors,0.6666666666666666,0.2857142857142857,0.8,0.2
+2016-12-08,Denver Nuggets,85,Washington Wizards,92,True,Washington Wizards,0.35,0.36363636363636365,0.4,0.2
+2016-12-08,Portland Trail Blazers,86,Memphis Grizzlies,88,True,Memphis Grizzlies,0.6521739130434783,0.5217391304347826,0.8,0.6
+2016-12-08,Philadelphia 76ers,99,New Orleans Pelicans,88,False,Philadelphia 76ers,0.3181818181818182,0.18181818181818182,0.2,0.0
+2016-12-08,Golden State Warriors,106,Utah Jazz,99,False,Golden State Warriors,0.6086956521739131,0.8636363636363636,0.8,0.8
+2016-12-08,San Antonio Spurs,91,Chicago Bulls,95,True,Chicago Bulls,0.5238095238095238,0.8181818181818182,0.2,0.8
+2016-12-09,Orlando Magic,88,Charlotte Hornets,109,True,Charlotte Hornets,0.5909090909090909,0.43478260869565216,0.6,0.6
+2016-12-09,Toronto Raptors,101,Boston Celtics,94,False,Toronto Raptors,0.5909090909090909,0.6818181818181818,0.6,0.8
+2016-12-09,Miami Heat,84,Cleveland Cavaliers,114,True,Cleveland Cavaliers,0.75,0.3181818181818182,0.4,0.4
+2016-12-09,Atlanta Hawks,114,Milwaukee Bucks,110,False,Atlanta Hawks,0.55,0.4782608695652174,0.8,0.2
+2016-12-09,Detroit Pistons,117,Minnesota Timberwolves,90,False,Detroit Pistons,0.2727272727272727,0.5,0.2,0.6
+2016-12-09,Houston Rockets,102,Oklahoma City Thunder,99,False,Houston Rockets,0.6363636363636364,0.6818181818181818,1.0,0.8
+2016-12-09,Indiana Pacers,103,Dallas Mavericks,111,True,Dallas Mavericks,0.19047619047619047,0.5,0.2,0.6
+2016-12-09,Phoenix Suns,119,Los Angeles Lakers,115,False,Phoenix Suns,0.4166666666666667,0.2727272727272727,0.2,0.2
+2016-12-09,New York Knicks,103,Sacramento Kings,100,False,New York Knicks,0.38095238095238093,0.5454545454545454,0.4,0.8
+2016-12-10,Portland Trail Blazers,111,Indiana Pacers,118,True,Indiana Pacers,0.4782608695652174,0.5,0.4,0.6
+2016-12-10,Denver Nuggets,121,Orlando Magic,113,False,Denver Nuggets,0.4166666666666667,0.34782608695652173,0.6,0.2
+2016-12-10,Milwaukee Bucks,105,Washington Wizards,110,True,Washington Wizards,0.38095238095238093,0.5238095238095238,0.4,0.6
+2016-12-10,Charlotte Hornets,105,Cleveland Cavaliers,116,True,Cleveland Cavaliers,0.7619047619047619,0.6086956521739131,0.6,0.8
+2016-12-10,Miami Heat,100,Chicago Bulls,105,True,Chicago Bulls,0.5454545454545454,0.30434782608695654,0.4,0.2
+2016-12-10,Dallas Mavericks,87,Houston Rockets,109,True,Houston Rockets,0.6956521739130435,0.22727272727272727,1.0,0.4
+2016-12-10,Golden State Warriors,89,Memphis Grizzlies,110,True,Memphis Grizzlies,0.6666666666666666,0.8695652173913043,1.0,0.8
+2016-12-10,Brooklyn Nets,101,San Antonio Spurs,130,True,San Antonio Spurs,0.782608695652174,0.2857142857142857,0.8,0.4
+2016-12-10,Sacramento Kings,84,Utah Jazz,104,True,Utah Jazz,0.5833333333333334,0.36363636363636365,0.6,0.2
+2016-12-10,New Orleans Pelicans,105,Los Angeles Clippers,133,True,Los Angeles Clippers,0.6956521739130435,0.30434782608695654,0.4,0.2
+2016-12-11,Philadelphia 76ers,97,Detroit Pistons,79,False,Philadelphia 76ers,0.52,0.21739130434782608,0.6,0.2
+2016-12-11,Golden State Warriors,116,Minnesota Timberwolves,108,False,Golden State Warriors,0.2608695652173913,0.8333333333333334,0.2,0.8
+2016-12-11,Boston Celtics,96,Oklahoma City Thunder,99,True,Oklahoma City Thunder,0.6086956521739131,0.5652173913043478,0.8,0.6
+2016-12-11,New Orleans Pelicans,120,Phoenix Suns,119,False,New Orleans Pelicans,0.30434782608695654,0.2916666666666667,0.4,0.0
+2016-12-11,New York Knicks,118,Los Angeles Lakers,112,False,New York Knicks,0.4,0.5652173913043478,0.0,0.8
+2016-12-12,Charlotte Hornets,94,Indiana Pacers,110,True,Indiana Pacers,0.5,0.5833333333333334,0.6,0.6
+2016-12-12,Washington Wizards,101,Miami Heat,112,True,Miami Heat,0.2916666666666667,0.4090909090909091,0.0,0.6
+2016-12-12,Milwaukee Bucks,100,Toronto Raptors,122,True,Toronto Raptors,0.6956521739130435,0.5,0.8,0.4
+2016-12-12,Brooklyn Nets,118,Houston Rockets,122,True,Houston Rockets,0.7083333333333334,0.2727272727272727,1.0,0.2
+2016-12-12,Denver Nuggets,92,Dallas Mavericks,112,True,Dallas Mavericks,0.21739130434782608,0.375,0.4,0.4
+2016-12-12,Portland Trail Blazers,120,Los Angeles Clippers,121,True,Los Angeles Clippers,0.7083333333333334,0.48,0.6,0.4
+2016-12-12,Los Angeles Lakers,92,Sacramento Kings,116,True,Sacramento Kings,0.34782608695652173,0.38461538461538464,0.2,0.0
+2016-12-13,Memphis Grizzlies,86,Cleveland Cavaliers,103,True,Cleveland Cavaliers,0.7727272727272727,0.68,0.8,1.0
+2016-12-13,Orlando Magic,131,Atlanta Hawks,120,False,Orlando Magic,0.5,0.4,0.4,0.4
+2016-12-13,Minnesota Timberwolves,99,Chicago Bulls,94,False,Minnesota Timberwolves,0.5652173913043478,0.25,0.4,0.2
+2016-12-13,Golden State Warriors,113,New Orleans Pelicans,109,False,Golden State Warriors,0.32,0.84,0.2,0.8
+2016-12-13,New York Knicks,111,Phoenix Suns,113,True,Phoenix Suns,0.2916666666666667,0.5833333333333334,0.2,0.8
+2016-12-13,Oklahoma City Thunder,95,Portland Trail Blazers,114,True,Portland Trail Blazers,0.46153846153846156,0.625,0.2,0.8
+2016-12-14,Indiana Pacers,89,Miami Heat,95,True,Miami Heat,0.32,0.52,0.2,0.6
+2016-12-14,Los Angeles Clippers,113,Orlando Magic,108,False,Los Angeles Clippers,0.4230769230769231,0.72,0.4,0.6
+2016-12-14,Toronto Raptors,123,Philadelphia 76ers,114,False,Toronto Raptors,0.25,0.7083333333333334,0.4,0.8
+2016-12-14,Charlotte Hornets,106,Washington Wizards,109,True,Washington Wizards,0.391304347826087,0.56,0.6,0.6
+2016-12-14,Los Angeles Lakers,97,Brooklyn Nets,107,True,Brooklyn Nets,0.2608695652173913,0.37037037037037035,0.2,0.0
+2016-12-14,Sacramento Kings,98,Houston Rockets,132,True,Houston Rockets,0.72,0.375,1.0,0.4
+2016-12-14,Cleveland Cavaliers,85,Memphis Grizzlies,93,True,Memphis Grizzlies,0.6538461538461539,0.782608695652174,0.8,1.0
+2016-12-14,Detroit Pistons,95,Dallas Mavericks,85,False,Detroit Pistons,0.25,0.5,0.4,0.4
+2016-12-14,Oklahoma City Thunder,89,Utah Jazz,109,True,Utah Jazz,0.6,0.6,0.8,0.6
+2016-12-14,Boston Celtics,101,San Antonio Spurs,108,True,San Antonio Spurs,0.7916666666666666,0.5416666666666666,0.8,0.4
+2016-12-15,Chicago Bulls,97,Milwaukee Bucks,108,True,Milwaukee Bucks,0.4782608695652174,0.5416666666666666,0.2,0.4
+2016-12-15,Indiana Pacers,95,New Orleans Pelicans,102,True,New Orleans Pelicans,0.3076923076923077,0.5,0.2,0.6
+2016-12-15,Portland Trail Blazers,120,Denver Nuggets,132,True,Denver Nuggets,0.36,0.48148148148148145,0.4,0.2
+2016-12-15,San Antonio Spurs,107,Phoenix Suns,92,False,San Antonio Spurs,0.32,0.8,0.4,0.8
+2016-12-15,New York Knicks,90,Golden State Warriors,103,True,Golden State Warriors,0.8461538461538461,0.56,0.8,0.6
+2016-12-16,Brooklyn Nets,111,Orlando Magic,118,True,Orlando Magic,0.4074074074074074,0.2916666666666667,0.2,0.4
+2016-12-16,Detroit Pistons,108,Washington Wizards,122,True,Washington Wizards,0.4166666666666667,0.5185185185185185,0.6,0.6
+2016-12-16,Charlotte Hornets,88,Boston Celtics,96,True,Boston Celtics,0.52,0.5384615384615384,0.2,0.4
+2016-12-16,Atlanta Hawks,125,Toronto Raptors,121,False,Atlanta Hawks,0.72,0.48,0.8,0.4
+2016-12-16,Milwaukee Bucks,95,Chicago Bulls,69,False,Milwaukee Bucks,0.52,0.5,0.4,0.4
+2016-12-16,New Orleans Pelicans,100,Houston Rockets,122,True,Houston Rockets,0.7307692307692307,0.3333333333333333,1.0,0.4
+2016-12-16,Sacramento Kings,96,Memphis Grizzlies,92,False,Sacramento Kings,0.6666666666666666,0.36,0.8,0.4
+2016-12-16,Los Angeles Clippers,102,Miami Heat,98,False,Los Angeles Clippers,0.34615384615384615,0.7307692307692307,0.4,0.6
+2016-12-16,Los Angeles Lakers,100,Philadelphia 76ers,89,False,Los Angeles Lakers,0.24,0.35714285714285715,0.4,0.0
+2016-12-16,Dallas Mavericks,100,Utah Jazz,103,True,Utah Jazz,0.6153846153846154,0.24,0.8,0.4
+2016-12-17,Phoenix Suns,101,Oklahoma City Thunder,114,True,Oklahoma City Thunder,0.5769230769230769,0.3076923076923077,0.4,0.4
+2016-12-17,Indiana Pacers,105,Detroit Pistons,90,False,Indiana Pacers,0.5,0.48148148148148145,0.4,0.4
+2016-12-17,Charlotte Hornets,107,Atlanta Hawks,99,False,Charlotte Hornets,0.5,0.5185185185185185,0.6,0.2
+2016-12-17,Los Angeles Lakers,108,Cleveland Cavaliers,119,True,Cleveland Cavaliers,0.75,0.3793103448275862,0.8,0.2
+2016-12-17,Houston Rockets,111,Minnesota Timberwolves,109,False,Houston Rockets,0.28,0.7407407407407407,0.2,1.0
+2016-12-17,New York Knicks,114,Denver Nuggets,127,True,Denver Nuggets,0.38461538461538464,0.5384615384615384,0.4,0.4
+2016-12-17,Portland Trail Blazers,90,Golden State Warriors,135,True,Golden State Warriors,0.8518518518518519,0.4642857142857143,0.8,0.2
+2016-12-18,Los Angeles Clippers,110,Washington Wizards,117,True,Washington Wizards,0.44,0.7407407407407407,0.8,0.8
+2016-12-18,Sacramento Kings,79,Dallas Mavericks,99,True,Dallas Mavericks,0.23076923076923078,0.38461538461538464,0.4,0.4
+2016-12-18,Utah Jazz,82,Memphis Grizzlies,73,False,Utah Jazz,0.6428571428571429,0.6296296296296297,0.6,0.8
+2016-12-18,Boston Celtics,105,Miami Heat,95,False,Boston Celtics,0.3333333333333333,0.5384615384615384,0.4,0.4
+2016-12-18,Toronto Raptors,109,Orlando Magic,79,False,Toronto Raptors,0.42857142857142855,0.6923076923076923,0.4,0.8
+2016-12-18,Brooklyn Nets,107,Philadelphia 76ers,108,True,Philadelphia 76ers,0.23076923076923078,0.28,0.4,0.4
+2016-12-18,New Orleans Pelicans,100,San Antonio Spurs,113,True,San Antonio Spurs,0.8076923076923077,0.32142857142857145,0.8,0.4
+2016-12-19,Washington Wizards,105,Indiana Pacers,107,True,Indiana Pacers,0.5,0.46153846153846156,0.6,0.8
+2016-12-19,Detroit Pistons,82,Chicago Bulls,113,True,Chicago Bulls,0.5,0.4827586206896552,0.4,0.4
+2016-12-19,Phoenix Suns,108,Minnesota Timberwolves,115,True,Minnesota Timberwolves,0.2692307692307692,0.2962962962962963,0.2,0.4
+2016-12-19,Atlanta Hawks,110,Oklahoma City Thunder,108,False,Atlanta Hawks,0.5925925925925926,0.48148148148148145,0.4,0.6
+2016-12-19,Dallas Mavericks,107,Denver Nuggets,117,True,Denver Nuggets,0.4074074074074074,0.25925925925925924,0.6,0.4
+2016-12-20,Los Angeles Lakers,113,Charlotte Hornets,117,True,Charlotte Hornets,0.5357142857142857,0.36666666666666664,0.2,0.2
+2016-12-20,New Orleans Pelicans,108,Philadelphia 76ers,93,False,New Orleans Pelicans,0.25925925925925924,0.3103448275862069,0.6,0.4
+2016-12-20,Orlando Magic,136,Miami Heat,130,False,Orlando Magic,0.32142857142857145,0.41379310344827586,0.4,0.4
+2016-12-20,Indiana Pacers,111,New York Knicks,118,True,New York Knicks,0.5185185185185185,0.5172413793103449,0.4,0.6
+2016-12-20,Brooklyn Nets,104,Toronto Raptors,116,True,Toronto Raptors,0.7037037037037037,0.2692307692307692,0.8,0.2
+2016-12-20,San Antonio Spurs,102,Houston Rockets,100,False,San Antonio Spurs,0.75,0.8148148148148148,1.0,0.8
+2016-12-20,Boston Celtics,112,Memphis Grizzlies,109,False,Boston Celtics,0.6206896551724138,0.5555555555555556,0.4,0.4
+2016-12-20,Cleveland Cavaliers,114,Milwaukee Bucks,108,False,Cleveland Cavaliers,0.52,0.76,0.4,0.8
+2016-12-20,Utah Jazz,74,Golden State Warriors,104,True,Golden State Warriors,0.8571428571428571,0.6428571428571429,0.8,0.8
+2016-12-20,Denver Nuggets,102,Los Angeles Clippers,119,True,Los Angeles Clippers,0.7142857142857143,0.42857142857142855,0.8,0.8
+2016-12-20,Portland Trail Blazers,121,Sacramento Kings,126,True,Sacramento Kings,0.37037037037037035,0.4482758620689655,0.4,0.2
+2016-12-21,Milwaukee Bucks,102,Cleveland Cavaliers,113,True,Cleveland Cavaliers,0.7692307692307693,0.5,0.8,0.4
+2016-12-21,Minnesota Timberwolves,92,Atlanta Hawks,84,False,Minnesota Timberwolves,0.5,0.2962962962962963,0.6,0.4
+2016-12-21,Memphis Grizzlies,98,Detroit Pistons,86,False,Memphis Grizzlies,0.4666666666666667,0.6,0.2,0.2
+2016-12-21,Washington Wizards,107,Chicago Bulls,97,False,Washington Wizards,0.5185185185185185,0.4444444444444444,0.4,0.6
+2016-12-21,Oklahoma City Thunder,121,New Orleans Pelicans,110,False,Oklahoma City Thunder,0.3333333333333333,0.5714285714285714,0.4,0.4
+2016-12-21,Houston Rockets,125,Phoenix Suns,111,False,Houston Rockets,0.2857142857142857,0.7241379310344828,0.2,0.8
+2016-12-21,Sacramento Kings,94,Utah Jazz,93,False,Sacramento Kings,0.6206896551724138,0.39285714285714285,0.8,0.6
+2016-12-21,Dallas Mavericks,96,Portland Trail Blazers,95,False,Dallas Mavericks,0.43333333333333335,0.25,0.2,0.4
+2016-12-22,Boston Celtics,109,Indiana Pacers,102,False,Boston Celtics,0.5,0.5714285714285714,0.4,0.6
+2016-12-22,Golden State Warriors,117,Brooklyn Nets,101,False,Golden State Warriors,0.25925925925925924,0.8620689655172413,0.2,1.0
+2016-12-22,Orlando Magic,95,New York Knicks,106,True,New York Knicks,0.5357142857142857,0.43333333333333335,0.4,0.6
+2016-12-22,Los Angeles Lakers,107,Miami Heat,115,True,Miami Heat,0.3103448275862069,0.3548387096774194,0.4,0.2
+2016-12-22,San Antonio Spurs,101,Los Angeles Clippers,106,True,Los Angeles Clippers,0.7241379310344828,0.8214285714285714,0.8,1.0
+2016-12-23,Chicago Bulls,91,Charlotte Hornets,103,True,Charlotte Hornets,0.5517241379310345,0.5,0.4,0.2
+2016-12-23,Los Angeles Lakers,90,Orlando Magic,109,True,Orlando Magic,0.41935483870967744,0.34375,0.4,0.2
+2016-12-23,Oklahoma City Thunder,117,Boston Celtics,112,False,Oklahoma City Thunder,0.5862068965517241,0.5862068965517241,0.8,0.4
+2016-12-23,Brooklyn Nets,99,Cleveland Cavaliers,119,True,Cleveland Cavaliers,0.7777777777777778,0.25,0.8,0.2
+2016-12-23,Golden State Warriors,119,Detroit Pistons,113,False,Golden State Warriors,0.45161290322580644,0.8666666666666667,0.2,1.0
+2016-12-23,Houston Rockets,109,Memphis Grizzlies,115,True,Memphis Grizzlies,0.6129032258064516,0.7333333333333333,0.4,0.8
+2016-12-23,Washington Wizards,96,Milwaukee Bucks,123,True,Milwaukee Bucks,0.48148148148148145,0.4642857142857143,0.4,0.8
+2016-12-23,Sacramento Kings,109,Minnesota Timberwolves,105,False,Sacramento Kings,0.32142857142857145,0.41379310344827586,0.6,0.6
+2016-12-23,Miami Heat,87,New Orleans Pelicans,91,True,New Orleans Pelicans,0.3225806451612903,0.3333333333333333,0.4,0.4
+2016-12-23,Atlanta Hawks,109,Denver Nuggets,108,False,Atlanta Hawks,0.41379310344827586,0.4827586206896552,0.6,0.4
+2016-12-23,Philadelphia 76ers,116,Phoenix Suns,123,True,Phoenix Suns,0.27586206896551724,0.25,0.2,0.4
+2016-12-23,Toronto Raptors,104,Utah Jazz,98,False,Toronto Raptors,0.6,0.7142857142857143,0.6,0.8
+2016-12-23,San Antonio Spurs,110,Portland Trail Blazers,90,False,San Antonio Spurs,0.41935483870967744,0.7931034482758621,0.2,0.8
+2016-12-23,Dallas Mavericks,90,Los Angeles Clippers,88,False,Dallas Mavericks,0.7333333333333333,0.27586206896551724,0.8,0.4
+2016-12-25,Boston Celtics,119,New York Knicks,114,False,Boston Celtics,0.5517241379310345,0.5666666666666667,0.4,0.8
+2016-12-25,Golden State Warriors,108,Cleveland Cavaliers,109,True,Cleveland Cavaliers,0.7857142857142857,0.8709677419354839,0.8,1.0
+2016-12-25,Chicago Bulls,100,San Antonio Spurs,119,True,San Antonio Spurs,0.8,0.4827586206896552,0.8,0.2
+2016-12-25,Minnesota Timberwolves,100,Oklahoma City Thunder,112,True,Oklahoma City Thunder,0.6,0.3103448275862069,0.6,0.6
+2016-12-25,Los Angeles Clippers,102,Los Angeles Lakers,111,True,Los Angeles Lakers,0.3333333333333333,0.7096774193548387,0.2,0.6
+2016-12-26,Memphis Grizzlies,102,Orlando Magic,112,True,Orlando Magic,0.4375,0.625,0.6,0.4
+2016-12-26,Milwaukee Bucks,102,Washington Wizards,107,True,Washington Wizards,0.4482758620689655,0.5,0.6,0.6
+2016-12-26,Charlotte Hornets,118,Brooklyn Nets,120,True,Brooklyn Nets,0.2413793103448276,0.5666666666666667,0.0,0.6
+2016-12-26,Cleveland Cavaliers,90,Detroit Pistons,106,True,Detroit Pistons,0.4375,0.7931034482758621,0.0,1.0
+2016-12-26,Indiana Pacers,85,Chicago Bulls,90,True,Chicago Bulls,0.4666666666666667,0.4838709677419355,0.2,0.4
+2016-12-26,Phoenix Suns,115,Houston Rockets,131,True,Houston Rockets,0.7096774193548387,0.3,0.6,0.2
+2016-12-26,Atlanta Hawks,90,Minnesota Timberwolves,104,True,Minnesota Timberwolves,0.3,0.5,0.4,0.6
+2016-12-26,Dallas Mavericks,104,New Orleans Pelicans,111,True,New Orleans Pelicans,0.34375,0.3,0.4,0.6
+2016-12-26,Toronto Raptors,95,Portland Trail Blazers,91,False,Toronto Raptors,0.40625,0.7241379310344828,0.0,0.8
+2016-12-26,Denver Nuggets,106,Los Angeles Clippers,102,False,Denver Nuggets,0.6875,0.4,0.4,0.6
+2016-12-26,Philadelphia 76ers,100,Sacramento Kings,102,True,Sacramento Kings,0.43333333333333335,0.2413793103448276,0.8,0.2
+2016-12-27,Memphis Grizzlies,103,Boston Celtics,113,True,Boston Celtics,0.5806451612903226,0.6060606060606061,0.8,0.4
+2016-12-27,Oklahoma City Thunder,106,Miami Heat,94,False,Oklahoma City Thunder,0.3225806451612903,0.6129032258064516,0.2,0.8
+2016-12-27,Houston Rockets,123,Dallas Mavericks,107,False,Houston Rockets,0.2903225806451613,0.71875,0.6,0.6
+2016-12-27,Utah Jazz,102,Los Angeles Lakers,100,False,Utah Jazz,0.35294117647058826,0.5806451612903226,0.2,0.4
+2016-12-28,Charlotte Hornets,120,Orlando Magic,101,False,Charlotte Hornets,0.45454545454545453,0.5483870967741935,0.6,0.6
+2016-12-28,Indiana Pacers,105,Washington Wizards,111,True,Washington Wizards,0.4666666666666667,0.46875,0.6,0.4
+2016-12-28,New York Knicks,98,Atlanta Hawks,102,True,Atlanta Hawks,0.4838709677419355,0.5333333333333333,0.4,0.4
+2016-12-28,Milwaukee Bucks,119,Detroit Pistons,94,False,Milwaukee Bucks,0.45454545454545453,0.4827586206896552,0.2,0.4
+2016-12-28,Brooklyn Nets,99,Chicago Bulls,101,True,Chicago Bulls,0.4838709677419355,0.26666666666666666,0.4,0.2
+2016-12-28,Los Angeles Clippers,98,New Orleans Pelicans,102,True,New Orleans Pelicans,0.36363636363636365,0.6666666666666666,0.6,0.4
+2016-12-28,Phoenix Suns,98,San Antonio Spurs,119,True,San Antonio Spurs,0.8064516129032258,0.2903225806451613,0.8,0.2
+2016-12-28,Minnesota Timberwolves,103,Denver Nuggets,105,True,Denver Nuggets,0.41935483870967744,0.3225806451612903,0.6,0.6
+2016-12-28,Sacramento Kings,89,Portland Trail Blazers,102,True,Portland Trail Blazers,0.3939393939393939,0.45161290322580644,0.0,0.8
+2016-12-28,Toronto Raptors,111,Golden State Warriors,121,True,Golden State Warriors,0.84375,0.7333333333333333,0.8,0.8
+2016-12-29,Miami Heat,82,Charlotte Hornets,91,True,Charlotte Hornets,0.5625,0.3125,0.8,0.2
+2016-12-29,Boston Celtics,118,Cleveland Cavaliers,124,True,Cleveland Cavaliers,0.7666666666666667,0.59375,0.8,0.8
+2016-12-29,Oklahoma City Thunder,80,Memphis Grizzlies,114,True,Memphis Grizzlies,0.5882352941176471,0.625,0.4,0.8
+2016-12-29,Toronto Raptors,91,Phoenix Suns,99,True,Phoenix Suns,0.28125,0.7096774193548387,0.2,0.8
+2016-12-29,Philadelphia 76ers,83,Utah Jazz,100,True,Utah Jazz,0.59375,0.23333333333333334,0.4,0.2
+2016-12-29,Dallas Mavericks,101,Los Angeles Lakers,89,False,Dallas Mavericks,0.34285714285714286,0.28125,0.2,0.4
+2016-12-30,Chicago Bulls,101,Indiana Pacers,111,True,Indiana Pacers,0.45454545454545453,0.5,0.2,0.4
+2016-12-30,Brooklyn Nets,95,Washington Wizards,118,True,Washington Wizards,0.4838709677419355,0.25806451612903225,0.6,0.2
+2016-12-30,Miami Heat,114,Boston Celtics,117,True,Boston Celtics,0.5757575757575758,0.30303030303030304,0.6,0.2
+2016-12-30,Detroit Pistons,98,Atlanta Hawks,105,True,Atlanta Hawks,0.5,0.4411764705882353,0.6,0.2
+2016-12-30,Los Angeles Clippers,116,Houston Rockets,140,True,Houston Rockets,0.7272727272727273,0.6470588235294118,0.6,0.2
+2016-12-30,Milwaukee Bucks,99,Minnesota Timberwolves,116,True,Minnesota Timberwolves,0.3125,0.5,0.4,0.4
+2016-12-30,New York Knicks,92,New Orleans Pelicans,104,True,New Orleans Pelicans,0.38235294117647056,0.5161290322580645,0.8,0.4
+2016-12-30,Portland Trail Blazers,94,San Antonio Spurs,110,True,San Antonio Spurs,0.8125,0.4117647058823529,0.8,0.2
+2016-12-30,Philadelphia 76ers,124,Denver Nuggets,122,False,Philadelphia 76ers,0.4375,0.22580645161290322,0.6,0.2
+2016-12-30,Dallas Mavericks,99,Golden State Warriors,108,True,Golden State Warriors,0.8484848484848485,0.30303030303030304,0.8,0.6
+2016-12-31,Memphis Grizzlies,112,Sacramento Kings,98,False,Memphis Grizzlies,0.4375,0.6,0.8,0.6
+2016-12-31,Milwaukee Bucks,116,Chicago Bulls,96,False,Milwaukee Bucks,0.48484848484848486,0.4838709677419355,0.4,0.4
+2016-12-31,Cleveland Cavaliers,121,Charlotte Hornets,109,False,Cleveland Cavaliers,0.5757575757575758,0.7741935483870968,0.8,0.8
+2016-12-31,New York Knicks,122,Houston Rockets,129,True,Houston Rockets,0.7352941176470589,0.5,0.8,0.4
+2016-12-31,Los Angeles Clippers,88,Oklahoma City Thunder,114,True,Oklahoma City Thunder,0.6060606060606061,0.6285714285714286,0.8,0.0
+2016-12-31,Phoenix Suns,86,Utah Jazz,91,True,Utah Jazz,0.6060606060606061,0.30303030303030304,0.4,0.4
+2017-01-01,San Antonio Spurs,112,Atlanta Hawks,114,True,Atlanta Hawks,0.5151515151515151,0.8181818181818182,0.6,0.8
+2017-01-01,Orlando Magic,104,Indiana Pacers,117,True,Indiana Pacers,0.47058823529411764,0.4411764705882353,0.2,0.6
+2017-01-01,Detroit Pistons,107,Miami Heat,98,False,Detroit Pistons,0.29411764705882354,0.42857142857142855,0.2,0.2
+2017-01-01,Portland Trail Blazers,95,Minnesota Timberwolves,89,False,Portland Trail Blazers,0.3333333333333333,0.4,0.4,0.2
+2017-01-01,Toronto Raptors,123,Los Angeles Lakers,114,False,Toronto Raptors,0.3333333333333333,0.6875,0.2,0.6
+2017-01-02,New Orleans Pelicans,82,Cleveland Cavaliers,90,True,Cleveland Cavaliers,0.78125,0.4,0.8,0.8
+2017-01-02,Oklahoma City Thunder,94,Milwaukee Bucks,98,True,Milwaukee Bucks,0.5,0.6176470588235294,0.6,0.8
+2017-01-02,Utah Jazz,101,Brooklyn Nets,89,False,Utah Jazz,0.25,0.6176470588235294,0.2,0.6
+2017-01-02,Orlando Magic,115,New York Knicks,103,False,Orlando Magic,0.48484848484848486,0.42857142857142855,0.2,0.4
+2017-01-02,Charlotte Hornets,111,Chicago Bulls,118,True,Chicago Bulls,0.47058823529411764,0.5588235294117647,0.4,0.6
+2017-01-02,Washington Wizards,91,Houston Rockets,101,True,Houston Rockets,0.7428571428571429,0.5,0.8,0.8
+2017-01-02,Denver Nuggets,119,Golden State Warriors,127,True,Golden State Warriors,0.8529411764705882,0.42424242424242425,0.8,0.4
+2017-01-02,Phoenix Suns,98,Los Angeles Clippers,109,True,Los Angeles Clippers,0.6111111111111112,0.29411764705882354,0.0,0.4
+2017-01-03,Minnesota Timberwolves,91,Philadelphia 76ers,93,True,Philadelphia 76ers,0.25,0.3235294117647059,0.2,0.4
+2017-01-03,Utah Jazz,104,Boston Celtics,115,True,Boston Celtics,0.5882352941176471,0.6285714285714286,0.6,0.8
+2017-01-03,Indiana Pacers,121,Detroit Pistons,116,False,Indiana Pacers,0.4444444444444444,0.4857142857142857,0.4,0.4
+2017-01-03,Washington Wizards,105,Dallas Mavericks,113,True,Dallas Mavericks,0.29411764705882354,0.48484848484848486,0.4,0.6
+2017-01-03,Toronto Raptors,82,San Antonio Spurs,110,True,San Antonio Spurs,0.7941176470588235,0.696969696969697,0.8,0.6
+2017-01-03,Sacramento Kings,120,Denver Nuggets,113,False,Sacramento Kings,0.4117647058823529,0.42424242424242425,0.4,0.6
+2017-01-03,Miami Heat,90,Phoenix Suns,99,True,Phoenix Suns,0.2857142857142857,0.2857142857142857,0.2,0.0
+2017-01-03,Memphis Grizzlies,102,Los Angeles Lakers,116,True,Los Angeles Lakers,0.32432432432432434,0.6111111111111112,0.2,0.6
+2017-01-04,Oklahoma City Thunder,112,Charlotte Hornets,123,True,Charlotte Hornets,0.5428571428571428,0.6,0.4,0.6
+2017-01-04,Atlanta Hawks,111,Orlando Magic,92,False,Atlanta Hawks,0.4444444444444444,0.5294117647058824,0.6,0.8
+2017-01-04,Milwaukee Bucks,105,New York Knicks,104,False,Milwaukee Bucks,0.47058823529411764,0.5151515151515151,0.0,0.6
+2017-01-04,Chicago Bulls,106,Cleveland Cavaliers,94,False,Chicago Bulls,0.7878787878787878,0.4857142857142857,0.8,0.6
+2017-01-04,Portland Trail Blazers,117,Golden State Warriors,125,True,Golden State Warriors,0.8571428571428571,0.4166666666666667,0.8,0.4
+2017-01-04,Memphis Grizzlies,106,Los Angeles Clippers,115,True,Los Angeles Clippers,0.6216216216216216,0.5945945945945946,0.2,0.4
+2017-01-04,Miami Heat,107,Sacramento Kings,102,False,Miami Heat,0.4411764705882353,0.2777777777777778,0.6,0.0
+2017-01-05,Brooklyn Nets,109,Indiana Pacers,121,True,Indiana Pacers,0.5,0.24242424242424243,0.6,0.2
+2017-01-05,Charlotte Hornets,114,Detroit Pistons,115,True,Detroit Pistons,0.43243243243243246,0.5555555555555556,0.4,0.6
+2017-01-05,Utah Jazz,93,Toronto Raptors,101,True,Toronto Raptors,0.6764705882352942,0.6111111111111112,0.4,0.8
+2017-01-05,Oklahoma City Thunder,116,Houston Rockets,118,True,Houston Rockets,0.75,0.5833333333333334,1.0,0.4
+2017-01-05,Atlanta Hawks,99,New Orleans Pelicans,94,False,Atlanta Hawks,0.3888888888888889,0.5428571428571428,0.8,0.8
+2017-01-05,Phoenix Suns,102,Dallas Mavericks,95,False,Phoenix Suns,0.3142857142857143,0.3055555555555556,0.4,0.4
+2017-01-05,San Antonio Spurs,127,Denver Nuggets,99,False,San Antonio Spurs,0.4,0.8,0.4,0.8
+2017-01-05,Los Angeles Lakers,109,Portland Trail Blazers,118,True,Portland Trail Blazers,0.40540540540540543,0.34210526315789475,0.4,0.4
+2017-01-06,Houston Rockets,100,Orlando Magic,93,False,Houston Rockets,0.43243243243243246,0.7567567567567568,0.4,1.0
+2017-01-06,Minnesota Timberwolves,105,Washington Wizards,112,True,Washington Wizards,0.47058823529411764,0.3142857142857143,0.6,0.4
+2017-01-06,Philadelphia 76ers,106,Boston Celtics,110,True,Boston Celtics,0.6,0.2727272727272727,0.8,0.4
+2017-01-06,Cleveland Cavaliers,116,Brooklyn Nets,108,False,Cleveland Cavaliers,0.23529411764705882,0.7647058823529411,0.2,0.6
+2017-01-06,New York Knicks,116,Milwaukee Bucks,111,False,New York Knicks,0.5294117647058824,0.45714285714285713,0.8,0.0
+2017-01-06,Memphis Grizzlies,128,Golden State Warriors,119,False,Memphis Grizzlies,0.8611111111111112,0.5789473684210527,0.8,0.4
+2017-01-06,Miami Heat,100,Los Angeles Lakers,127,True,Los Angeles Lakers,0.3333333333333333,0.2972972972972973,0.2,0.2
+2017-01-06,Los Angeles Clippers,106,Sacramento Kings,98,False,Los Angeles Clippers,0.42857142857142855,0.631578947368421,0.4,0.4
+2017-01-07,New York Knicks,109,Indiana Pacers,123,True,Indiana Pacers,0.5135135135135135,0.4722222222222222,0.8,0.2
+2017-01-07,New Orleans Pelicans,108,Boston Celtics,117,True,Boston Celtics,0.6111111111111112,0.3783783783783784,0.8,0.6
+2017-01-07,Toronto Raptors,118,Chicago Bulls,123,True,Chicago Bulls,0.5,0.6857142857142857,0.6,0.4
+2017-01-07,Utah Jazz,94,Minnesota Timberwolves,92,False,Utah Jazz,0.3055555555555556,0.5945945945945946,0.2,0.6
+2017-01-07,Denver Nuggets,106,Oklahoma City Thunder,121,True,Oklahoma City Thunder,0.5675675675675675,0.3888888888888889,0.2,0.2
+2017-01-07,Atlanta Hawks,97,Dallas Mavericks,82,False,Atlanta Hawks,0.3055555555555556,0.5555555555555556,0.4,1.0
+2017-01-07,Charlotte Hornets,85,San Antonio Spurs,102,True,San Antonio Spurs,0.8055555555555556,0.5405405405405406,0.8,0.4
+2017-01-08,Philadelphia 76ers,105,Brooklyn Nets,95,False,Philadelphia 76ers,0.22857142857142856,0.2647058823529412,0.0,0.4
+2017-01-08,Washington Wizards,107,Milwaukee Bucks,101,False,Washington Wizards,0.5142857142857142,0.4857142857142857,0.6,0.6
+2017-01-08,Miami Heat,86,Los Angeles Clippers,98,True,Los Angeles Clippers,0.6410256410256411,0.2894736842105263,0.6,0.2
+2017-01-08,Houston Rockets,129,Toronto Raptors,122,False,Houston Rockets,0.6666666666666666,0.7631578947368421,0.4,1.0
+2017-01-08,Utah Jazz,79,Memphis Grizzlies,88,True,Memphis Grizzlies,0.5897435897435898,0.6052631578947368,0.6,0.6
+2017-01-08,Cleveland Cavaliers,120,Phoenix Suns,116,False,Cleveland Cavaliers,0.32432432432432434,0.7714285714285715,0.6,0.8
+2017-01-08,Detroit Pistons,125,Portland Trail Blazers,124,False,Detroit Pistons,0.42105263157894735,0.4473684210526316,0.6,0.4
+2017-01-08,Golden State Warriors,117,Sacramento Kings,106,False,Golden State Warriors,0.4166666666666667,0.8378378378378378,0.2,0.8
+2017-01-08,Orlando Magic,95,Los Angeles Lakers,111,True,Los Angeles Lakers,0.35,0.42105263157894735,0.4,0.2
+2017-01-09,New Orleans Pelicans,110,New York Knicks,96,False,New Orleans Pelicans,0.4594594594594595,0.3684210526315789,0.2,0.4
+2017-01-09,Oklahoma City Thunder,109,Chicago Bulls,94,False,Oklahoma City Thunder,0.5135135135135135,0.5789473684210527,0.6,0.4
+2017-01-09,Dallas Mavericks,92,Minnesota Timberwolves,101,True,Minnesota Timberwolves,0.2972972972972973,0.2972972972972973,0.2,0.4
+2017-01-10,Chicago Bulls,99,Washington Wizards,101,True,Washington Wizards,0.5,0.5,0.6,0.6
+2017-01-10,Atlanta Hawks,117,Brooklyn Nets,97,False,Atlanta Hawks,0.2222222222222222,0.5675675675675675,0.0,1.0
+2017-01-10,Boston Celtics,106,Toronto Raptors,114,True,Toronto Raptors,0.6486486486486487,0.6216216216216216,0.4,0.8
+2017-01-10,Charlotte Hornets,114,Houston Rockets,121,True,Houston Rockets,0.7692307692307693,0.5263157894736842,1.0,0.2
+2017-01-10,Milwaukee Bucks,109,San Antonio Spurs,107,False,Milwaukee Bucks,0.8108108108108109,0.5,0.8,0.6
+2017-01-10,Cleveland Cavaliers,92,Utah Jazz,100,True,Utah Jazz,0.5897435897435898,0.7777777777777778,0.4,0.8
+2017-01-10,Miami Heat,95,Golden State Warriors,107,True,Golden State Warriors,0.8421052631578947,0.28205128205128205,0.8,0.2
+2017-01-10,Portland Trail Blazers,108,Los Angeles Lakers,87,False,Portland Trail Blazers,0.36585365853658536,0.41025641025641024,0.6,0.4
+2017-01-10,Detroit Pistons,94,Sacramento Kings,100,True,Sacramento Kings,0.40540540540540543,0.46153846153846156,0.2,0.6
+2017-01-11,New York Knicks,97,Philadelphia 76ers,98,True,Philadelphia 76ers,0.2857142857142857,0.4473684210526316,0.6,0.2
+2017-01-11,Washington Wizards,108,Boston Celtics,117,True,Boston Celtics,0.6052631578947368,0.5135135135135135,0.8,0.6
+2017-01-11,Houston Rockets,105,Minnesota Timberwolves,119,True,Minnesota Timberwolves,0.3157894736842105,0.775,0.2,1.0
+2017-01-11,Memphis Grizzlies,95,Oklahoma City Thunder,103,True,Oklahoma City Thunder,0.5897435897435898,0.6,0.4,0.6
+2017-01-11,Orlando Magic,96,Los Angeles Clippers,105,True,Los Angeles Clippers,0.65,0.41025641025641024,0.8,0.2
+2017-01-11,Cleveland Cavaliers,86,Portland Trail Blazers,102,True,Portland Trail Blazers,0.425,0.7567567567567568,0.6,0.6
+2017-01-12,Indiana Pacers,112,Denver Nuggets,140,True,Denver Nuggets,0.3783783783783784,0.5263157894736842,0.0,1.0
+2017-01-12,New Orleans Pelicans,104,Brooklyn Nets,95,False,New Orleans Pelicans,0.21621621621621623,0.38461538461538464,0.0,0.4
+2017-01-12,Chicago Bulls,89,New York Knicks,104,True,New York Knicks,0.4358974358974359,0.48717948717948717,0.2,0.6
+2017-01-12,Los Angeles Lakers,94,San Antonio Spurs,134,True,San Antonio Spurs,0.7894736842105263,0.35714285714285715,0.6,0.6
+2017-01-12,Dallas Mavericks,113,Phoenix Suns,108,False,Dallas Mavericks,0.3157894736842105,0.2894736842105263,0.4,0.2
+2017-01-12,Detroit Pistons,107,Golden State Warriors,127,True,Golden State Warriors,0.8461538461538461,0.45,0.8,0.6
+2017-01-13,Charlotte Hornets,93,Philadelphia 76ers,102,True,Philadelphia 76ers,0.3055555555555556,0.5128205128205128,0.8,0.2
+2017-01-13,Brooklyn Nets,113,Toronto Raptors,132,True,Toronto Raptors,0.6578947368421053,0.21052631578947367,0.4,0.0
+2017-01-13,Boston Celtics,103,Atlanta Hawks,101,False,Boston Celtics,0.5789473684210527,0.6153846153846154,1.0,0.8
+2017-01-13,Memphis Grizzlies,110,Houston Rockets,105,False,Memphis Grizzlies,0.7560975609756098,0.5853658536585366,0.8,0.4
+2017-01-13,Miami Heat,108,Milwaukee Bucks,116,True,Milwaukee Bucks,0.5135135135135135,0.275,0.6,0.2
+2017-01-13,Oklahoma City Thunder,86,Minnesota Timberwolves,96,True,Minnesota Timberwolves,0.3333333333333333,0.6,0.4,0.6
+2017-01-13,Orlando Magic,115,Portland Trail Blazers,109,False,Orlando Magic,0.43902439024390244,0.4,0.6,0.2
+2017-01-13,Cleveland Cavaliers,120,Sacramento Kings,108,False,Cleveland Cavaliers,0.42105263157894735,0.7368421052631579,0.4,0.4
+2017-01-13,Detroit Pistons,77,Utah Jazz,110,True,Utah Jazz,0.6,0.43902439024390244,0.4,0.4
+2017-01-14,Los Angeles Lakers,97,Los Angeles Clippers,113,True,Los Angeles Clippers,0.6585365853658537,0.3488372093023256,1.0,0.4
+2017-01-14,New Orleans Pelicans,99,Chicago Bulls,107,True,Chicago Bulls,0.475,0.4,0.4,0.4
+2017-01-14,San Antonio Spurs,105,Phoenix Suns,108,True,Phoenix Suns,0.3076923076923077,0.7948717948717948,0.4,0.8
+2017-01-14,Philadelphia 76ers,93,Washington Wizards,109,True,Washington Wizards,0.5,0.32432432432432434,0.6,0.8
+2017-01-14,Orlando Magic,107,Utah Jazz,114,True,Utah Jazz,0.6097560975609756,0.4146341463414634,0.6,0.2
+2017-01-15,Minnesota Timberwolves,87,Dallas Mavericks,98,True,Dallas Mavericks,0.3076923076923077,0.35,0.4,0.6
+2017-01-15,Milwaukee Bucks,98,Atlanta Hawks,111,True,Atlanta Hawks,0.5641025641025641,0.5263157894736842,0.8,0.6
+2017-01-15,New York Knicks,101,Toronto Raptors,116,True,Toronto Raptors,0.6666666666666666,0.45,0.6,0.4
+2017-01-15,Houston Rockets,137,Brooklyn Nets,112,False,Houston Rockets,0.20512820512820512,0.7380952380952381,0.0,0.6
+2017-01-15,Chicago Bulls,108,Memphis Grizzlies,104,False,Chicago Bulls,0.5952380952380952,0.4878048780487805,0.6,0.4
+2017-01-15,Oklahoma City Thunder,122,Sacramento Kings,118,False,Oklahoma City Thunder,0.41025641025641024,0.5853658536585366,0.2,0.6
+2017-01-15,Detroit Pistons,102,Los Angeles Lakers,97,False,Detroit Pistons,0.3409090909090909,0.42857142857142855,0.4,0.4
+2017-01-16,Atlanta Hawks,108,New York Knicks,107,False,Atlanta Hawks,0.43902439024390244,0.575,0.2,0.8
+2017-01-16,Portland Trail Blazers,101,Washington Wizards,120,True,Washington Wizards,0.5128205128205128,0.42857142857142855,0.8,0.6
+2017-01-16,Philadelphia 76ers,113,Milwaukee Bucks,104,False,Philadelphia 76ers,0.5128205128205128,0.3157894736842105,0.4,0.6
+2017-01-16,New Orleans Pelicans,95,Indiana Pacers,98,True,Indiana Pacers,0.5128205128205128,0.3902439024390244,0.8,0.4
+2017-01-16,Orlando Magic,112,Denver Nuggets,125,True,Denver Nuggets,0.39473684210526316,0.40476190476190477,0.2,0.2
+2017-01-16,Charlotte Hornets,98,Boston Celtics,108,True,Boston Celtics,0.625,0.5,0.8,0.2
+2017-01-16,Cleveland Cavaliers,91,Golden State Warriors,126,True,Golden State Warriors,0.85,0.7435897435897436,0.8,0.6
+2017-01-16,Utah Jazz,106,Phoenix Suns,101,False,Utah Jazz,0.325,0.6190476190476191,0.6,0.8
+2017-01-16,Oklahoma City Thunder,98,Los Angeles Clippers,120,True,Los Angeles Clippers,0.6666666666666666,0.5952380952380952,1.0,0.8
+2017-01-17,Toronto Raptors,119,Brooklyn Nets,109,False,Toronto Raptors,0.2,0.675,0.0,0.6
+2017-01-17,Houston Rockets,103,Miami Heat,109,True,Miami Heat,0.2682926829268293,0.7441860465116279,0.2,0.6
+2017-01-17,Dallas Mavericks,99,Chicago Bulls,98,False,Dallas Mavericks,0.5,0.325,0.4,0.4
+2017-01-17,Minnesota Timberwolves,114,San Antonio Spurs,122,True,San Antonio Spurs,0.775,0.34146341463414637,0.6,0.6
+2017-01-17,Denver Nuggets,127,Los Angeles Lakers,121,False,Denver Nuggets,0.3333333333333333,0.41025641025641024,0.2,0.4
+2017-01-18,Portland Trail Blazers,85,Charlotte Hornets,107,True,Charlotte Hornets,0.4878048780487805,0.4186046511627907,0.0,0.4
+2017-01-18,Toronto Raptors,89,Philadelphia 76ers,94,True,Philadelphia 76ers,0.3333333333333333,0.6829268292682927,0.8,0.8
+2017-01-18,Memphis Grizzlies,101,Washington Wizards,104,True,Washington Wizards,0.525,0.5813953488372093,0.8,0.6
+2017-01-18,New York Knicks,117,Boston Celtics,106,False,New York Knicks,0.6341463414634146,0.42857142857142855,0.8,0.2
+2017-01-18,Atlanta Hawks,95,Detroit Pistons,118,True,Detroit Pistons,0.4418604651162791,0.5853658536585366,0.4,0.8
+2017-01-18,Milwaukee Bucks,92,Houston Rockets,111,True,Houston Rockets,0.7272727272727273,0.5,0.4,0.4
+2017-01-18,Orlando Magic,98,New Orleans Pelicans,118,True,New Orleans Pelicans,0.38095238095238093,0.3953488372093023,0.4,0.2
+2017-01-18,Oklahoma City Thunder,100,Golden State Warriors,121,True,Golden State Warriors,0.8536585365853658,0.5813953488372093,0.8,0.6
+2017-01-18,Indiana Pacers,106,Sacramento Kings,100,False,Indiana Pacers,0.4,0.525,0.2,0.8
+2017-01-19,Phoenix Suns,103,Cleveland Cavaliers,118,True,Cleveland Cavaliers,0.725,0.3170731707317073,0.4,0.4
+2017-01-19,Dallas Mavericks,95,Miami Heat,99,True,Miami Heat,0.2857142857142857,0.34146341463414637,0.2,0.6
+2017-01-19,Washington Wizards,113,New York Knicks,110,False,Washington Wizards,0.4418604651162791,0.5365853658536586,0.4,0.8
+2017-01-19,Denver Nuggets,104,San Antonio Spurs,118,True,San Antonio Spurs,0.7804878048780488,0.425,0.6,0.6
+2017-01-19,Minnesota Timberwolves,104,Los Angeles Clippers,101,False,Minnesota Timberwolves,0.6744186046511628,0.3333333333333333,1.0,0.6
+2017-01-20,Toronto Raptors,78,Charlotte Hornets,113,True,Charlotte Hornets,0.5,0.6666666666666666,0.2,0.8
+2017-01-20,Milwaukee Bucks,96,Orlando Magic,112,True,Orlando Magic,0.38636363636363635,0.4878048780487805,0.2,0.4
+2017-01-20,Portland Trail Blazers,92,Philadelphia 76ers,93,True,Philadelphia 76ers,0.35,0.4090909090909091,0.8,0.4
+2017-01-20,Chicago Bulls,93,Atlanta Hawks,102,True,Atlanta Hawks,0.5714285714285714,0.4883720930232558,0.6,0.4
+2017-01-20,Golden State Warriors,125,Houston Rockets,108,False,Golden State Warriors,0.7333333333333333,0.8571428571428571,0.4,1.0
+2017-01-20,Sacramento Kings,91,Memphis Grizzlies,107,True,Memphis Grizzlies,0.5681818181818182,0.3902439024390244,0.4,0.2
+2017-01-20,Brooklyn Nets,143,New Orleans Pelicans,114,False,Brooklyn Nets,0.3953488372093023,0.1951219512195122,0.6,0.0
+2017-01-20,Utah Jazz,112,Dallas Mavericks,107,False,Utah Jazz,0.3333333333333333,0.627906976744186,0.6,0.8
+2017-01-20,Indiana Pacers,95,Los Angeles Lakers,108,True,Los Angeles Lakers,0.32608695652173914,0.5365853658536586,0.0,0.8
+2017-01-21,Portland Trail Blazers,127,Boston Celtics,123,False,Portland Trail Blazers,0.6190476190476191,0.4,0.6,0.2
+2017-01-21,Washington Wizards,112,Detroit Pistons,113,True,Detroit Pistons,0.45454545454545453,0.5476190476190477,0.4,0.8
+2017-01-21,Philadelphia 76ers,93,Atlanta Hawks,110,True,Atlanta Hawks,0.5813953488372093,0.36585365853658536,0.6,0.8
+2017-01-21,Brooklyn Nets,105,Charlotte Hornets,112,True,Charlotte Hornets,0.5116279069767442,0.21428571428571427,0.4,0.2
+2017-01-21,Milwaukee Bucks,97,Miami Heat,109,True,Miami Heat,0.3023255813953488,0.47619047619047616,0.4,0.2
+2017-01-21,Phoenix Suns,107,New York Knicks,105,False,Phoenix Suns,0.4318181818181818,0.30952380952380953,0.4,0.2
+2017-01-21,Houston Rockets,119,Memphis Grizzlies,95,False,Houston Rockets,0.5777777777777777,0.717391304347826,0.4,0.4
+2017-01-21,San Antonio Spurs,118,Cleveland Cavaliers,115,False,San Antonio Spurs,0.7317073170731707,0.7857142857142857,0.4,0.6
+2017-01-21,Sacramento Kings,99,Chicago Bulls,102,True,Chicago Bulls,0.4772727272727273,0.38095238095238093,0.4,0.2
+2017-01-21,Los Angeles Clippers,98,Denver Nuggets,123,True,Denver Nuggets,0.4146341463414634,0.6590909090909091,0.6,0.8
+2017-01-21,Indiana Pacers,100,Utah Jazz,109,True,Utah Jazz,0.6363636363636364,0.5238095238095238,1.0,0.6
+2017-01-22,Golden State Warriors,118,Orlando Magic,98,False,Golden State Warriors,0.4,0.8604651162790697,0.4,1.0
+2017-01-22,Los Angeles Lakers,73,Dallas Mavericks,122,True,Dallas Mavericks,0.32558139534883723,0.3404255319148936,0.6,0.2
+2017-01-22,Phoenix Suns,115,Toronto Raptors,103,False,Phoenix Suns,0.6511627906976745,0.32558139534883723,0.6,0.4
+2017-01-22,Denver Nuggets,108,Minnesota Timberwolves,111,True,Minnesota Timberwolves,0.3488372093023256,0.42857142857142855,0.6,0.8
+2017-01-23,Washington Wizards,109,Charlotte Hornets,99,False,Washington Wizards,0.5227272727272727,0.5348837209302325,0.6,0.8
+2017-01-23,Los Angeles Clippers,115,Atlanta Hawks,105,False,Los Angeles Clippers,0.5909090909090909,0.6444444444444445,0.8,0.6
+2017-01-23,San Antonio Spurs,112,Brooklyn Nets,86,False,San Antonio Spurs,0.20930232558139536,0.7906976744186046,0.2,0.8
+2017-01-23,Sacramento Kings,109,Detroit Pistons,104,False,Sacramento Kings,0.4666666666666667,0.37209302325581395,0.6,0.0
+2017-01-23,Golden State Warriors,102,Miami Heat,105,True,Miami Heat,0.3181818181818182,0.8636363636363636,0.6,1.0
+2017-01-23,New York Knicks,109,Indiana Pacers,103,False,New York Knicks,0.5116279069767442,0.4222222222222222,0.4,0.2
+2017-01-23,Houston Rockets,114,Milwaukee Bucks,127,True,Milwaukee Bucks,0.46511627906976744,0.723404255319149,0.0,0.6
+2017-01-23,Cleveland Cavaliers,122,New Orleans Pelicans,124,True,New Orleans Pelicans,0.38636363636363635,0.7142857142857143,0.4,0.4
+2017-01-23,Oklahoma City Thunder,97,Utah Jazz,95,False,Oklahoma City Thunder,0.6444444444444445,0.5681818181818182,1.0,0.4
+2017-01-24,Chicago Bulls,100,Orlando Magic,92,False,Chicago Bulls,0.391304347826087,0.4888888888888889,0.2,0.6
+2017-01-24,Los Angeles Clippers,110,Philadelphia 76ers,121,True,Philadelphia 76ers,0.35714285714285715,0.6521739130434783,0.6,0.6
+2017-01-24,San Antonio Spurs,108,Toronto Raptors,106,False,San Antonio Spurs,0.6363636363636364,0.7954545454545454,0.4,0.8
+2017-01-24,Boston Celtics,108,Washington Wizards,123,True,Washington Wizards,0.5454545454545454,0.6046511627906976,0.8,0.6
+2017-01-24,Utah Jazz,93,Denver Nuggets,103,True,Denver Nuggets,0.4186046511627907,0.6304347826086957,0.6,0.8
+2017-01-24,Minnesota Timberwolves,112,Phoenix Suns,111,False,Minnesota Timberwolves,0.3409090909090909,0.36363636363636365,0.6,0.6
+2017-01-25,Sacramento Kings,116,Cleveland Cavaliers,112,False,Sacramento Kings,0.6976744186046512,0.38636363636363635,0.4,0.2
+2017-01-25,Houston Rockets,109,Boston Celtics,120,True,Boston Celtics,0.5909090909090909,0.7083333333333334,0.4,0.4
+2017-01-25,Miami Heat,109,Brooklyn Nets,106,False,Miami Heat,0.20454545454545456,0.3333333333333333,0.2,0.8
+2017-01-25,Atlanta Hawks,119,Chicago Bulls,114,False,Atlanta Hawks,0.5,0.5777777777777777,0.6,0.6
+2017-01-25,Golden State Warriors,113,Charlotte Hornets,103,False,Golden State Warriors,0.5111111111111111,0.8444444444444444,0.6,0.8
+2017-01-25,Toronto Raptors,99,Memphis Grizzlies,101,True,Memphis Grizzlies,0.5652173913043478,0.6222222222222222,0.4,0.2
+2017-01-25,Philadelphia 76ers,114,Milwaukee Bucks,109,False,Philadelphia 76ers,0.4772727272727273,0.37209302325581395,0.2,0.8
+2017-01-25,Oklahoma City Thunder,114,New Orleans Pelicans,105,False,Oklahoma City Thunder,0.4,0.5777777777777777,0.4,0.4
+2017-01-25,New York Knicks,95,Dallas Mavericks,103,True,Dallas Mavericks,0.3409090909090909,0.43478260869565216,0.6,0.4
+2017-01-25,Los Angeles Lakers,98,Portland Trail Blazers,105,True,Portland Trail Blazers,0.41304347826086957,0.3333333333333333,0.2,0.2
+2017-01-26,Indiana Pacers,109,Minnesota Timberwolves,103,False,Indiana Pacers,0.37777777777777777,0.5,0.6,0.4
+2017-01-26,Dallas Mavericks,98,Oklahoma City Thunder,109,True,Oklahoma City Thunder,0.5869565217391305,0.35555555555555557,0.6,0.6
+2017-01-26,Phoenix Suns,120,Denver Nuggets,127,True,Denver Nuggets,0.4318181818181818,0.3333333333333333,0.6,0.4
+2017-01-26,Los Angeles Lakers,88,Utah Jazz,96,True,Utah Jazz,0.6170212765957447,0.32653061224489793,0.6,0.2
+2017-01-27,Sacramento Kings,111,Indiana Pacers,115,True,Indiana Pacers,0.5111111111111111,0.4,0.4,0.4
+2017-01-27,Orlando Magic,98,Boston Celtics,128,True,Boston Celtics,0.6,0.3829787234042553,0.4,0.2
+2017-01-27,Brooklyn Nets,116,Cleveland Cavaliers,124,True,Cleveland Cavaliers,0.6818181818181818,0.2,0.2,0.2
+2017-01-27,Charlotte Hornets,107,New York Knicks,110,True,New York Knicks,0.425531914893617,0.5,0.4,0.6
+2017-01-27,Milwaukee Bucks,86,Toronto Raptors,102,True,Toronto Raptors,0.6086956521739131,0.4666666666666667,0.0,0.2
+2017-01-27,Washington Wizards,112,Atlanta Hawks,86,False,Washington Wizards,0.5869565217391305,0.5555555555555556,0.6,0.8
+2017-01-27,Miami Heat,100,Chicago Bulls,88,False,Miami Heat,0.48936170212765956,0.34782608695652173,0.4,1.0
+2017-01-27,San Antonio Spurs,103,New Orleans Pelicans,119,True,New Orleans Pelicans,0.391304347826087,0.8,0.4,1.0
+2017-01-27,Houston Rockets,123,Philadelphia 76ers,118,False,Houston Rockets,0.38636363636363635,0.6938775510204082,0.8,0.4
+2017-01-27,Memphis Grizzlies,109,Portland Trail Blazers,112,True,Portland Trail Blazers,0.425531914893617,0.574468085106383,0.4,0.4
+2017-01-28,Sacramento Kings,109,Charlotte Hornets,106,False,Sacramento Kings,0.48936170212765956,0.391304347826087,0.4,0.4
+2017-01-28,Detroit Pistons,103,Miami Heat,116,True,Miami Heat,0.3617021276595745,0.45652173913043476,1.0,0.6
+2017-01-28,Boston Celtics,112,Milwaukee Bucks,108,False,Boston Celtics,0.45652173913043476,0.6086956521739131,0.2,0.4
+2017-01-28,Los Angeles Clippers,98,Golden State Warriors,144,True,Golden State Warriors,0.8478260869565217,0.6382978723404256,0.8,0.4
+2017-01-28,Brooklyn Nets,109,Minnesota Timberwolves,129,True,Minnesota Timberwolves,0.3695652173913043,0.1956521739130435,0.6,0.2
+2017-01-28,Denver Nuggets,123,Phoenix Suns,112,False,Denver Nuggets,0.32608695652173914,0.4444444444444444,0.4,0.6
+2017-01-28,Memphis Grizzlies,102,Utah Jazz,95,False,Memphis Grizzlies,0.625,0.5625,0.6,0.4
+2017-01-29,New York Knicks,139,Atlanta Hawks,142,True,Atlanta Hawks,0.574468085106383,0.4375,0.6,0.4
+2017-01-29,Oklahoma City Thunder,91,Cleveland Cavaliers,107,True,Cleveland Cavaliers,0.6888888888888889,0.5957446808510638,0.4,0.6
+2017-01-29,Houston Rockets,101,Indiana Pacers,120,True,Indiana Pacers,0.5217391304347826,0.7,0.4,0.4
+2017-01-29,Washington Wizards,107,New Orleans Pelicans,94,False,Washington Wizards,0.40425531914893614,0.5652173913043478,0.6,0.8
+2017-01-29,Orlando Magic,114,Toronto Raptors,113,False,Orlando Magic,0.6170212765957447,0.375,0.2,0.2
+2017-01-29,Philadelphia 76ers,108,Chicago Bulls,121,True,Chicago Bulls,0.4791666666666667,0.37777777777777777,0.4,0.6
+2017-01-29,Dallas Mavericks,105,San Antonio Spurs,101,False,Dallas Mavericks,0.782608695652174,0.34782608695652173,0.8,0.4
+2017-01-29,Golden State Warriors,113,Portland Trail Blazers,111,False,Golden State Warriors,0.4375,0.851063829787234,0.6,0.8
+2017-01-30,Sacramento Kings,119,Philadelphia 76ers,122,True,Philadelphia 76ers,0.3695652173913043,0.40425531914893614,0.4,0.6
+2017-01-30,Brooklyn Nets,96,Miami Heat,104,True,Miami Heat,0.375,0.19148936170212766,1.0,0.0
+2017-01-30,Detroit Pistons,109,Boston Celtics,113,True,Boston Celtics,0.6170212765957447,0.44680851063829785,0.6,0.6
+2017-01-30,Orlando Magic,105,Minnesota Timberwolves,111,True,Minnesota Timberwolves,0.3829787234042553,0.3877551020408163,0.8,0.4
+2017-01-30,Cleveland Cavaliers,97,Dallas Mavericks,104,True,Dallas Mavericks,0.3617021276595745,0.6956521739130435,0.6,0.4
+2017-01-30,Memphis Grizzlies,115,Phoenix Suns,96,False,Memphis Grizzlies,0.3191489361702128,0.5714285714285714,0.4,0.6
+2017-01-31,New Orleans Pelicans,106,Toronto Raptors,108,True,Toronto Raptors,0.6041666666666666,0.3958333333333333,0.2,0.4
+2017-01-31,New York Knicks,101,Washington Wizards,117,True,Washington Wizards,0.574468085106383,0.42857142857142855,0.8,0.4
+2017-01-31,Sacramento Kings,83,Houston Rockets,105,True,Houston Rockets,0.6862745098039216,0.3958333333333333,0.4,0.6
+2017-01-31,Oklahoma City Thunder,94,San Antonio Spurs,108,True,San Antonio Spurs,0.7659574468085106,0.5833333333333334,0.6,0.6
+2017-01-31,Charlotte Hornets,98,Portland Trail Blazers,115,True,Portland Trail Blazers,0.42857142857142855,0.4791666666666667,0.6,0.2
+2017-01-31,Denver Nuggets,116,Los Angeles Lakers,120,True,Los Angeles Lakers,0.32,0.45652173913043476,0.2,0.8
+2017-02-01,Minnesota Timberwolves,97,Cleveland Cavaliers,125,True,Cleveland Cavaliers,0.6808510638297872,0.3958333333333333,0.4,0.8
+2017-02-01,Indiana Pacers,98,Orlando Magic,88,False,Indiana Pacers,0.38,0.5319148936170213,0.2,0.6
+2017-02-01,Toronto Raptors,104,Boston Celtics,109,True,Boston Celtics,0.625,0.6122448979591837,0.8,0.4
+2017-02-01,New York Knicks,95,Brooklyn Nets,90,False,New York Knicks,0.1875,0.42,0.0,0.4
+2017-02-01,New Orleans Pelicans,98,Detroit Pistons,118,True,Detroit Pistons,0.4375,0.3877551020408163,0.4,0.4
+2017-02-01,Atlanta Hawks,93,Miami Heat,116,True,Miami Heat,0.3877551020408163,0.5833333333333334,1.0,0.6
+2017-02-01,Philadelphia 76ers,95,Dallas Mavericks,113,True,Dallas Mavericks,0.375,0.3829787234042553,0.8,0.6
+2017-02-01,Memphis Grizzlies,119,Denver Nuggets,99,False,Memphis Grizzlies,0.44680851063829785,0.58,0.6,0.6
+2017-02-01,Los Angeles Clippers,124,Phoenix Suns,114,False,Los Angeles Clippers,0.3125,0.625,0.2,0.2
+2017-02-01,Milwaukee Bucks,88,Utah Jazz,104,True,Utah Jazz,0.6122448979591837,0.44680851063829785,0.4,0.2
+2017-02-01,Chicago Bulls,128,Oklahoma City Thunder,100,False,Chicago Bulls,0.5714285714285714,0.4897959183673469,0.6,0.6
+2017-02-01,Charlotte Hornets,111,Golden State Warriors,126,True,Golden State Warriors,0.8541666666666666,0.46938775510204084,0.8,0.0
+2017-02-02,Los Angeles Lakers,108,Washington Wizards,116,True,Washington Wizards,0.5833333333333334,0.3333333333333333,1.0,0.4
+2017-02-02,Atlanta Hawks,113,Houston Rockets,108,False,Atlanta Hawks,0.6923076923076923,0.5714285714285714,0.4,0.4
+2017-02-02,Philadelphia 76ers,86,San Antonio Spurs,102,True,San Antonio Spurs,0.7708333333333334,0.375,0.6,0.4
+2017-02-02,Golden State Warriors,133,Los Angeles Clippers,120,False,Golden State Warriors,0.6326530612244898,0.8571428571428571,0.4,0.8
+2017-02-03,Toronto Raptors,94,Orlando Magic,102,True,Orlando Magic,0.37254901960784315,0.6,0.2,0.4
+2017-02-03,Indiana Pacers,106,Brooklyn Nets,97,False,Indiana Pacers,0.1836734693877551,0.5416666666666666,0.0,0.8
+2017-02-03,Minnesota Timberwolves,108,Detroit Pistons,116,True,Detroit Pistons,0.4489795918367347,0.3877551020408163,0.4,0.6
+2017-02-03,Los Angeles Lakers,107,Boston Celtics,113,True,Boston Celtics,0.6326530612244898,0.3269230769230769,1.0,0.2
+2017-02-03,Chicago Bulls,117,Houston Rockets,121,True,Houston Rockets,0.6792452830188679,0.5,0.4,0.6
+2017-02-03,Memphis Grizzlies,102,Oklahoma City Thunder,114,True,Oklahoma City Thunder,0.56,0.5882352941176471,0.4,0.8
+2017-02-03,Milwaukee Bucks,117,Denver Nuggets,121,True,Denver Nuggets,0.4375,0.4375,0.6,0.2
+2017-02-03,Dallas Mavericks,108,Portland Trail Blazers,104,False,Dallas Mavericks,0.44,0.3877551020408163,0.8,0.8
+2017-02-03,Phoenix Suns,105,Sacramento Kings,103,False,Phoenix Suns,0.3877551020408163,0.30612244897959184,0.4,0.0
+2017-02-04,Orlando Magic,86,Atlanta Hawks,113,True,Atlanta Hawks,0.58,0.38461538461538464,0.6,0.4
+2017-02-04,Detroit Pistons,84,Indiana Pacers,105,True,Indiana Pacers,0.5510204081632653,0.46,1.0,0.4
+2017-02-04,New Orleans Pelicans,91,Washington Wizards,105,True,Washington Wizards,0.5918367346938775,0.38,1.0,0.2
+2017-02-04,Philadelphia 76ers,102,Miami Heat,125,True,Miami Heat,0.4,0.3673469387755102,1.0,0.2
+2017-02-04,Cleveland Cavaliers,111,New York Knicks,104,False,Cleveland Cavaliers,0.43137254901960786,0.6875,0.4,0.6
+2017-02-04,Memphis Grizzlies,107,Minnesota Timberwolves,99,False,Memphis Grizzlies,0.38,0.5769230769230769,0.4,0.6
+2017-02-04,Milwaukee Bucks,137,Phoenix Suns,112,False,Milwaukee Bucks,0.32,0.42857142857142855,0.2,0.0
+2017-02-04,Denver Nuggets,97,San Antonio Spurs,121,True,San Antonio Spurs,0.7755102040816326,0.4489795918367347,0.6,0.6
+2017-02-04,Charlotte Hornets,98,Utah Jazz,105,True,Utah Jazz,0.62,0.46,0.4,0.0
+2017-02-04,Golden State Warriors,106,Sacramento Kings,109,True,Sacramento Kings,0.38,0.86,0.2,1.0
+2017-02-05,Toronto Raptors,103,Brooklyn Nets,95,False,Toronto Raptors,0.18,0.5882352941176471,0.0,0.4
+2017-02-05,Los Angeles Clippers,102,Boston Celtics,107,True,Boston Celtics,0.64,0.62,1.0,0.4
+2017-02-05,Portland Trail Blazers,99,Oklahoma City Thunder,105,True,Oklahoma City Thunder,0.5686274509803921,0.43137254901960786,0.4,0.6
+2017-02-06,Oklahoma City Thunder,90,Indiana Pacers,93,True,Indiana Pacers,0.56,0.5769230769230769,1.0,0.4
+2017-02-06,Los Angeles Lakers,121,New York Knicks,107,False,Los Angeles Lakers,0.4230769230769231,0.32075471698113206,0.4,0.2
+2017-02-06,Cleveland Cavaliers,140,Washington Wizards,135,False,Cleveland Cavaliers,0.6,0.6938775510204082,1.0,0.8
+2017-02-06,Utah Jazz,120,Atlanta Hawks,95,False,Utah Jazz,0.5882352941176471,0.6274509803921569,0.6,0.6
+2017-02-06,Philadelphia 76ers,96,Detroit Pistons,113,True,Detroit Pistons,0.45098039215686275,0.36,0.4,0.2
+2017-02-06,Los Angeles Clippers,109,Toronto Raptors,118,True,Toronto Raptors,0.5961538461538461,0.6078431372549019,0.4,0.2
+2017-02-06,Miami Heat,115,Minnesota Timberwolves,113,False,Miami Heat,0.37254901960784315,0.4117647058823529,0.4,1.0
+2017-02-06,Phoenix Suns,106,New Orleans Pelicans,111,True,New Orleans Pelicans,0.37254901960784315,0.3137254901960784,0.2,0.2
+2017-02-06,Dallas Mavericks,87,Denver Nuggets,110,True,Denver Nuggets,0.44,0.4,0.4,0.8
+2017-02-06,San Antonio Spurs,74,Memphis Grizzlies,89,True,Memphis Grizzlies,0.5849056603773585,0.78,0.8,0.6
+2017-02-06,Chicago Bulls,112,Sacramento Kings,107,False,Chicago Bulls,0.39215686274509803,0.49019607843137253,0.4,0.4
+2017-02-07,Brooklyn Nets,107,Charlotte Hornets,111,True,Charlotte Hornets,0.45098039215686275,0.17647058823529413,0.0,0.0
+2017-02-07,Orlando Magic,104,Houston Rockets,128,True,Houston Rockets,0.6851851851851852,0.37735849056603776,0.6,0.4
+2017-02-07,Portland Trail Blazers,114,Dallas Mavericks,113,False,Portland Trail Blazers,0.39215686274509803,0.4230769230769231,0.8,0.4
+2017-02-08,Cleveland Cavaliers,132,Indiana Pacers,117,False,Cleveland Cavaliers,0.5686274509803921,0.7,1.0,0.8
+2017-02-08,San Antonio Spurs,111,Philadelphia 76ers,103,False,San Antonio Spurs,0.35294117647058826,0.7647058823529411,0.2,0.6
+2017-02-08,Denver Nuggets,106,Atlanta Hawks,117,True,Atlanta Hawks,0.5769230769230769,0.45098039215686275,0.6,0.4
+2017-02-08,Washington Wizards,114,Brooklyn Nets,110,False,Washington Wizards,0.17307692307692307,0.5882352941176471,0.0,0.8
+2017-02-08,Los Angeles Lakers,102,Detroit Pistons,121,True,Detroit Pistons,0.46153846153846156,0.3333333333333333,0.6,0.4
+2017-02-08,Phoenix Suns,91,Memphis Grizzlies,110,True,Memphis Grizzlies,0.5925925925925926,0.3076923076923077,0.8,0.2
+2017-02-08,Miami Heat,106,Milwaukee Bucks,88,False,Miami Heat,0.44,0.4230769230769231,0.2,1.0
+2017-02-08,Toronto Raptors,109,Minnesota Timberwolves,112,True,Minnesota Timberwolves,0.36538461538461536,0.6037735849056604,0.2,0.6
+2017-02-08,Utah Jazz,127,New Orleans Pelicans,94,False,Utah Jazz,0.38461538461538464,0.6346153846153846,0.2,0.8
+2017-02-08,Los Angeles Clippers,119,New York Knicks,115,False,Los Angeles Clippers,0.41509433962264153,0.5961538461538461,0.2,0.2
+2017-02-08,Chicago Bulls,92,Golden State Warriors,123,True,Golden State Warriors,0.8431372549019608,0.5,0.8,0.6
+2017-02-08,Boston Celtics,92,Sacramento Kings,108,True,Sacramento Kings,0.38461538461538464,0.6470588235294118,0.2,1.0
+2017-02-09,Houston Rockets,107,Charlotte Hornets,95,False,Houston Rockets,0.46153846153846156,0.6909090909090909,0.2,0.6
+2017-02-09,Philadelphia 76ers,112,Orlando Magic,111,False,Philadelphia 76ers,0.37037037037037035,0.34615384615384615,0.2,0.0
+2017-02-09,Cleveland Cavaliers,109,Oklahoma City Thunder,118,True,Oklahoma City Thunder,0.5660377358490566,0.7058823529411765,0.4,0.8
+2017-02-09,Utah Jazz,105,Dallas Mavericks,112,True,Dallas Mavericks,0.38461538461538464,0.6415094339622641,0.6,0.8
+2017-02-09,Boston Celtics,120,Portland Trail Blazers,111,False,Boston Celtics,0.4339622641509434,0.6346153846153846,0.4,0.8
+2017-02-10,Miami Heat,108,Brooklyn Nets,99,False,Miami Heat,0.16981132075471697,0.4339622641509434,0.0,1.0
+2017-02-10,San Antonio Spurs,103,Detroit Pistons,92,False,San Antonio Spurs,0.4716981132075472,0.7692307692307693,0.8,0.8
+2017-02-10,Denver Nuggets,131,New York Knicks,123,False,Denver Nuggets,0.4074074074074074,0.4423076923076923,0.2,0.4
+2017-02-10,Golden State Warriors,122,Memphis Grizzlies,107,False,Golden State Warriors,0.6,0.8461538461538461,0.8,0.8
+2017-02-10,Los Angeles Lakers,122,Milwaukee Bucks,114,False,Los Angeles Lakers,0.43137254901960786,0.32727272727272727,0.2,0.4
+2017-02-10,New Orleans Pelicans,122,Minnesota Timberwolves,106,False,New Orleans Pelicans,0.37735849056603776,0.37735849056603776,0.2,0.2
+2017-02-10,Indiana Pacers,107,Washington Wizards,112,True,Washington Wizards,0.5961538461538461,0.5576923076923077,0.8,0.8
+2017-02-10,Chicago Bulls,97,Phoenix Suns,115,True,Phoenix Suns,0.3018867924528302,0.49056603773584906,0.2,0.6
+2017-02-10,Atlanta Hawks,107,Sacramento Kings,108,True,Sacramento Kings,0.39622641509433965,0.5849056603773585,0.4,0.6
+2017-02-11,Los Angeles Clippers,107,Charlotte Hornets,102,False,Los Angeles Clippers,0.4528301886792453,0.6037735849056604,0.2,0.4
+2017-02-11,Milwaukee Bucks,116,Indiana Pacers,100,False,Milwaukee Bucks,0.5471698113207547,0.4230769230769231,0.6,0.2
+2017-02-11,Denver Nuggets,109,Cleveland Cavaliers,125,True,Cleveland Cavaliers,0.6923076923076923,0.4528301886792453,0.8,0.6
+2017-02-11,Miami Heat,109,Philadelphia 76ers,117,True,Philadelphia 76ers,0.3584905660377358,0.4444444444444444,0.2,1.0
+2017-02-11,Golden State Warriors,130,Oklahoma City Thunder,114,False,Golden State Warriors,0.5740740740740741,0.8490566037735849,0.6,0.8
+2017-02-11,Orlando Magic,80,Dallas Mavericks,112,True,Dallas Mavericks,0.39622641509433965,0.36363636363636365,0.6,0.2
+2017-02-11,Phoenix Suns,102,Houston Rockets,133,True,Houston Rockets,0.6964285714285714,0.3148148148148148,0.8,0.4
+2017-02-11,Boston Celtics,112,Utah Jazz,104,False,Boston Celtics,0.6296296296296297,0.6415094339622641,0.8,0.8
+2017-02-12,Chicago Bulls,89,Minnesota Timberwolves,117,True,Minnesota Timberwolves,0.37037037037037035,0.48148148148148145,0.2,0.4
+2017-02-12,San Antonio Spurs,90,New York Knicks,94,True,New York Knicks,0.4,0.7735849056603774,0.2,0.8
+2017-02-12,Detroit Pistons,102,Toronto Raptors,101,False,Detroit Pistons,0.5925925925925926,0.46296296296296297,0.4,0.6
+2017-02-12,New Orleans Pelicans,99,Sacramento Kings,105,True,Sacramento Kings,0.4074074074074074,0.3888888888888889,0.6,0.4
+2017-02-13,Philadelphia 76ers,105,Charlotte Hornets,99,False,Philadelphia 76ers,0.4444444444444444,0.37037037037037035,0.2,0.4
+2017-02-13,San Antonio Spurs,110,Indiana Pacers,106,False,San Antonio Spurs,0.5370370370370371,0.7592592592592593,0.4,0.6
+2017-02-13,Memphis Grizzlies,112,Brooklyn Nets,103,False,Memphis Grizzlies,0.16666666666666666,0.5892857142857143,0.0,0.6
+2017-02-13,Orlando Magic,116,Miami Heat,107,False,Orlando Magic,0.43636363636363634,0.35714285714285715,0.8,0.2
+2017-02-13,Detroit Pistons,89,Milwaukee Bucks,102,True,Milwaukee Bucks,0.4339622641509434,0.4727272727272727,0.4,0.6
+2017-02-13,Oklahoma City Thunder,98,Washington Wizards,120,True,Washington Wizards,0.6037735849056604,0.5636363636363636,0.8,0.6
+2017-02-13,Boston Celtics,111,Dallas Mavericks,98,False,Boston Celtics,0.4074074074074074,0.6481481481481481,0.6,0.8
+2017-02-13,Golden State Warriors,110,Denver Nuggets,132,True,Denver Nuggets,0.4444444444444444,0.8518518518518519,0.4,0.8
+2017-02-13,New Orleans Pelicans,110,Phoenix Suns,108,False,New Orleans Pelicans,0.3090909090909091,0.38181818181818183,0.2,0.4
+2017-02-13,Los Angeles Clippers,88,Utah Jazz,72,False,Los Angeles Clippers,0.6181818181818182,0.6111111111111112,0.6,0.4
+2017-02-13,Atlanta Hawks,109,Portland Trail Blazers,104,False,Atlanta Hawks,0.42592592592592593,0.5740740740740741,0.4,0.6
+2017-02-14,Toronto Raptors,94,Chicago Bulls,105,True,Chicago Bulls,0.4727272727272727,0.5818181818181818,0.2,0.4
+2017-02-14,Cleveland Cavaliers,116,Minnesota Timberwolves,108,False,Cleveland Cavaliers,0.38181818181818183,0.6981132075471698,0.4,0.8
+2017-02-14,Sacramento Kings,97,Los Angeles Lakers,96,False,Sacramento Kings,0.3392857142857143,0.41818181818181815,0.4,0.8
+2017-02-15,Indiana Pacers,104,Cleveland Cavaliers,113,True,Cleveland Cavaliers,0.7037037037037037,0.5272727272727272,0.8,0.2
+2017-02-15,San Antonio Spurs,107,Orlando Magic,79,False,San Antonio Spurs,0.3684210526315789,0.7636363636363637,0.2,0.6
+2017-02-15,Philadelphia 76ers,108,Boston Celtics,116,True,Boston Celtics,0.6545454545454545,0.38181818181818183,0.8,0.6
+2017-02-15,Milwaukee Bucks,129,Brooklyn Nets,125,False,Milwaukee Bucks,0.16363636363636364,0.4444444444444444,0.0,0.6
+2017-02-15,Dallas Mavericks,91,Detroit Pistons,98,True,Detroit Pistons,0.4642857142857143,0.4,0.6,0.4
+2017-02-15,Charlotte Hornets,85,Toronto Raptors,90,True,Toronto Raptors,0.5714285714285714,0.43636363636363634,0.4,0.2
+2017-02-15,Miami Heat,117,Houston Rockets,109,False,Miami Heat,0.7017543859649122,0.42857142857142855,0.8,0.6
+2017-02-15,New Orleans Pelicans,95,Memphis Grizzlies,91,False,New Orleans Pelicans,0.5964912280701754,0.39285714285714285,0.8,0.6
+2017-02-15,Minnesota Timberwolves,112,Denver Nuggets,99,False,Minnesota Timberwolves,0.45454545454545453,0.375,0.6,0.4
+2017-02-15,Los Angeles Lakers,101,Phoenix Suns,137,True,Phoenix Suns,0.30357142857142855,0.3333333333333333,0.2,0.4
+2017-02-15,Portland Trail Blazers,88,Utah Jazz,111,True,Utah Jazz,0.6071428571428571,0.41818181818181815,0.4,0.2
+2017-02-15,New York Knicks,105,Oklahoma City Thunder,116,True,Oklahoma City Thunder,0.5535714285714286,0.4107142857142857,0.4,0.2
+2017-02-15,Sacramento Kings,86,Golden State Warriors,109,True,Golden State Warriors,0.8363636363636363,0.42857142857142855,0.6,0.8
+2017-02-15,Atlanta Hawks,84,Los Angeles Clippers,99,True,Los Angeles Clippers,0.6181818181818182,0.5818181818181818,0.6,0.6
+2017-02-16,Washington Wizards,111,Indiana Pacers,98,False,Washington Wizards,0.5178571428571429,0.6111111111111112,0.0,0.8
+2017-02-16,Boston Celtics,103,Chicago Bulls,104,True,Chicago Bulls,0.48214285714285715,0.6607142857142857,0.4,0.8
+2017-02-23,Portland Trail Blazers,112,Orlando Magic,103,False,Portland Trail Blazers,0.3620689655172414,0.4107142857142857,0.2,0.2
+2017-02-23,Charlotte Hornets,108,Detroit Pistons,114,True,Detroit Pistons,0.47368421052631576,0.42857142857142855,0.6,0.2
+2017-02-23,New York Knicks,104,Cleveland Cavaliers,119,True,Cleveland Cavaliers,0.7090909090909091,0.40350877192982454,0.8,0.2
+2017-02-23,Houston Rockets,129,New Orleans Pelicans,99,False,Houston Rockets,0.40350877192982454,0.6896551724137931,0.6,0.8
+2017-02-23,Los Angeles Clippers,113,Golden State Warriors,123,True,Golden State Warriors,0.8392857142857143,0.625,0.8,0.8
+2017-02-23,Denver Nuggets,100,Sacramento Kings,116,True,Sacramento Kings,0.42105263157894735,0.44642857142857145,0.8,0.4
+2017-02-24,Memphis Grizzlies,92,Indiana Pacers,102,True,Indiana Pacers,0.5087719298245614,0.5862068965517241,0.0,0.6
+2017-02-24,Washington Wizards,112,Philadelphia 76ers,120,True,Philadelphia 76ers,0.375,0.6181818181818182,0.6,0.8
+2017-02-24,Miami Heat,108,Atlanta Hawks,90,False,Miami Heat,0.5714285714285714,0.43859649122807015,0.4,0.6
+2017-02-24,Phoenix Suns,121,Chicago Bulls,128,True,Chicago Bulls,0.49122807017543857,0.3157894736842105,0.4,0.4
+2017-02-24,Utah Jazz,109,Milwaukee Bucks,95,False,Utah Jazz,0.45454545454545453,0.6140350877192983,0.6,0.4
+2017-02-24,Dallas Mavericks,84,Minnesota Timberwolves,97,True,Minnesota Timberwolves,0.38596491228070173,0.39285714285714285,0.6,0.4
+2017-02-24,Los Angeles Lakers,93,Oklahoma City Thunder,110,True,Oklahoma City Thunder,0.5614035087719298,0.3275862068965517,0.4,0.4
+2017-02-24,Boston Celtics,97,Toronto Raptors,107,True,Toronto Raptors,0.5789473684210527,0.6491228070175439,0.4,0.8
+2017-02-24,Brooklyn Nets,109,Denver Nuggets,129,True,Denver Nuggets,0.43859649122807015,0.16071428571428573,0.4,0.0
+2017-02-24,San Antonio Spurs,105,Los Angeles Clippers,97,False,San Antonio Spurs,0.6140350877192983,0.7678571428571429,0.8,0.8
+2017-02-25,Charlotte Hornets,99,Sacramento Kings,85,False,Charlotte Hornets,0.43103448275862066,0.42105263157894735,0.8,0.0
+2017-02-25,Atlanta Hawks,86,Orlando Magic,105,True,Orlando Magic,0.3559322033898305,0.5614035087719298,0.2,0.4
+2017-02-25,Philadelphia 76ers,109,New York Knicks,110,True,New York Knicks,0.39655172413793105,0.38596491228070173,0.2,0.8
+2017-02-25,Indiana Pacers,95,Miami Heat,113,True,Miami Heat,0.4482758620689655,0.5172413793103449,0.6,0.2
+2017-02-25,Chicago Bulls,117,Cleveland Cavaliers,99,False,Chicago Bulls,0.7142857142857143,0.5,0.8,0.6
+2017-02-25,New Orleans Pelicans,83,Dallas Mavericks,96,True,Dallas Mavericks,0.38596491228070173,0.39655172413793105,0.4,0.6
+2017-02-25,Minnesota Timberwolves,130,Houston Rockets,142,True,Houston Rockets,0.6949152542372882,0.39655172413793105,0.8,0.6
+2017-02-25,Brooklyn Nets,95,Golden State Warriors,112,True,Golden State Warriors,0.8421052631578947,0.15789473684210525,0.8,0.0
+2017-02-26,San Antonio Spurs,119,Los Angeles Lakers,98,False,San Antonio Spurs,0.3220338983050847,0.7719298245614035,0.2,0.8
+2017-02-26,Phoenix Suns,96,Milwaukee Bucks,100,True,Milwaukee Bucks,0.44642857142857145,0.3103448275862069,0.6,0.4
+2017-02-26,Memphis Grizzlies,105,Denver Nuggets,98,False,Memphis Grizzlies,0.4482758620689655,0.576271186440678,0.4,0.4
+2017-02-26,Utah Jazz,102,Washington Wizards,92,False,Utah Jazz,0.6071428571428571,0.6206896551724138,0.8,0.4
+2017-02-26,Boston Celtics,104,Detroit Pistons,98,False,Boston Celtics,0.4827586206896552,0.6379310344827587,0.6,0.6
+2017-02-26,Portland Trail Blazers,106,Toronto Raptors,112,True,Toronto Raptors,0.5862068965517241,0.42105263157894735,0.4,0.4
+2017-02-26,New Orleans Pelicans,110,Oklahoma City Thunder,118,True,Oklahoma City Thunder,0.5689655172413793,0.3898305084745763,0.6,0.4
+2017-02-26,Charlotte Hornets,121,Los Angeles Clippers,124,True,Los Angeles Clippers,0.603448275862069,0.43103448275862066,0.6,0.2
+2017-02-27,Milwaukee Bucks,95,Cleveland Cavaliers,102,True,Cleveland Cavaliers,0.7017543859649122,0.45614035087719296,0.8,0.8
+2017-02-27,Toronto Raptors,92,New York Knicks,91,False,Toronto Raptors,0.4067796610169492,0.5932203389830508,0.4,0.6
+2017-02-27,Golden State Warriors,119,Philadelphia 76ers,108,False,Golden State Warriors,0.3793103448275862,0.8448275862068966,0.6,0.8
+2017-02-27,Atlanta Hawks,114,Boston Celtics,98,False,Atlanta Hawks,0.6440677966101694,0.5517241379310345,0.6,0.2
+2017-02-27,Miami Heat,89,Dallas Mavericks,96,True,Dallas Mavericks,0.39655172413793105,0.4576271186440678,0.4,0.6
+2017-02-27,Indiana Pacers,117,Houston Rockets,108,False,Indiana Pacers,0.7,0.5084745762711864,0.8,0.2
+2017-02-27,Minnesota Timberwolves,102,Sacramento Kings,88,False,Minnesota Timberwolves,0.423728813559322,0.3898305084745763,0.6,0.6
+2017-02-28,Golden State Warriors,108,Washington Wizards,112,True,Washington Wizards,0.5964912280701754,0.847457627118644,0.6,0.8
+2017-02-28,Portland Trail Blazers,113,Detroit Pistons,120,True,Detroit Pistons,0.4745762711864407,0.41379310344827586,0.6,0.2
+2017-02-28,Denver Nuggets,125,Chicago Bulls,107,False,Denver Nuggets,0.5084745762711864,0.4406779661016949,0.8,0.4
+2017-02-28,Phoenix Suns,112,Memphis Grizzlies,130,True,Memphis Grizzlies,0.5833333333333334,0.3050847457627119,0.4,0.2
+2017-02-28,Utah Jazz,106,Oklahoma City Thunder,109,True,Oklahoma City Thunder,0.576271186440678,0.6271186440677966,0.6,0.6
+2017-02-28,Charlotte Hornets,109,Los Angeles Lakers,104,False,Charlotte Hornets,0.31666666666666665,0.423728813559322,0.2,0.2
+2017-03-01,New York Knicks,101,Orlando Magic,90,False,New York Knicks,0.36666666666666664,0.4,0.4,0.4
+2017-03-01,Dallas Mavericks,95,Atlanta Hawks,100,True,Atlanta Hawks,0.559322033898305,0.4067796610169492,0.4,0.4
+2017-03-01,Philadelphia 76ers,98,Miami Heat,125,True,Miami Heat,0.45,0.3728813559322034,0.6,0.4
+2017-03-01,Washington Wizards,105,Toronto Raptors,96,False,Washington Wizards,0.6,0.603448275862069,0.8,0.6
+2017-03-01,Cleveland Cavaliers,99,Boston Celtics,103,True,Boston Celtics,0.6333333333333333,0.7068965517241379,0.4,0.8
+2017-03-01,Denver Nuggets,110,Milwaukee Bucks,98,False,Denver Nuggets,0.4482758620689655,0.45,0.6,0.4
+2017-03-01,Detroit Pistons,86,New Orleans Pelicans,109,True,New Orleans Pelicans,0.38333333333333336,0.48333333333333334,0.4,0.6
+2017-03-01,Indiana Pacers,99,San Antonio Spurs,100,True,San Antonio Spurs,0.7758620689655172,0.5166666666666667,0.8,0.4
+2017-03-01,Minnesota Timberwolves,107,Utah Jazz,80,False,Minnesota Timberwolves,0.6166666666666667,0.4,0.6,0.6
+2017-03-01,Houston Rockets,122,Los Angeles Clippers,103,False,Houston Rockets,0.6101694915254238,0.6885245901639344,0.6,0.6
+2017-03-01,Brooklyn Nets,109,Sacramento Kings,100,False,Brooklyn Nets,0.4166666666666667,0.15517241379310345,0.4,0.0
+2017-03-02,Golden State Warriors,87,Chicago Bulls,94,True,Chicago Bulls,0.5,0.8333333333333334,0.8,0.8
+2017-03-02,Charlotte Hornets,103,Phoenix Suns,120,True,Phoenix Suns,0.3,0.43333333333333335,0.2,0.4
+2017-03-02,Oklahoma City Thunder,109,Portland Trail Blazers,114,True,Portland Trail Blazers,0.4067796610169492,0.5833333333333334,0.2,0.8
+2017-03-03,Cleveland Cavaliers,135,Atlanta Hawks,130,False,Cleveland Cavaliers,0.5666666666666667,0.6949152542372882,0.4,0.6
+2017-03-03,Miami Heat,99,Orlando Magic,110,True,Orlando Magic,0.36065573770491804,0.45901639344262296,0.4,0.8
+2017-03-03,New York Knicks,102,Philadelphia 76ers,105,True,Philadelphia 76ers,0.36666666666666664,0.4098360655737705,0.2,0.4
+2017-03-03,Toronto Raptors,114,Washington Wizards,106,False,Toronto Raptors,0.6101694915254238,0.5901639344262295,0.6,0.8
+2017-03-03,Los Angeles Clippers,101,Milwaukee Bucks,112,True,Milwaukee Bucks,0.4406779661016949,0.6,0.4,0.4
+2017-03-03,Memphis Grizzlies,100,Dallas Mavericks,104,True,Dallas Mavericks,0.4,0.5901639344262295,0.4,0.6
+2017-03-03,Oklahoma City Thunder,111,Phoenix Suns,118,True,Phoenix Suns,0.3114754098360656,0.5737704918032787,0.4,0.8
+2017-03-03,Brooklyn Nets,97,Utah Jazz,112,True,Utah Jazz,0.6065573770491803,0.1694915254237288,0.6,0.2
+2017-03-03,San Antonio Spurs,101,New Orleans Pelicans,98,False,San Antonio Spurs,0.39344262295081966,0.7796610169491526,0.4,1.0
+2017-03-03,Boston Celtics,115,Los Angeles Lakers,95,False,Boston Celtics,0.3114754098360656,0.639344262295082,0.0,0.4
+2017-03-04,Detroit Pistons,136,Philadelphia 76ers,106,False,Detroit Pistons,0.3770491803278688,0.47540983606557374,0.4,0.6
+2017-03-04,Cleveland Cavaliers,92,Miami Heat,120,True,Miami Heat,0.45161290322580644,0.7,0.6,0.6
+2017-03-04,Toronto Raptors,94,Milwaukee Bucks,101,True,Milwaukee Bucks,0.45,0.5967741935483871,0.4,0.8
+2017-03-04,Los Angeles Clippers,101,Chicago Bulls,91,False,Los Angeles Clippers,0.5081967213114754,0.5901639344262295,0.8,0.2
+2017-03-04,Charlotte Hornets,112,Denver Nuggets,102,False,Charlotte Hornets,0.45901639344262296,0.4262295081967213,0.6,0.4
+2017-03-04,Memphis Grizzlies,108,Houston Rockets,123,True,Houston Rockets,0.6935483870967742,0.5806451612903226,0.6,0.4
+2017-03-04,Minnesota Timberwolves,90,San Antonio Spurs,97,True,San Antonio Spurs,0.7833333333333333,0.4098360655737705,1.0,0.8
+2017-03-04,Brooklyn Nets,116,Portland Trail Blazers,130,True,Portland Trail Blazers,0.4166666666666667,0.16666666666666666,0.4,0.2
+2017-03-05,Indiana Pacers,97,Atlanta Hawks,96,False,Indiana Pacers,0.5573770491803278,0.5081967213114754,0.4,0.4
+2017-03-05,Golden State Warriors,112,New York Knicks,105,False,Golden State Warriors,0.4032258064516129,0.819672131147541,0.4,0.6
+2017-03-05,Boston Celtics,106,Phoenix Suns,109,True,Phoenix Suns,0.3225806451612903,0.6451612903225806,0.4,0.6
+2017-03-05,Orlando Magic,114,Washington Wizards,115,True,Washington Wizards,0.6,0.3709677419354839,0.4,0.4
+2017-03-05,Utah Jazz,110,Sacramento Kings,109,False,Utah Jazz,0.4098360655737705,0.6129032258064516,0.2,0.6
+2017-03-05,Oklahoma City Thunder,89,Dallas Mavericks,104,True,Dallas Mavericks,0.4098360655737705,0.5645161290322581,0.6,0.6
+2017-03-05,New Orleans Pelicans,105,Los Angeles Lakers,97,False,New Orleans Pelicans,0.3064516129032258,0.3870967741935484,0.0,0.2
+2017-03-06,Miami Heat,106,Cleveland Cavaliers,98,False,Miami Heat,0.6885245901639344,0.4603174603174603,0.4,0.6
+2017-03-06,New York Knicks,113,Orlando Magic,105,False,New York Knicks,0.36507936507936506,0.3968253968253968,0.4,0.4
+2017-03-06,Milwaukee Bucks,112,Philadelphia 76ers,98,False,Milwaukee Bucks,0.3709677419354839,0.45901639344262296,0.2,0.6
+2017-03-06,Golden State Warriors,119,Atlanta Hawks,111,False,Golden State Warriors,0.5483870967741935,0.8225806451612904,0.4,0.6
+2017-03-06,Chicago Bulls,95,Detroit Pistons,109,True,Detroit Pistons,0.4838709677419355,0.5,0.6,0.6
+2017-03-06,Indiana Pacers,88,Charlotte Hornets,100,True,Charlotte Hornets,0.43548387096774194,0.5161290322580645,0.6,0.6
+2017-03-06,Brooklyn Nets,122,Memphis Grizzlies,109,False,Brooklyn Nets,0.5714285714285714,0.16393442622950818,0.4,0.2
+2017-03-06,Houston Rockets,110,San Antonio Spurs,112,True,San Antonio Spurs,0.7868852459016393,0.6984126984126984,1.0,0.8
+2017-03-06,Sacramento Kings,96,Denver Nuggets,108,True,Denver Nuggets,0.45161290322580644,0.4032258064516129,0.6,0.2
+2017-03-06,New Orleans Pelicans,83,Utah Jazz,88,True,Utah Jazz,0.6190476190476191,0.3968253968253968,0.6,0.4
+2017-03-06,Boston Celtics,102,Los Angeles Clippers,116,True,Los Angeles Clippers,0.5967741935483871,0.6349206349206349,0.4,0.6
+2017-03-07,Portland Trail Blazers,126,Oklahoma City Thunder,121,False,Portland Trail Blazers,0.5555555555555556,0.4262295081967213,0.4,0.6
+2017-03-07,Los Angeles Lakers,111,Dallas Mavericks,122,True,Dallas Mavericks,0.41935483870967744,0.30158730158730157,0.8,0.0
+2017-03-07,Washington Wizards,131,Phoenix Suns,127,False,Washington Wizards,0.3333333333333333,0.6065573770491803,0.6,0.6
+2017-03-08,Chicago Bulls,91,Orlando Magic,98,True,Orlando Magic,0.359375,0.49206349206349204,0.4,0.4
+2017-03-08,Brooklyn Nets,105,Atlanta Hawks,110,True,Atlanta Hawks,0.5396825396825397,0.1774193548387097,0.4,0.4
+2017-03-08,Charlotte Hornets,101,Miami Heat,108,True,Miami Heat,0.46875,0.4444444444444444,0.6,0.6
+2017-03-08,Utah Jazz,115,Houston Rockets,108,False,Utah Jazz,0.6875,0.625,0.6,0.6
+2017-03-08,Detroit Pistons,98,Indiana Pacers,115,True,Indiana Pacers,0.5079365079365079,0.49206349206349204,0.4,0.6
+2017-03-08,New York Knicks,93,Milwaukee Bucks,104,True,Milwaukee Bucks,0.46774193548387094,0.40625,0.6,0.4
+2017-03-08,Los Angeles Clippers,91,Minnesota Timberwolves,107,True,Minnesota Timberwolves,0.4032258064516129,0.6031746031746031,0.6,0.6
+2017-03-08,Toronto Raptors,94,New Orleans Pelicans,87,False,Toronto Raptors,0.390625,0.5873015873015873,0.4,0.6
+2017-03-08,Sacramento Kings,104,San Antonio Spurs,114,True,San Antonio Spurs,0.7903225806451613,0.3968253968253968,1.0,0.0
+2017-03-08,Washington Wizards,123,Denver Nuggets,113,False,Washington Wizards,0.4603174603174603,0.6129032258064516,0.6,0.8
+2017-03-08,Boston Celtics,99,Golden State Warriors,86,False,Boston Celtics,0.8253968253968254,0.625,0.6,0.4
+2017-03-09,Cleveland Cavaliers,101,Detroit Pistons,106,True,Detroit Pistons,0.484375,0.6774193548387096,0.6,0.4
+2017-03-09,Los Angeles Clippers,114,Memphis Grizzlies,98,False,Los Angeles Clippers,0.5625,0.59375,0.4,0.4
+2017-03-09,San Antonio Spurs,92,Oklahoma City Thunder,102,True,Oklahoma City Thunder,0.546875,0.7936507936507936,0.2,1.0
+2017-03-09,Philadelphia 76ers,108,Portland Trail Blazers,114,True,Portland Trail Blazers,0.43548387096774194,0.36507936507936506,0.6,0.2
+2017-03-09,Los Angeles Lakers,122,Phoenix Suns,110,False,Los Angeles Lakers,0.328125,0.296875,0.6,0.0
+2017-03-10,Orlando Magic,81,Charlotte Hornets,121,True,Charlotte Hornets,0.4375,0.36923076923076925,0.6,0.4
+2017-03-10,Toronto Raptors,99,Atlanta Hawks,105,True,Atlanta Hawks,0.546875,0.59375,0.4,0.6
+2017-03-10,Houston Rockets,115,Chicago Bulls,94,False,Houston Rockets,0.484375,0.676923076923077,0.2,0.4
+2017-03-10,Indiana Pacers,85,Milwaukee Bucks,99,True,Milwaukee Bucks,0.47619047619047616,0.515625,0.8,0.6
+2017-03-10,Golden State Warriors,102,Minnesota Timberwolves,103,True,Minnesota Timberwolves,0.4126984126984127,0.8125,0.6,0.4
+2017-03-10,Brooklyn Nets,96,Dallas Mavericks,105,True,Dallas Mavericks,0.42857142857142855,0.1746031746031746,0.8,0.4
+2017-03-10,Boston Celtics,99,Denver Nuggets,119,True,Denver Nuggets,0.453125,0.6307692307692307,0.6,0.6
+2017-03-10,Washington Wizards,130,Sacramento Kings,122,False,Washington Wizards,0.390625,0.6190476190476191,0.0,0.8
+2017-03-11,Utah Jazz,104,Oklahoma City Thunder,112,True,Oklahoma City Thunder,0.5538461538461539,0.6307692307692307,0.2,0.8
+2017-03-11,Philadelphia 76ers,100,Los Angeles Clippers,112,True,Los Angeles Clippers,0.6,0.359375,0.6,0.2
+2017-03-11,New York Knicks,92,Detroit Pistons,112,True,Detroit Pistons,0.49230769230769234,0.4,0.6,0.4
+2017-03-11,New Orleans Pelicans,125,Charlotte Hornets,122,False,New Orleans Pelicans,0.4461538461538462,0.38461538461538464,0.6,0.4
+2017-03-11,Cleveland Cavaliers,116,Orlando Magic,104,False,Cleveland Cavaliers,0.36363636363636365,0.6666666666666666,0.4,0.2
+2017-03-11,Toronto Raptors,89,Miami Heat,104,True,Miami Heat,0.47692307692307695,0.5846153846153846,0.8,0.4
+2017-03-11,Minnesota Timberwolves,95,Milwaukee Bucks,102,True,Milwaukee Bucks,0.484375,0.421875,1.0,0.8
+2017-03-11,Golden State Warriors,85,San Antonio Spurs,107,True,San Antonio Spurs,0.78125,0.8,0.8,0.4
+2017-03-11,Phoenix Suns,100,Dallas Mavericks,98,False,Phoenix Suns,0.4375,0.3230769230769231,0.8,0.6
+2017-03-11,Atlanta Hawks,107,Memphis Grizzlies,90,False,Atlanta Hawks,0.5538461538461539,0.5538461538461539,0.2,0.4
+2017-03-11,Washington Wizards,125,Portland Trail Blazers,124,False,Washington Wizards,0.4444444444444444,0.625,0.8,0.8
+2017-03-11,Denver Nuggets,105,Sacramento Kings,92,False,Denver Nuggets,0.38461538461538464,0.46153846153846156,0.0,0.6
+2017-03-12,Chicago Bulls,80,Boston Celtics,100,True,Boston Celtics,0.6212121212121212,0.47692307692307695,0.4,0.2
+2017-03-12,New York Knicks,112,Brooklyn Nets,120,True,Brooklyn Nets,0.171875,0.3939393939393939,0.2,0.2
+2017-03-12,Miami Heat,98,Indiana Pacers,102,True,Indiana Pacers,0.5076923076923077,0.48484848484848486,0.4,0.8
+2017-03-12,Cleveland Cavaliers,112,Houston Rockets,117,True,Houston Rockets,0.6818181818181818,0.671875,0.6,0.4
+2017-03-12,Portland Trail Blazers,110,Phoenix Suns,101,False,Portland Trail Blazers,0.3333333333333333,0.4375,0.6,0.8
+2017-03-12,Philadelphia 76ers,118,Los Angeles Lakers,116,False,Philadelphia 76ers,0.3076923076923077,0.35384615384615387,0.2,0.2
+2017-03-13,Chicago Bulls,115,Charlotte Hornets,109,False,Chicago Bulls,0.4393939393939394,0.4696969696969697,0.6,0.0
+2017-03-13,Dallas Mavericks,78,Toronto Raptors,100,True,Toronto Raptors,0.5757575757575758,0.4307692307692308,0.4,0.8
+2017-03-13,Milwaukee Bucks,93,Memphis Grizzlies,113,True,Memphis Grizzlies,0.5454545454545454,0.49230769230769234,0.0,1.0
+2017-03-13,Washington Wizards,104,Minnesota Timberwolves,119,True,Minnesota Timberwolves,0.4153846153846154,0.6307692307692307,0.6,1.0
+2017-03-13,Atlanta Hawks,99,San Antonio Spurs,107,True,San Antonio Spurs,0.7846153846153846,0.5606060606060606,0.8,0.6
+2017-03-13,Los Angeles Clippers,108,Utah Jazz,114,True,Utah Jazz,0.6212121212121212,0.6060606060606061,0.8,0.8
+2017-03-13,Los Angeles Lakers,101,Denver Nuggets,129,True,Denver Nuggets,0.4696969696969697,0.30303030303030304,0.6,0.2
+2017-03-13,Orlando Magic,115,Sacramento Kings,120,True,Sacramento Kings,0.3787878787878788,0.3582089552238806,0.0,0.2
+2017-03-14,Detroit Pistons,96,Cleveland Cavaliers,128,True,Cleveland Cavaliers,0.6615384615384615,0.5,0.2,0.8
+2017-03-14,Oklahoma City Thunder,122,Brooklyn Nets,104,False,Oklahoma City Thunder,0.18461538461538463,0.5606060606060606,0.4,0.4
+2017-03-14,Indiana Pacers,81,New York Knicks,87,True,New York Knicks,0.3880597014925373,0.5151515151515151,0.2,0.6
+2017-03-14,Portland Trail Blazers,77,New Orleans Pelicans,100,True,New Orleans Pelicans,0.3939393939393939,0.4461538461538462,0.4,0.8
+2017-03-14,Philadelphia 76ers,104,Golden State Warriors,106,True,Golden State Warriors,0.7878787878787878,0.36363636363636365,0.4,0.2
+2017-03-15,Charlotte Hornets,77,Indiana Pacers,98,True,Indiana Pacers,0.5074626865671642,0.43283582089552236,0.4,0.4
+2017-03-15,Dallas Mavericks,112,Washington Wizards,107,False,Dallas Mavericks,0.6212121212121212,0.42424242424242425,0.8,0.6
+2017-03-15,Minnesota Timberwolves,104,Boston Celtics,117,True,Boston Celtics,0.6268656716417911,0.42424242424242425,0.4,0.6
+2017-03-15,Utah Jazz,97,Detroit Pistons,83,False,Utah Jazz,0.4925373134328358,0.6268656716417911,0.6,0.8
+2017-03-15,New Orleans Pelicans,112,Miami Heat,120,True,Miami Heat,0.47761194029850745,0.40298507462686567,0.8,0.6
+2017-03-15,Memphis Grizzlies,98,Chicago Bulls,91,False,Memphis Grizzlies,0.47761194029850745,0.5522388059701493,0.2,0.2
+2017-03-15,Los Angeles Lakers,100,Houston Rockets,139,True,Houston Rockets,0.6865671641791045,0.29850746268656714,0.6,0.2
+2017-03-15,Portland Trail Blazers,110,San Antonio Spurs,106,False,Portland Trail Blazers,0.7878787878787878,0.4393939393939394,0.8,0.6
+2017-03-15,Sacramento Kings,107,Phoenix Suns,101,False,Sacramento Kings,0.3283582089552239,0.3880597014925373,0.4,0.2
+2017-03-15,Milwaukee Bucks,97,Los Angeles Clippers,96,False,Milwaukee Bucks,0.5970149253731343,0.48484848484848486,0.6,0.8
+2017-03-16,Utah Jazz,83,Cleveland Cavaliers,91,True,Cleveland Cavaliers,0.6666666666666666,0.6323529411764706,0.4,0.8
+2017-03-16,Oklahoma City Thunder,123,Toronto Raptors,102,False,Oklahoma City Thunder,0.582089552238806,0.5671641791044776,0.4,0.6
+2017-03-16,Memphis Grizzlies,103,Atlanta Hawks,91,False,Memphis Grizzlies,0.5522388059701493,0.5588235294117647,0.6,0.4
+2017-03-16,Brooklyn Nets,121,New York Knicks,110,False,Brooklyn Nets,0.39705882352941174,0.18181818181818182,0.4,0.4
+2017-03-16,Los Angeles Clippers,114,Denver Nuggets,129,True,Denver Nuggets,0.47761194029850745,0.5882352941176471,0.8,0.4
+2017-03-16,Orlando Magic,92,Golden State Warriors,122,True,Golden State Warriors,0.7910447761194029,0.35294117647058826,0.4,0.2
+2017-03-17,Dallas Mavericks,74,Philadelphia 76ers,116,True,Philadelphia 76ers,0.3582089552238806,0.43283582089552236,0.2,0.6
+2017-03-17,Chicago Bulls,107,Washington Wizards,112,True,Washington Wizards,0.6119402985074627,0.47058823529411764,0.6,0.2
+2017-03-17,Boston Celtics,98,Brooklyn Nets,95,False,Boston Celtics,0.19402985074626866,0.6323529411764706,0.4,0.6
+2017-03-17,Toronto Raptors,87,Detroit Pistons,75,False,Toronto Raptors,0.4852941176470588,0.5735294117647058,0.4,0.4
+2017-03-17,Minnesota Timberwolves,105,Miami Heat,123,True,Miami Heat,0.4852941176470588,0.417910447761194,0.8,0.6
+2017-03-17,Houston Rockets,112,New Orleans Pelicans,128,True,New Orleans Pelicans,0.39705882352941174,0.6911764705882353,0.4,0.6
+2017-03-17,Orlando Magic,109,Phoenix Suns,103,False,Orlando Magic,0.3235294117647059,0.34782608695652173,0.2,0.2
+2017-03-17,Milwaukee Bucks,107,Los Angeles Lakers,103,False,Milwaukee Bucks,0.29411764705882354,0.4925373134328358,0.2,0.8
+2017-03-18,Sacramento Kings,94,Oklahoma City Thunder,110,True,Oklahoma City Thunder,0.5735294117647058,0.39705882352941174,0.8,0.4
+2017-03-18,Portland Trail Blazers,113,Atlanta Hawks,97,False,Portland Trail Blazers,0.5441176470588235,0.44776119402985076,0.6,0.6
+2017-03-18,Washington Wizards,93,Charlotte Hornets,98,True,Charlotte Hornets,0.4264705882352941,0.6176470588235294,0.2,0.6
+2017-03-18,Cleveland Cavaliers,78,Los Angeles Clippers,108,True,Los Angeles Clippers,0.5797101449275363,0.6716417910447762,0.4,0.6
+2017-03-18,Utah Jazz,86,Chicago Bulls,95,True,Chicago Bulls,0.463768115942029,0.6231884057971014,0.2,0.6
+2017-03-18,San Antonio Spurs,96,Memphis Grizzlies,104,True,Memphis Grizzlies,0.5652173913043478,0.7761194029850746,0.6,0.6
+2017-03-18,Houston Rockets,109,Denver Nuggets,105,False,Houston Rockets,0.4852941176470588,0.6811594202898551,0.8,0.6
+2017-03-18,Milwaukee Bucks,92,Golden State Warriors,117,True,Golden State Warriors,0.7941176470588235,0.5,0.4,0.8
+2017-03-19,Dallas Mavericks,111,Brooklyn Nets,104,False,Dallas Mavericks,0.19117647058823528,0.4264705882352941,0.4,0.4
+2017-03-19,Boston Celtics,99,Philadelphia 76ers,105,True,Philadelphia 76ers,0.36764705882352944,0.6376811594202898,0.4,0.8
+2017-03-19,Phoenix Suns,95,Detroit Pistons,112,True,Detroit Pistons,0.4782608695652174,0.3188405797101449,0.4,0.2
+2017-03-19,Portland Trail Blazers,115,Miami Heat,104,False,Portland Trail Blazers,0.4927536231884058,0.45588235294117646,0.8,0.6
+2017-03-19,Minnesota Timberwolves,109,New Orleans Pelicans,123,True,New Orleans Pelicans,0.4057971014492754,0.4117647058823529,0.6,0.4
+2017-03-19,Indiana Pacers,91,Toronto Raptors,116,True,Toronto Raptors,0.5797101449275363,0.5147058823529411,0.4,0.6
+2017-03-19,Sacramento Kings,102,San Antonio Spurs,118,True,San Antonio Spurs,0.7647058823529411,0.391304347826087,0.4,0.4
+2017-03-19,Cleveland Cavaliers,125,Los Angeles Lakers,120,False,Cleveland Cavaliers,0.2898550724637681,0.6617647058823529,0.2,0.6
+2017-03-20,Atlanta Hawks,90,Charlotte Hornets,105,True,Charlotte Hornets,0.43478260869565216,0.5362318840579711,0.4,0.4
+2017-03-20,Utah Jazz,100,Indiana Pacers,107,True,Indiana Pacers,0.5072463768115942,0.6142857142857143,0.4,0.4
+2017-03-20,Philadelphia 76ers,109,Orlando Magic,112,True,Orlando Magic,0.35714285714285715,0.37681159420289856,0.2,0.6
+2017-03-20,Washington Wizards,102,Boston Celtics,110,True,Boston Celtics,0.6285714285714286,0.6086956521739131,0.6,0.4
+2017-03-20,Denver Nuggets,124,Houston Rockets,125,True,Houston Rockets,0.6857142857142857,0.4782608695652174,0.8,0.8
+2017-03-20,Golden State Warriors,111,Oklahoma City Thunder,95,False,Golden State Warriors,0.5797101449275363,0.7971014492753623,1.0,0.6
+2017-03-20,New York Knicks,105,Los Angeles Clippers,114,True,Los Angeles Clippers,0.5857142857142857,0.391304347826087,0.4,0.2
+2017-03-21,Chicago Bulls,120,Toronto Raptors,122,True,Toronto Raptors,0.5857142857142857,0.4714285714285714,0.6,0.4
+2017-03-21,Detroit Pistons,96,Brooklyn Nets,98,True,Brooklyn Nets,0.18840579710144928,0.4857142857142857,0.4,0.4
+2017-03-21,Phoenix Suns,97,Miami Heat,112,True,Miami Heat,0.4857142857142857,0.3142857142857143,0.6,0.2
+2017-03-21,Memphis Grizzlies,82,New Orleans Pelicans,95,True,New Orleans Pelicans,0.4142857142857143,0.5714285714285714,0.8,0.8
+2017-03-21,Golden State Warriors,112,Dallas Mavericks,87,False,Golden State Warriors,0.43478260869565216,0.8,0.4,0.8
+2017-03-21,San Antonio Spurs,100,Minnesota Timberwolves,93,False,San Antonio Spurs,0.4057971014492754,0.7681159420289855,0.2,0.6
+2017-03-21,Milwaukee Bucks,93,Portland Trail Blazers,90,False,Milwaukee Bucks,0.463768115942029,0.4927536231884058,0.8,0.6
+2017-03-21,Los Angeles Clippers,133,Los Angeles Lakers,109,False,Los Angeles Clippers,0.2857142857142857,0.5915492957746479,0.0,0.4
+2017-03-22,Charlotte Hornets,109,Orlando Magic,102,False,Charlotte Hornets,0.36619718309859156,0.44285714285714284,0.4,0.4
+2017-03-22,Indiana Pacers,100,Boston Celtics,109,True,Boston Celtics,0.6338028169014085,0.5142857142857142,0.8,0.6
+2017-03-22,Detroit Pistons,95,Chicago Bulls,117,True,Chicago Bulls,0.4647887323943662,0.4788732394366197,0.4,0.2
+2017-03-22,Philadelphia 76ers,97,Oklahoma City Thunder,122,True,Oklahoma City Thunder,0.5714285714285714,0.37142857142857144,0.8,0.6
+2017-03-22,Atlanta Hawks,100,Washington Wizards,104,True,Washington Wizards,0.6,0.5285714285714286,0.2,0.2
+2017-03-22,Cleveland Cavaliers,113,Denver Nuggets,126,True,Denver Nuggets,0.4714285714285714,0.6666666666666666,0.6,0.6
+2017-03-22,Milwaukee Bucks,116,Sacramento Kings,98,False,Milwaukee Bucks,0.38571428571428573,0.5,0.4,0.6
+2017-03-22,New York Knicks,101,Utah Jazz,108,True,Utah Jazz,0.6056338028169014,0.38571428571428573,0.4,0.2
+2017-03-23,Phoenix Suns,98,Brooklyn Nets,126,True,Brooklyn Nets,0.2,0.30985915492957744,0.4,0.0
+2017-03-23,Toronto Raptors,101,Miami Heat,84,False,Toronto Raptors,0.49295774647887325,0.5915492957746479,0.6,0.8
+2017-03-23,Los Angeles Clippers,95,Dallas Mavericks,97,True,Dallas Mavericks,0.42857142857142855,0.5972222222222222,0.4,0.6
+2017-03-23,Memphis Grizzlies,90,San Antonio Spurs,97,True,San Antonio Spurs,0.7714285714285715,0.5633802816901409,0.6,0.8
+2017-03-23,New York Knicks,95,Portland Trail Blazers,110,True,Portland Trail Blazers,0.45714285714285713,0.38028169014084506,0.6,0.2
+2017-03-24,Cleveland Cavaliers,112,Charlotte Hornets,105,False,Cleveland Cavaliers,0.4507042253521127,0.6571428571428571,0.6,0.6
+2017-03-24,Denver Nuggets,125,Indiana Pacers,117,False,Denver Nuggets,0.5070422535211268,0.4788732394366197,0.4,0.6
+2017-03-24,Detroit Pistons,87,Orlando Magic,115,True,Orlando Magic,0.3611111111111111,0.4722222222222222,0.4,0.2
+2017-03-24,Brooklyn Nets,108,Washington Wizards,129,True,Washington Wizards,0.6056338028169014,0.2112676056338028,0.4,0.6
+2017-03-24,Phoenix Suns,120,Boston Celtics,130,True,Boston Celtics,0.6388888888888888,0.3055555555555556,0.8,0.0
+2017-03-24,Philadelphia 76ers,117,Chicago Bulls,107,False,Philadelphia 76ers,0.4722222222222222,0.36619718309859156,0.4,0.4
+2017-03-24,New Orleans Pelicans,107,Houston Rockets,117,True,Houston Rockets,0.6901408450704225,0.4225352112676056,0.8,0.8
+2017-03-24,Atlanta Hawks,97,Milwaukee Bucks,100,True,Milwaukee Bucks,0.5070422535211268,0.5211267605633803,0.8,0.0
+2017-03-24,Sacramento Kings,100,Golden State Warriors,114,True,Golden State Warriors,0.8028169014084507,0.38028169014084506,1.0,0.4
+2017-03-24,Minnesota Timberwolves,119,Los Angeles Lakers,130,True,Los Angeles Lakers,0.28169014084507044,0.4,0.0,0.2
+2017-03-25,Utah Jazz,95,Los Angeles Clippers,108,True,Los Angeles Clippers,0.589041095890411,0.6111111111111112,0.6,0.4
+2017-03-25,Washington Wizards,127,Cleveland Cavaliers,115,False,Washington Wizards,0.6619718309859155,0.6111111111111112,0.6,0.6
+2017-03-25,Toronto Raptors,94,Dallas Mavericks,86,False,Toronto Raptors,0.43661971830985913,0.5972222222222222,0.6,0.8
+2017-03-25,New York Knicks,98,San Antonio Spurs,106,True,San Antonio Spurs,0.7746478873239436,0.375,0.6,0.2
+2017-03-25,Minnesota Timberwolves,100,Portland Trail Blazers,112,True,Portland Trail Blazers,0.4647887323943662,0.39436619718309857,0.8,0.0
+2017-03-26,Brooklyn Nets,107,Atlanta Hawks,92,False,Brooklyn Nets,0.5138888888888888,0.20833333333333334,0.0,0.4
+2017-03-26,Phoenix Suns,106,Charlotte Hornets,120,True,Charlotte Hornets,0.4444444444444444,0.3013698630136986,0.6,0.0
+2017-03-26,Oklahoma City Thunder,125,Houston Rockets,137,True,Houston Rockets,0.6944444444444444,0.5774647887323944,0.8,0.8
+2017-03-26,Sacramento Kings,98,Los Angeles Clippers,97,False,Sacramento Kings,0.5945945945945946,0.375,0.8,0.2
+2017-03-26,Chicago Bulls,109,Milwaukee Bucks,94,False,Chicago Bulls,0.5138888888888888,0.4657534246575342,0.8,0.4
+2017-03-26,Miami Heat,108,Boston Celtics,112,True,Boston Celtics,0.6438356164383562,0.4861111111111111,0.8,0.6
+2017-03-26,Philadelphia 76ers,94,Indiana Pacers,107,True,Indiana Pacers,0.5,0.375,0.4,0.6
+2017-03-26,New Orleans Pelicans,115,Denver Nuggets,90,False,New Orleans Pelicans,0.4861111111111111,0.4166666666666667,0.6,0.6
+2017-03-26,Memphis Grizzlies,94,Golden State Warriors,106,True,Golden State Warriors,0.8055555555555556,0.5555555555555556,1.0,0.6
+2017-03-26,Portland Trail Blazers,97,Los Angeles Lakers,81,False,Portland Trail Blazers,0.2916666666666667,0.4722222222222222,0.2,0.8
+2017-03-27,Detroit Pistons,95,New York Knicks,109,True,New York Knicks,0.3698630136986301,0.4657534246575342,0.0,0.2
+2017-03-27,Orlando Magic,112,Toronto Raptors,131,True,Toronto Raptors,0.6027397260273972,0.3698630136986301,1.0,0.6
+2017-03-27,Cleveland Cavaliers,74,San Antonio Spurs,103,True,San Antonio Spurs,0.7777777777777778,0.6527777777777778,0.8,0.4
+2017-03-27,Oklahoma City Thunder,92,Dallas Mavericks,91,False,Oklahoma City Thunder,0.4305555555555556,0.5694444444444444,0.4,0.6
+2017-03-27,Memphis Grizzlies,90,Sacramento Kings,91,True,Sacramento Kings,0.3835616438356164,0.547945205479452,0.2,0.4
+2017-03-27,New Orleans Pelicans,100,Utah Jazz,108,True,Utah Jazz,0.6027397260273972,0.4246575342465753,0.2,0.8
+2017-03-28,Milwaukee Bucks,118,Charlotte Hornets,108,False,Milwaukee Bucks,0.4520547945205479,0.5068493150684932,0.8,0.6
+2017-03-28,Minnesota Timberwolves,115,Indiana Pacers,114,False,Minnesota Timberwolves,0.5068493150684932,0.3888888888888889,0.4,0.0
+2017-03-28,Phoenix Suns,91,Atlanta Hawks,95,True,Atlanta Hawks,0.5068493150684932,0.2972972972972973,0.0,0.0
+2017-03-28,Philadelphia 76ers,106,Brooklyn Nets,101,False,Philadelphia 76ers,0.2191780821917808,0.3698630136986301,0.6,0.4
+2017-03-28,Miami Heat,97,Detroit Pistons,96,False,Miami Heat,0.4594594594594595,0.4794520547945205,0.2,0.4
+2017-03-28,Golden State Warriors,113,Houston Rockets,106,False,Golden State Warriors,0.6986301369863014,0.8082191780821918,0.8,1.0
+2017-03-28,Denver Nuggets,113,Portland Trail Blazers,122,True,Portland Trail Blazers,0.4794520547945205,0.4794520547945205,0.8,0.4
+2017-03-28,Washington Wizards,119,Los Angeles Lakers,108,False,Washington Wizards,0.2876712328767123,0.6164383561643836,0.2,0.6
+2017-03-29,Oklahoma City Thunder,114,Orlando Magic,106,False,Oklahoma City Thunder,0.36486486486486486,0.5753424657534246,0.6,0.6
+2017-03-29,Atlanta Hawks,99,Philadelphia 76ers,92,False,Atlanta Hawks,0.3783783783783784,0.5135135135135135,0.4,0.2
+2017-03-29,Milwaukee Bucks,103,Boston Celtics,100,False,Milwaukee Bucks,0.6486486486486487,0.5135135135135135,0.8,0.8
+2017-03-29,Miami Heat,105,New York Knicks,88,False,Miami Heat,0.3783783783783784,0.4864864864864865,0.2,0.4
+2017-03-29,Charlotte Hornets,110,Toronto Raptors,106,False,Charlotte Hornets,0.6081081081081081,0.44594594594594594,1.0,0.6
+2017-03-29,Indiana Pacers,97,Memphis Grizzlies,110,True,Memphis Grizzlies,0.5405405405405406,0.5,0.2,0.4
+2017-03-29,Dallas Mavericks,118,New Orleans Pelicans,121,True,New Orleans Pelicans,0.4189189189189189,0.4246575342465753,0.6,0.4
+2017-03-29,Golden State Warriors,110,San Antonio Spurs,98,False,Golden State Warriors,0.7808219178082192,0.8108108108108109,1.0,1.0
+2017-03-29,Washington Wizards,124,Los Angeles Clippers,133,True,Los Angeles Clippers,0.5866666666666667,0.6216216216216216,0.6,0.8
+2017-03-29,Utah Jazz,112,Sacramento Kings,82,False,Utah Jazz,0.3918918918918919,0.6081081081081081,0.4,0.4
+2017-03-30,Brooklyn Nets,89,Detroit Pistons,90,True,Detroit Pistons,0.4533333333333333,0.21621621621621623,0.0,0.6
+2017-03-30,Cleveland Cavaliers,93,Chicago Bulls,99,True,Chicago Bulls,0.47297297297297297,0.6438356164383562,0.6,0.4
+2017-03-30,Los Angeles Lakers,104,Minnesota Timberwolves,119,True,Minnesota Timberwolves,0.3972602739726027,0.28378378378378377,0.2,0.2
+2017-03-30,Los Angeles Clippers,124,Phoenix Suns,118,False,Los Angeles Clippers,0.29333333333333333,0.5921052631578947,0.0,0.6
+2017-03-30,Houston Rockets,107,Portland Trail Blazers,117,True,Portland Trail Blazers,0.4864864864864865,0.6891891891891891,0.8,0.8
+2017-03-31,Denver Nuggets,114,Charlotte Hornets,122,True,Charlotte Hornets,0.4533333333333333,0.47297297297297297,0.6,0.4
+2017-03-31,Indiana Pacers,100,Toronto Raptors,111,True,Toronto Raptors,0.6,0.49333333333333335,0.8,0.2
+2017-03-31,Orlando Magic,116,Boston Celtics,117,True,Boston Celtics,0.64,0.36,0.8,0.4
+2017-03-31,Philadelphia 76ers,105,Cleveland Cavaliers,122,True,Cleveland Cavaliers,0.6351351351351351,0.37333333333333335,0.2,0.4
+2017-03-31,Dallas Mavericks,90,Memphis Grizzlies,99,True,Memphis Grizzlies,0.5466666666666666,0.4189189189189189,0.2,0.2
+2017-03-31,New York Knicks,98,Miami Heat,94,False,New York Knicks,0.49333333333333335,0.37333333333333335,0.6,0.2
+2017-03-31,Detroit Pistons,105,Milwaukee Bucks,108,True,Milwaukee Bucks,0.52,0.4605263157894737,0.8,0.2
+2017-03-31,Sacramento Kings,89,New Orleans Pelicans,117,True,New Orleans Pelicans,0.4266666666666667,0.38666666666666666,0.6,0.4
+2017-03-31,San Antonio Spurs,100,Oklahoma City Thunder,95,False,San Antonio Spurs,0.581081081081081,0.7702702702702703,0.6,0.8
+2017-03-31,Washington Wizards,88,Utah Jazz,95,True,Utah Jazz,0.6133333333333333,0.6133333333333333,0.6,0.8
+2017-03-31,Houston Rockets,98,Golden State Warriors,107,True,Golden State Warriors,0.8133333333333334,0.68,1.0,0.6
+2017-04-01,Los Angeles Lakers,104,Los Angeles Clippers,115,True,Los Angeles Clippers,0.5974025974025974,0.28,0.6,0.2
+2017-04-01,Atlanta Hawks,104,Chicago Bulls,106,True,Chicago Bulls,0.48,0.52,0.6,0.4
+2017-04-01,Orlando Magic,111,Brooklyn Nets,121,True,Brooklyn Nets,0.21333333333333335,0.35526315789473684,0.4,0.2
+2017-04-01,Sacramento Kings,123,Minnesota Timberwolves,117,False,Sacramento Kings,0.40540540540540543,0.3815789473684211,0.4,0.4
+2017-04-01,Phoenix Suns,117,Portland Trail Blazers,130,True,Portland Trail Blazers,0.49333333333333335,0.2894736842105263,1.0,0.0
+2017-04-02,Boston Celtics,110,New York Knicks,94,False,Boston Celtics,0.3815789473684211,0.6447368421052632,0.4,0.8
+2017-04-02,Charlotte Hornets,113,Oklahoma City Thunder,101,False,Charlotte Hornets,0.5733333333333334,0.4605263157894737,0.6,0.6
+2017-04-02,Memphis Grizzlies,103,Los Angeles Lakers,108,True,Los Angeles Lakers,0.27631578947368424,0.5526315789473685,0.2,0.4
+2017-04-02,Dallas Mavericks,109,Milwaukee Bucks,105,False,Dallas Mavericks,0.5263157894736842,0.41333333333333333,0.8,0.2
+2017-04-02,Utah Jazz,103,San Antonio Spurs,109,True,San Antonio Spurs,0.7733333333333333,0.618421052631579,0.8,0.8
+2017-04-02,Atlanta Hawks,82,Brooklyn Nets,91,True,Brooklyn Nets,0.2236842105263158,0.5131578947368421,0.4,0.4
+2017-04-02,Indiana Pacers,130,Cleveland Cavaliers,135,True,Cleveland Cavaliers,0.64,0.4868421052631579,0.4,0.2
+2017-04-02,Denver Nuggets,116,Miami Heat,113,False,Denver Nuggets,0.4868421052631579,0.4666666666666667,0.4,0.4
+2017-04-02,Chicago Bulls,117,New Orleans Pelicans,110,False,Chicago Bulls,0.4342105263157895,0.4868421052631579,0.6,0.8
+2017-04-02,Philadelphia 76ers,105,Toronto Raptors,113,True,Toronto Raptors,0.6052631578947368,0.3684210526315789,0.8,0.4
+2017-04-02,Washington Wizards,115,Golden State Warriors,139,True,Golden State Warriors,0.8157894736842105,0.6052631578947368,1.0,0.6
+2017-04-02,Houston Rockets,123,Phoenix Suns,116,False,Houston Rockets,0.2857142857142857,0.6710526315789473,0.0,0.4
+2017-04-03,Portland Trail Blazers,109,Minnesota Timberwolves,110,True,Minnesota Timberwolves,0.4,0.5,0.4,1.0
+2017-04-04,Orlando Magic,102,Cleveland Cavaliers,122,True,Cleveland Cavaliers,0.6447368421052632,0.35064935064935066,0.4,0.2
+2017-04-04,Toronto Raptors,90,Indiana Pacers,108,True,Indiana Pacers,0.4805194805194805,0.6103896103896104,0.2,0.8
+2017-04-04,Brooklyn Nets,141,Philadelphia 76ers,118,False,Brooklyn Nets,0.36363636363636365,0.23376623376623376,0.2,0.6
+2017-04-04,Charlotte Hornets,111,Washington Wizards,118,True,Washington Wizards,0.5974025974025974,0.4675324675324675,0.4,0.8
+2017-04-04,Denver Nuggets,134,New Orleans Pelicans,131,False,Denver Nuggets,0.42857142857142855,0.47368421052631576,0.6,0.4
+2017-04-04,Chicago Bulls,91,New York Knicks,100,True,New York Knicks,0.37662337662337664,0.4935064935064935,0.4,0.8
+2017-04-04,Milwaukee Bucks,79,Oklahoma City Thunder,110,True,Oklahoma City Thunder,0.5657894736842105,0.5194805194805194,0.4,0.6
+2017-04-04,Memphis Grizzlies,89,San Antonio Spurs,95,True,San Antonio Spurs,0.7763157894736842,0.5454545454545454,0.8,0.4
+2017-04-04,Portland Trail Blazers,87,Utah Jazz,106,True,Utah Jazz,0.6103896103896104,0.4935064935064935,0.6,0.8
+2017-04-04,Minnesota Timberwolves,107,Golden State Warriors,121,True,Golden State Warriors,0.8181818181818182,0.40789473684210525,1.0,0.6
+2017-04-04,Dallas Mavericks,87,Sacramento Kings,98,True,Sacramento Kings,0.38961038961038963,0.42105263157894735,0.6,0.2
+2017-04-05,Miami Heat,112,Charlotte Hornets,99,False,Miami Heat,0.46153846153846156,0.4805194805194805,0.6,0.4
+2017-04-05,Toronto Raptors,105,Detroit Pistons,102,False,Toronto Raptors,0.45454545454545453,0.6025641025641025,0.2,0.6
+2017-04-05,Cleveland Cavaliers,114,Boston Celtics,91,False,Cleveland Cavaliers,0.6493506493506493,0.6493506493506493,0.8,0.6
+2017-04-05,Denver Nuggets,104,Houston Rockets,110,True,Houston Rockets,0.6753246753246753,0.4805194805194805,0.4,0.4
+2017-04-05,Oklahoma City Thunder,103,Memphis Grizzlies,100,False,Oklahoma City Thunder,0.5384615384615384,0.5714285714285714,0.4,0.6
+2017-04-05,Los Angeles Lakers,102,San Antonio Spurs,95,False,Los Angeles Lakers,0.7792207792207793,0.2857142857142857,0.8,0.2
+2017-04-05,Golden State Warriors,120,Phoenix Suns,111,False,Golden State Warriors,0.28205128205128205,0.8205128205128205,0.0,1.0
+2017-04-05,Dallas Mavericks,101,Los Angeles Clippers,112,True,Los Angeles Clippers,0.6025641025641025,0.4155844155844156,0.8,0.2
+2017-04-06,Milwaukee Bucks,89,Indiana Pacers,104,True,Indiana Pacers,0.48717948717948717,0.5128205128205128,0.2,0.6
+2017-04-06,Brooklyn Nets,107,Orlando Magic,115,True,Orlando Magic,0.34615384615384615,0.24358974358974358,0.0,0.6
+2017-04-06,Chicago Bulls,102,Philadelphia 76ers,90,False,Chicago Bulls,0.358974358974359,0.48717948717948717,0.2,0.8
+2017-04-06,Washington Wizards,106,New York Knicks,103,False,Washington Wizards,0.38461538461538464,0.6025641025641025,0.6,0.4
+2017-04-06,Boston Celtics,116,Atlanta Hawks,123,True,Atlanta Hawks,0.5064935064935064,0.6410256410256411,0.4,0.6
+2017-04-06,Minnesota Timberwolves,98,Portland Trail Blazers,105,True,Portland Trail Blazers,0.48717948717948717,0.4025974025974026,0.6,0.6
+2017-04-07,Atlanta Hawks,114,Cleveland Cavaliers,100,False,Atlanta Hawks,0.6538461538461539,0.5128205128205128,0.8,0.6
+2017-04-07,Miami Heat,94,Toronto Raptors,96,True,Toronto Raptors,0.6075949367088608,0.48717948717948717,0.6,0.6
+2017-04-07,Detroit Pistons,114,Houston Rockets,109,False,Detroit Pistons,0.6794871794871795,0.44871794871794873,0.4,0.2
+2017-04-07,New York Knicks,88,Memphis Grizzlies,101,True,Memphis Grizzlies,0.5316455696202531,0.379746835443038,0.4,0.4
+2017-04-07,San Antonio Spurs,102,Dallas Mavericks,89,False,San Antonio Spurs,0.41025641025641024,0.7692307692307693,0.2,0.6
+2017-04-07,New Orleans Pelicans,106,Denver Nuggets,122,True,Denver Nuggets,0.47435897435897434,0.4230769230769231,0.4,0.4
+2017-04-07,Minnesota Timberwolves,113,Utah Jazz,120,True,Utah Jazz,0.6153846153846154,0.3974358974358974,0.8,0.4
+2017-04-07,Oklahoma City Thunder,99,Phoenix Suns,120,True,Phoenix Suns,0.27848101265822783,0.5769230769230769,0.0,0.6
+2017-04-07,Sacramento Kings,94,Los Angeles Lakers,98,True,Los Angeles Lakers,0.2948717948717949,0.3974358974358974,0.4,0.6
+2017-04-08,Chicago Bulls,106,Brooklyn Nets,107,True,Brooklyn Nets,0.24050632911392406,0.4936708860759494,0.6,0.8
+2017-04-08,Boston Celtics,121,Charlotte Hornets,114,False,Boston Celtics,0.45569620253164556,0.6329113924050633,0.6,0.4
+2017-04-08,Indiana Pacers,127,Orlando Magic,112,False,Indiana Pacers,0.35443037974683544,0.4936708860759494,0.2,0.4
+2017-04-08,Milwaukee Bucks,90,Philadelphia 76ers,82,False,Milwaukee Bucks,0.35443037974683544,0.5063291139240507,0.0,0.4
+2017-04-08,Miami Heat,106,Washington Wizards,103,False,Miami Heat,0.6075949367088608,0.4810126582278481,0.4,0.4
+2017-04-08,Los Angeles Clippers,98,San Antonio Spurs,87,False,Los Angeles Clippers,0.7721518987341772,0.6075949367088608,0.8,0.8
+2017-04-08,Utah Jazz,86,Portland Trail Blazers,101,True,Portland Trail Blazers,0.4936708860759494,0.620253164556962,0.6,0.8
+2017-04-08,New Orleans Pelicans,101,Golden State Warriors,123,True,Golden State Warriors,0.8227848101265823,0.4177215189873418,1.0,0.4
+2017-04-09,Toronto Raptors,110,New York Knicks,97,False,Toronto Raptors,0.375,0.6125,0.4,0.8
+2017-04-09,Cleveland Cavaliers,125,Atlanta Hawks,126,True,Atlanta Hawks,0.5189873417721519,0.6455696202531646,0.6,0.8
+2017-04-09,Oklahoma City Thunder,106,Denver Nuggets,105,False,Oklahoma City Thunder,0.4810126582278481,0.569620253164557,0.6,0.4
+2017-04-09,Detroit Pistons,103,Memphis Grizzlies,90,False,Detroit Pistons,0.5375,0.45569620253164556,0.4,0.4
+2017-04-09,Dallas Mavericks,111,Phoenix Suns,124,True,Phoenix Suns,0.2875,0.4050632911392405,0.2,0.2
+2017-04-09,Houston Rockets,135,Sacramento Kings,128,False,Houston Rockets,0.3924050632911392,0.6708860759493671,0.4,0.4
+2017-04-09,Minnesota Timberwolves,109,Los Angeles Lakers,110,True,Los Angeles Lakers,0.3037974683544304,0.3924050632911392,0.6,0.2
+2017-04-10,Indiana Pacers,120,Philadelphia 76ers,111,False,Indiana Pacers,0.35,0.5,0.0,0.6
+2017-04-10,Brooklyn Nets,105,Boston Celtics,114,True,Boston Celtics,0.6375,0.25,0.6,0.8
+2017-04-10,Cleveland Cavaliers,121,Miami Heat,124,True,Miami Heat,0.4875,0.6375,0.4,0.6
+2017-04-10,Orlando Magic,75,Chicago Bulls,122,True,Chicago Bulls,0.4875,0.35,0.6,0.2
+2017-04-10,Washington Wizards,105,Detroit Pistons,101,False,Washington Wizards,0.4625,0.6,0.6,0.4
+2017-04-10,Charlotte Hornets,79,Milwaukee Bucks,89,True,Milwaukee Bucks,0.5125,0.45,0.4,0.4
+2017-04-10,San Antonio Spurs,98,Portland Trail Blazers,99,True,Portland Trail Blazers,0.5,0.7625,0.6,0.6
+2017-04-10,Utah Jazz,105,Golden State Warriors,99,False,Utah Jazz,0.825,0.6125,1.0,0.6
+2017-04-10,Houston Rockets,96,Los Angeles Clippers,125,True,Los Angeles Clippers,0.6125,0.675,1.0,0.6
+2017-04-11,Charlotte Hornets,76,Atlanta Hawks,103,True,Atlanta Hawks,0.525,0.4444444444444444,0.6,0.2
+2017-04-11,Oklahoma City Thunder,100,Minnesota Timberwolves,98,False,Oklahoma City Thunder,0.3875,0.575,0.2,0.6
+2017-04-11,Denver Nuggets,109,Dallas Mavericks,91,False,Denver Nuggets,0.4,0.475,0.2,0.6
+2017-04-11,New Orleans Pelicans,96,Los Angeles Lakers,108,True,Los Angeles Lakers,0.3125,0.4125,0.8,0.2
+2017-04-11,Phoenix Suns,104,Sacramento Kings,129,True,Sacramento Kings,0.3875,0.2962962962962963,0.4,0.4
+2017-04-12,Milwaukee Bucks,94,Boston Celtics,112,True,Boston Celtics,0.6419753086419753,0.5185185185185185,0.6,0.4
+2017-04-12,Brooklyn Nets,73,Chicago Bulls,112,True,Chicago Bulls,0.49382716049382713,0.24691358024691357,0.6,0.6
+2017-04-12,Toronto Raptors,98,Cleveland Cavaliers,83,False,Toronto Raptors,0.6296296296296297,0.6172839506172839,0.4,0.8
+2017-04-12,Minnesota Timberwolves,118,Houston Rockets,123,True,Houston Rockets,0.6666666666666666,0.38271604938271603,0.6,0.0
+2017-04-12,Atlanta Hawks,86,Indiana Pacers,104,True,Indiana Pacers,0.5061728395061729,0.5308641975308642,0.8,0.8
+2017-04-12,Dallas Mavericks,100,Memphis Grizzlies,93,False,Dallas Mavericks,0.5308641975308642,0.3950617283950617,0.2,0.0
+2017-04-12,Washington Wizards,102,Miami Heat,110,True,Miami Heat,0.49382716049382713,0.6049382716049383,0.6,0.6
+2017-04-12,Philadelphia 76ers,113,New York Knicks,114,True,New York Knicks,0.37037037037037035,0.345679012345679,0.2,0.0
+2017-04-12,Denver Nuggets,111,Oklahoma City Thunder,105,False,Denver Nuggets,0.5802469135802469,0.48148148148148145,0.8,0.6
+2017-04-12,Detroit Pistons,109,Orlando Magic,113,True,Orlando Magic,0.345679012345679,0.4567901234567901,0.2,0.4
+2017-04-12,San Antonio Spurs,97,Utah Jazz,101,True,Utah Jazz,0.6172839506172839,0.7530864197530864,0.6,0.4
+2017-04-12,Los Angeles Lakers,94,Golden State Warriors,109,True,Golden State Warriors,0.8148148148148148,0.32098765432098764,0.8,1.0
+2017-04-12,Sacramento Kings,95,Los Angeles Clippers,115,True,Los Angeles Clippers,0.6172839506172839,0.3950617283950617,1.0,0.6
+2017-04-12,New Orleans Pelicans,103,Portland Trail Blazers,100,False,New Orleans Pelicans,0.5061728395061729,0.4074074074074074,0.6,0.0
