@@ -2,6 +2,7 @@ import numpy as np
 
 
 def more_cleaning(schedule):
+	schedule.reset_index(inplace=True)
 	schedule["DATE"] = [date.strftime('%Y-%m-%d') for date in schedule["DATE"]]
 	schedule["VISITOR_PTS"] = schedule["VISITOR_PTS"].astype(int)
 	schedule["HOME_PTS"] = schedule["HOME_PTS"].astype(int)
@@ -24,11 +25,11 @@ def get_cum_win_pct(schedule, team, date):
 
 
 def append_cum_win_pct(schedule):
-    schedule["HOME_CUM_WIN_PCT"]= 0
-    schedule["AWAY_CUM_WIN_PCT"]= 0
-    for index, row in schedule.iterrows():
-        schedule["HOME_CUM_WIN_PCT"].iloc[[index]] = get_cum_win_pct(schedule, row["HOME"], row["DATE"])
-        schedule["AWAY_CUM_WIN_PCT"].iloc[[index]] = get_cum_win_pct(schedule, row["VISITOR"], row["DATE"])
+	schedule["HOME_CUM_WIN_PCT"]= 0
+	schedule["AWAY_CUM_WIN_PCT"]= 0
+	for index, row in schedule.iterrows():
+		schedule["HOME_CUM_WIN_PCT"].iloc[[index]] = get_cum_win_pct(schedule, row["HOME"], row["DATE"])
+		schedule["AWAY_CUM_WIN_PCT"].iloc[[index]] = get_cum_win_pct(schedule, row["VISITOR"], row["DATE"])
 
 
 def get_rolling_win_pct(schedule, team, date, n_games):
