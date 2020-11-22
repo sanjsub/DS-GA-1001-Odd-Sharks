@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-for year in range(2009, 2020):
+for year in range(2009, 2021):
 	sched = pd.read_csv("../schedule_csvs/{}_schedule.csv".format(year))
 	stats = pd.read_csv("../final merged csvs/{}_stats.csv".format(year))
 	sched.rename(columns={"HOME": "Home Team", "VISITOR": "Away Team"}, inplace=True)
