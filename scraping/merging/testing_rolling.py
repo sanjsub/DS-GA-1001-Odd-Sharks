@@ -18,6 +18,6 @@ for rolling_window in range(5, 6):
         all_seasons.append(roll_stats(bookie_df, n=rolling_window))
 
     for model, year in zip(all_seasons, years):
-        output_path = 'all_rolling_windows/'+ str(year) + "_n"+ str(rolling_window) + ".csv"
+        output_path = 'cleaned_dfs_11-23/all_rolling_windows/'+ str(year) + "_stats" + "_n"+ str(rolling_window) + ".csv"
         model.to_csv(output_path, index=False)
 # %%
