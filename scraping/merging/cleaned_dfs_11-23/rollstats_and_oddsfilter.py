@@ -20,7 +20,7 @@ stats = ['Home FG', 'Home FG%', 'Home 3P', 'Home 3P%','Home FT', 'Home FT%',
 
 ## This is how you read in the files
 #bookie_df = pd.read_csv('..\\{}_stats.csv'.format(year), parse_dates=['DATE'])
-def roll_stats(bookie_df, n = 5):   
+def roll_stats(bookie_df, n):   
     dummy_df = copy.deepcopy(bookie_df)
     dummy_df['DATE'] = dummy_df['DATE'].dt.strftime('%Y-%m-%d')
     for idx, row in dummy_df.iterrows():
