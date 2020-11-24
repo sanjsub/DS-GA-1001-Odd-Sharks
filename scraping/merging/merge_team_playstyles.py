@@ -73,9 +73,38 @@ def underdogs_faves_aggregrates(bookie_df):
     
     return underdogs_faves
 
+def getDfSummary(input_data):
+    output_data_as_dict = {'number_nan': [],
+                           'number_distinct': []}
+    
+    for column in input_data.columns:
+        output_data_as_dict['number_nan'].append(input_data[column].isna().sum())
+        output_data_as_dict['number_distinct'].append(len(input_data[column].unique()))  
+    
+    output_data = pd.DataFrame(output_data_as_dict, index=input_data.columns)
+    
+    return output_data
+
+
+def drop_columns_and_rows(df):
+    '''
+    We drop the columns discussed and then rows with NA values (in order due to some rows having NA vals in the 
+    columns in question)
+    '''
+    columns_drop = ['Home FGA', 'Home 3PA', 'Home FTA', 'Home TRB', 'Home PTS', 'Home TRB%',
+                    'Away FGA', 'Away 3PA', 'Away FTA', 'Away TRB', 'Away PTS', 'Away TRB%', 
+                    'Home Odds Diff', 'Away Odds Diff']
+    
+    df.drop(columns=columns_drop, inplace=True)
+    cleaned_df = df.dropna(axis=0)
+    
+    return cleaned_df
+
+
 #%%
 ## Get all filenames and set up vars
-all_files_master = os.listdir('../../final merged csvs/')
+#all_files_master = os.listdir('../../final merged csvs/')   old path
+all_files_master = os.listdir('../../avg_odds_csvs/') # new path
 files_to_remove = set(['2009_stats.csv', '2010_stats.csv', '2011_stats.csv', 
                    '2012_stats.csv', '2013_stats.csv'])
 all_files_master = list(set(all_files_master) - files_to_remove)
@@ -85,10 +114,12 @@ all_files_playstyles = os.listdir('../team_playtype_stats/')
 
 ## Iterate through all files and add the playstyle stats
 for master_csv in all_files_master:
-    path = '../../final merged csvs/' + master_csv
+    path = '../../avg_odds_csvs/' + master_csv
     playstyle_year = str(int(master_csv[:4]) - 1) ## We are matching playstyle year to prior year performance 
 
-    current_master_df = underdogs_faves_aggregrates(pd.read_csv(path, parse_dates=['DATE']))
+    ## Old function used to need to clean, now we read in a cleaned df
+    #current_master_df = underdogs_faves_aggregrates(pd.read_csv(path, parse_dates=['DATE']))
+    current_master_df = drop_columns_and_rows(pd.read_csv(path, parse_dates=['DATE']))
 
     current_master_df['Home Team Num'] = current_master_df['Home Team'].apply(lambda x: team_name_to_num[x])
     current_master_df['Away Team Num'] = current_master_df['Away Team'].apply(lambda x: team_name_to_num[x])
@@ -103,8 +134,8 @@ for master_csv in all_files_master:
         current_master_df['Home Team ' + stat] = current_master_df['Home Team Num'].apply(lambda x: percentiles[x])
         current_master_df['Away Team ' + stat] = current_master_df['Away Team Num'].apply(lambda x: percentiles[x])
 
-        output_filepath = 'merged_csvs_final/' + master_csv
+        output_filepath = 'merged_csvs_11-23/' + master_csv
         
         ## Commenting this out because no need to run again after we have written the files already
-        # current_master_df.to_csv(output_filepath)
-# %%
+    current_master_df.drop(columns=['Home Team Num', 'Away Team Num'], inplace=True)
+    current_master_df.to_csv(output_filepath, index=False)
