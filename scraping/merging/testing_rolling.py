@@ -5,12 +5,12 @@ import sys
 sys.path.append("cleaned_dfs_11-23/")
 from rollstats_and_oddsfilter import roll_stats
 import pandas as pd
-years = list(range(2019, 2020))
+years = list(range(2009, 2021))
 #year = 2009
 
 #bookie_df = pd.read_csv('..\DS-GA-1001-Odd-Sharks\scraping\merging\cleaned_dfs_11-23\{}_stats.csv'.format(year), parse_dates=['DATE'])
 # %%
-for rolling_window in range(5, 7):    
+for rolling_window in range(5, 51):    
     all_seasons = []
     for year in years:
         bookie_df = pd.read_csv('cleaned_dfs_11-23/{}_stats.csv'.format(year), parse_dates=['DATE'])
