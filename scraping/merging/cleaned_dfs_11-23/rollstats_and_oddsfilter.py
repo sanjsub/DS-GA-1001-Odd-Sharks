@@ -30,6 +30,7 @@ def roll_stats(bookie_df, n = 5):
         homesched = (bookie_df[(bookie_df['DATE'] < date) & ((bookie_df['Home Team'] == home) | (bookie_df['Away Team'] == home))]).tail(n)
         awaysched = (bookie_df[(bookie_df['DATE'] < date) & ((bookie_df['Home Team'] == away) | (bookie_df['Away Team'] == away))]).tail(n)
         
+        #rolling stats
         home_homerolling = homesched[homesched['Home Team'] == home][stats]
         home_homerolling = home_homerolling[home_homerolling.columns.drop(list(home_homerolling.filter(regex='Away')))]
         home_awayrolling = homesched[homesched['Away Team'] == home][stats]
@@ -48,6 +49,37 @@ def roll_stats(bookie_df, n = 5):
         total_rolling.index = [idx]
         dummy_df.loc[idx, stats] = total_rolling.loc[idx, stats]
         
+        
+        #rolling win pct
+        home_wins = 0
+        home_homerolling_win = homesched[homesched['Home Team'] == home][['Away Underdog', 'Underdog Win']]
+        for ind, ro in home_homerolling_win.iterrows():
+            if (home_homerolling_win.loc[ind, 'Away Underdog'] + home_homerolling_win.loc[ind, 'Underdog Win']) == 1:
+                home_wins += 1
+        home_awayrolling_win = homesched[homesched['Away Team'] == home][['Away Underdog', 'Underdog Win']]
+        for ind, ro in home_awayrolling_win.iterrows():
+            if (home_awayrolling_win.loc[ind, 'Away Underdog'] + home_awayrolling_win.loc[ind, 'Underdog Win']) != 1:
+                home_wins += 1
+        if len(homesched) == 0:
+            dummy_df.loc[idx, 'HOME_ROLL_WIN_PCT'] = 0
+        else:
+            dummy_df.loc[idx, 'HOME_ROLL_WIN_PCT'] = home_wins/len(homesched)
+        
+        away_wins = 0
+        away_homerolling_win = awaysched[awaysched['Home Team'] == away][['Away Underdog', 'Underdog Win']]
+        for ind, ro in away_homerolling_win.iterrows():
+            if (away_homerolling_win.loc[ind, 'Away Underdog'] + away_homerolling_win.loc[ind, 'Underdog Win']) == 1:
+                away_wins += 1
+        away_awayrolling_win = awaysched[awaysched['Away Team'] == away][['Away Underdog', 'Underdog Win']]
+        for ind, ro in away_awayrolling_win.iterrows():
+            if (away_awayrolling_win.loc[ind, 'Away Underdog'] + away_awayrolling_win.loc[ind, 'Underdog Win']) != 1:
+                away_wins += 1
+        if len(awaysched) == 0:
+            dummy_df.loc[idx, 'AWAY_ROLL_WIN_PCT'] = 0
+        else:
+            dummy_df.loc[idx, 'AWAY_ROLL_WIN_PCT'] = away_wins/len(awaysched)
+                    
+        
         odds_filter = ((dummy_df['Home Odds Close'].between(1, 1.5)) | (dummy_df['Home Odds Close'] >= 3) | 
                    (dummy_df['Away Odds Close'].between(1, 1.5)) | (dummy_df['Away Odds Close'] >= 3))
         final = dummy_df[odds_filter]
@@ -55,7 +87,5 @@ def roll_stats(bookie_df, n = 5):
         final.reset_index(drop = True, inplace = True)
     
     return final
-
-
 
 
