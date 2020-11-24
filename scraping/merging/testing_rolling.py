@@ -10,7 +10,7 @@ years = list(range(2019, 2020))
 
 #bookie_df = pd.read_csv('..\DS-GA-1001-Odd-Sharks\scraping\merging\cleaned_dfs_11-23\{}_stats.csv'.format(year), parse_dates=['DATE'])
 # %%
-for rolling_window in range(5, 6):    
+for rolling_window in range(5, 7):    
     all_seasons = []
     for year in years:
         bookie_df = pd.read_csv('cleaned_dfs_11-23/{}_stats.csv'.format(year), parse_dates=['DATE'])
