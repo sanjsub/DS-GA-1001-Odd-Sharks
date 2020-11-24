@@ -138,4 +138,18 @@ for master_csv in all_files_master:
         
         ## Commenting this out because no need to run again after we have written the files already
     current_master_df.drop(columns=['Home Team Num', 'Away Team Num'], inplace=True)
-    current_master_df.to_csv(output_filepath, index=False)
+    # uncomment when you want to output
+    #current_master_df.to_csv(output_filepath, index=False)
+
+###################
+#%%
+# For 2009 - 2013
+remaining_files = ['2009_stats.csv', '2010_stats.csv', '2011_stats.csv', '2012_stats.csv', '2013_stats.csv']
+
+for f in remaining_files:
+    path = '../../avg_odds_csvs/' + f
+    current_master_df = drop_columns_and_rows(pd.read_csv(path, parse_dates=['DATE']))
+    output_filepath = 'merged_csvs_11-23/' + f
+    # uncomment when you want to output
+    #current_master_df.to_csv(output_filepath, index=False)
+# %%
