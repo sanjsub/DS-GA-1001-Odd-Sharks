@@ -31,8 +31,8 @@ def construct_df(years, n):
 
 
 def get_top_mutual_info(df, num_top):
-    X = df_2015.drop(label, 1)
-    Y = df_2015[[label]].values
+    X = df.drop(label, 1)
+    Y = df[[label]].values
     cols = X.columns.values
     mis = []
 
@@ -43,6 +43,41 @@ def get_top_mutual_info(df, num_top):
     top_mis = sorted(list(zip(mis, cols)), key = lambda x: x[0])[-num_top:]
     bottom_mis = sorted(list(zip(mis, cols)), key = lambda x: x[0])[:len(mis) - num_top]
     return top_mis, bottom_mis
+
+def num_times_in_top(years, num_top):
+    '''
+    For all n in range 5 to 50, count the number of times a feature is in the top
+    num_top features with respect to mutual information score. Assuming for now that 
+    years span 2014-2019, OR 2009-2013 (due to differences in dfs)
+    '''
+    ## Making a dummy df for simplicity
+    df = construct_df(years, 5)
+    freq_dict = {c:0 for c in df.columns.values}
+    for n in range(5, 51):
+        df = construct_df(years, n)
+        top, bottom = get_top_mutual_info(df, num_top)
+        for mi, c in top:
+            freq_dict[c] += 1
+
+    return freq_dict
+
+
+
+
+
+
+
+# %%
+## Below are the frequencies of the features being in the top num_top "most informative"
+## though I'm sure all the MIs are close (there seemed to be a hard drop at around 0.1 MI)
+years = list(range(2014, 2020))
+freq = num_times_in_top(years, num_top=20)
+freq_list = sorted(list(freq.items()), key=lambda x: x[1])
+
+
+# %%
+## Some plots if we want
+'''
 #%%
 ind = 30
 fig = plt.figure(figsize = (20, 15))
@@ -51,6 +86,4 @@ plt.subplots_adjust(bottom = 0.25)
 #ax.set_xticks(ind + getTickAdj([x[1] for x in topmis], 1))
 ax.set_xticklabels([x[1] for x in topmis], rotation = 45, size = 14)
 plt.bar([x[1] for x in topmis], [x[0] for x in topmis])
-
-# %%
-## we should check which are the top features for most n vals and many seasons...
+'''
