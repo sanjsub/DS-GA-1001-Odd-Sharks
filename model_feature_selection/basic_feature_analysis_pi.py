@@ -30,30 +30,19 @@ def construct_df(years, n):
     return concatenated_df
 
 
-def get_top_mutual_info():
+def get_top_mutual_info(df, num_top):
+    X = df_2015.drop(label, 1)
+    Y = df_2015[[label]].values
+    cols = X.columns.values
+    mis = []
 
-    return None
+    # Get MI
+    for c in cols:
+        mis.append(sk.metrics.normalized_mutual_info_score(Y.ravel(), X[[c]].values.ravel()))
 
-df_2015 = pd.read_csv(path).drop(columns=cols_drop)
-#utils.plotCorr(df_2015, label, 18, 15)
-utils.plotMI(df_2015, label, 0.05, 1)
-# %%
+    top_mis = sorted(list(zip(mis, cols)), key = lambda x: x[0])[-num_top:]
+    bottom_mis = sorted(list(zip(mis, cols)), key = lambda x: x[0])[:len(mis) - num_top]
+    return top_mis, bottom_mis
 
-
-X = df_2015.drop(label, 1)
-Y = df_2015[[label]].values
-cols = X.columns.values
-mis = []
-
-#Start by getting MI
-for c in cols:
-    mis.append(sk.metrics.normalized_mutual_info_score(Y.ravel(), X[[c]].values.ravel()))
-# %%
-
-for mi, col in zip(mis, cols):
-    if mi > 0.1:
-        print(np.around(mi, 3), col)
-# %%
-sorted(list(zip(mis, cols)), key = lambda x: x[0])
 # %%
 ## we should check which are the top features for most n vals and many seasons...
