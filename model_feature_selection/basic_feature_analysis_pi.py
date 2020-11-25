@@ -43,6 +43,14 @@ def get_top_mutual_info(df, num_top):
     top_mis = sorted(list(zip(mis, cols)), key = lambda x: x[0])[-num_top:]
     bottom_mis = sorted(list(zip(mis, cols)), key = lambda x: x[0])[:len(mis) - num_top]
     return top_mis, bottom_mis
+#%%
+ind = 30
+fig = plt.figure(figsize = (20, 15))
+ax = plt.subplot(111)
+plt.subplots_adjust(bottom = 0.25)
+#ax.set_xticks(ind + getTickAdj([x[1] for x in topmis], 1))
+ax.set_xticklabels([x[1] for x in topmis], rotation = 45, size = 14)
+plt.bar([x[1] for x in topmis], [x[0] for x in topmis])
 
 # %%
 ## we should check which are the top features for most n vals and many seasons...
