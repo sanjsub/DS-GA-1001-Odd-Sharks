@@ -61,12 +61,6 @@ def num_times_in_top(years, num_top):
 
     return freq_dict
 
-
-
-
-
-
-
 # %%
 ## Below are the frequencies of the features being in the top num_top "most informative"
 ## though I'm sure all the MIs are close (there seemed to be a hard drop at around 0.1 MI)
