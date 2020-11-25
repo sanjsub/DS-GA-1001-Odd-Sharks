@@ -7,6 +7,7 @@ import churn_analysis as utils
 import os
 
 label = 'Underdog Win'
+label_ind = 10 ## After you drop the columns
 cols_drop = ['unique_game_id', 'DATE', 'Home Team', 'Away Team']
 
 main_path = '..\scraping\merging\cleaned_dfs_11-23\\all_rolling_windows\\'
@@ -64,9 +65,35 @@ def num_times_in_top(years, num_top):
 # %%
 ## Below are the frequencies of the features being in the top num_top "most informative"
 ## though I'm sure all the MIs are close (there seemed to be a hard drop at around 0.1 MI)
-years = list(range(2014, 2020))
-freq = num_times_in_top(years, num_top=20)
-freq_list = sorted(list(freq.items()), key=lambda x: x[1])
+# years = list(range(2014, 2020))
+# freq = num_times_in_top(years, num_top=20)
+# freq_list = sorted(list(freq.items()), key=lambda x: x[1])
+
+
+def plot_correlation_matrix(df, features_drop_list):
+    '''
+    Plot correlation matrix given a dataframe. Give list of features you want to 
+    exclude or not. If include_label is True, then the label will not be dropped in the
+    correlation matrix.
+
+    Preferred input style of features_drop_list: df.columns.values[indices] so as to
+    not list out the features every single time
+    '''
+    ## df.columns.values[65:] ## cuts out all team playstyle stuff
+
+    features_drop_list = list(features_drop_list) ## Some error prevention
+
+    # if not include_label:
+    #     features_drop_list.append(label)
+    if features_drop_list:
+        df = df.drop(columns=features_drop_list)
+
+    utils.plotCorr(df, label, 20, 20)
+
+    return None
+
+
+
 
 
 # %%
