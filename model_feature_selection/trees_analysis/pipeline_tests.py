@@ -135,12 +135,13 @@ def get_many_train_tests():
 
 def model_bakeoff():
 
-    X_train, X_test, y_train, y_test = create_train_test(2009, 2018, 2019, 2020, 50)
-    X_train1, X_test1, y_train1, y_test1 = create_train_test(2013, 2019, 2020, 2020, 50)
-    holder = [(X_train, X_test, y_train, y_test), (X_train1, X_test1, y_train1, y_test1)]
+    # X_train, X_test, y_train, y_test = create_train_test(2009, 2018, 2019, 2020, 50)
+    # X_train1, X_test1, y_train1, y_test1 = create_train_test(2013, 2019, 2020, 2020, 50)
+    # holder = [(X_train, X_test, y_train, y_test), (X_train1, X_test1, y_train1, y_test1)]
 
+    #for ind, datagroup in enumerate(holder):
+    holder = get_many_train_tests()[2:]
     for ind, datagroup in enumerate(holder):
-    #for ind, datagroup in enumerate(get_many_train_tests()):
     
         pipeline_rf = make_pipeline_rf()
         pipeline_gbt = make_pipeline_gbt()
@@ -160,7 +161,7 @@ def model_bakeoff():
         param_dict_rf['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_rf)
         param_dict_rf['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_rf)
         param_dict_rf['datagroup'] = ind
-        best_model_to_csv(param_dict_rf, 'rf')
+        best_model_to_csv(param_dict_rf, 'rf2')
         
 
         ## RUNNING DUMB PARAMS
@@ -176,8 +177,8 @@ def model_bakeoff():
         param_dict_gbt['auc'] = auc_score_gbt
         param_dict_gbt['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_gbt)
         param_dict_gbt['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_gbt)
-        param_dict_gbt['datagroup'] = ind
-        best_model_to_csv(param_dict_gbt, 'gbt')
+        param_dict_gbt['datagroup'] = ind + 2 ### +2 FOR NOW!!!!
+        best_model_to_csv(param_dict_gbt, 'gbt2')
 
     return None
 

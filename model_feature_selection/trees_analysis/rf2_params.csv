@@ -1,0 +1,10 @@
+pca__n_components,6
+rf__class_weight,balanced_subsample
+rf__criterion,entropy
+rf__max_features,sqrt
+rf__min_samples_split,10
+rf__n_estimators,100
+auc,0.5514950166112957
+precision,0.2727272727272727
+recall,0.03986710963455149
+datagroup,0
