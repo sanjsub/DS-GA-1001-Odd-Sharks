@@ -161,7 +161,7 @@ def model_bakeoff():
         param_dict_rf['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_rf)
         param_dict_rf['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_rf)
         param_dict_rf['datagroup'] = ind
-        best_model_to_csv(param_dict_rf, 'rf')
+        best_model_to_csv(param_dict_rf, 'rf2')
         
 
         ## RUNNING DUMB PARAMS
@@ -178,7 +178,7 @@ def model_bakeoff():
         param_dict_gbt['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_gbt)
         param_dict_gbt['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_gbt)
         param_dict_gbt['datagroup'] = ind + 2 ### +2 FOR NOW!!!!
-        best_model_to_csv(param_dict_gbt, 'gbt')
+        best_model_to_csv(param_dict_gbt, 'gbt2')
 
     return None
 
