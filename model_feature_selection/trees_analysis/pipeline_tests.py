@@ -147,7 +147,7 @@ def model_bakeoff():
 
         ## Choose x train, and y train from the datagroup
         ## RUNNING DUMB PARAMS
-        rf = hyper_param_search(datagroup[0], datagroup[2], pipeline_rf, param_grid_rf2, 6)
+        rf = hyper_param_search(datagroup[0], datagroup[2], pipeline_rf, param_grid_rf, 6)
 
         best_predictions_rf = rf.best_estimator_.predict(datagroup[1])
         best_proba_rf = rf.best_estimator_.predict_proba(datagroup[1])
@@ -164,7 +164,7 @@ def model_bakeoff():
         
 
         ## RUNNING DUMB PARAMS
-        gbt = hyper_param_search(datagroup[0], datagroup[2], pipeline_gbt, param_grid_gbt2, 6)
+        gbt = hyper_param_search(datagroup[0], datagroup[2], pipeline_gbt, param_grid_gbt, 6)
 
         best_predictions_gbt = gbt.best_estimator_.predict(datagroup[1])
         best_proba_gbt = gbt.best_estimator_.predict_proba(datagroup[1])
