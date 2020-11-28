@@ -1,0 +1,14 @@
+gbt__max_depth,4
+gbt__min_samples_leaf,100
+pca__n_components,15
+auc,0.5810890412572748
+precision,0.42105263157894735
+recall,0.026578073089700997
+datagroup,0
+gbt__max_depth,4
+gbt__min_samples_leaf,100
+pca__n_components,15
+auc,0.6016428646513793
+precision,0.5
+recall,0.006802721088435374
+datagroup,1

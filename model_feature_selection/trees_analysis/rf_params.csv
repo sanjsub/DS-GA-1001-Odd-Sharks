@@ -1,0 +1,16 @@
+pca__n_components,15
+rf__class_weight,balanced
+rf__max_features,log2
+rf__min_samples_split,10
+auc,0.5652317334652812
+precision,0.3333333333333333
+recall,0.013289036544850499
+datagroup,0
+pca__n_components,10
+rf__class_weight,balanced
+rf__max_features,log2
+rf__min_samples_split,10
+auc,0.5596401916174858
+precision,0.05555555555555555
+recall,0.006802721088435374
+datagroup,1
