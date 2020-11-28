@@ -179,8 +179,6 @@ def model_bakeoff():
         param_dict_gbt['datagroup'] = ind
         best_model_to_csv(param_dict_gbt, 'gbt')
 
-
-
     return None
 
 
@@ -209,6 +207,7 @@ param_grid_gbt2 = dict(pca__n_components = [10, 15],
                      gbt__max_depth = [3,4],
                      gbt__min_samples_leaf = [100, 200])
 
+model_bakeoff()
 
 #%%
 '''
