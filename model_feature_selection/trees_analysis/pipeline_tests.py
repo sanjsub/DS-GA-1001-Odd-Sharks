@@ -139,8 +139,8 @@ def model_bakeoff():
     X_train1, X_test1, y_train1, y_test1 = create_train_test(2013, 2019, 2020, 2020, 50)
     holder = [(X_train, X_test, y_train, y_test), (X_train1, X_test1, y_train1, y_test1)]
 
-    for ind, datagroup in enumerate(holder):
-    #for ind, datagroup in enumerate(get_many_train_tests()):
+    #for ind, datagroup in enumerate(holder):
+    for ind, datagroup in enumerate(get_many_train_tests()):
     
         pipeline_rf = make_pipeline_rf()
         pipeline_gbt = make_pipeline_gbt()
