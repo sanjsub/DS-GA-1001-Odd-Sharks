@@ -45,8 +45,8 @@ non_relative_columns = ['AWAY_CUM_WIN_PCT', 'AWAY_IP_AVAIL','AWAY_PRIOR_WIN_V_OP
                         'Home PF', 'Home STL', 'Home STL%', 'Home TOV', 'Home TOV%', 'Home TS%',
                         'Home eFG%']
 
-main_path = '..\scraping\merging\cleaned_dfs_11-23\\all_rolling_windows\\'
-filename = '\\2015_stats_n10.csv'
+#main_path = '..\scraping\merging\cleaned_dfs_11-23\\all_rolling_windows\\'
+#filename = '\\2015_stats_n10.csv'
 
 def construct_df(years, n, main_path, drop_playstyle=True):
     '''
@@ -149,9 +149,10 @@ def plot_correlation_matrix(df, features_drop_list):
 
 
 
+'''
 # %%
 ## Some plots if we want
-'''
+
 #%%
 ind = 30
 fig = plt.figure(figsize = (20, 15))
