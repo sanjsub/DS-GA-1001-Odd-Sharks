@@ -87,7 +87,7 @@ def hyper_param_search(X_train, y_train, pipeline, param_grid, num_folds):
     model does not readily find positives)
     '''
     kfolds = KFold(n_splits = num_folds)
-    model_grid_search_scaler = GridSearchCV(pipeline, param_grid=param_grid, cv = kfolds, scoring = 'precision')
+    model_grid_search_scaler = GridSearchCV(pipeline, param_grid=param_grid, cv = kfolds, scoring = 'f1')
     model_grid_search_scaler.fit(X_train, y_train)
 
     # thinking about returning or writing to some file the best model
@@ -161,7 +161,7 @@ def model_bakeoff():
         param_dict_rf['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_rf)
         param_dict_rf['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_rf)
         param_dict_rf['datagroup'] = ind
-        best_model_to_csv(param_dict_rf, 'rf3_prec')
+        best_model_to_csv(param_dict_rf, 'rf4_f1')
         
 
         ## RUNNING DUMB PARAMS
@@ -178,7 +178,7 @@ def model_bakeoff():
         param_dict_gbt['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_gbt)
         param_dict_gbt['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_gbt)
         param_dict_gbt['datagroup'] = ind
-        best_model_to_csv(param_dict_gbt, 'gbt3_prec')
+        best_model_to_csv(param_dict_gbt, 'gbt4_f1')
 
     return None
 
