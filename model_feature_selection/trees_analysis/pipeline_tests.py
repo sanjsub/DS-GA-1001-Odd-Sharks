@@ -87,7 +87,7 @@ def hyper_param_search(X_train, y_train, pipeline, param_grid, num_folds):
     model does not readily find positives)
     '''
     kfolds = KFold(n_splits = num_folds)
-    model_grid_search_scaler = GridSearchCV(pipeline, param_grid=param_grid, cv = kfolds, scoring = 'f1_weighted')
+    model_grid_search_scaler = GridSearchCV(pipeline, param_grid=param_grid, cv = kfolds, scoring = 'precision')
     model_grid_search_scaler.fit(X_train, y_train)
 
     # thinking about returning or writing to some file the best model
@@ -140,7 +140,7 @@ def model_bakeoff():
     # holder = [(X_train, X_test, y_train, y_test), (X_train1, X_test1, y_train1, y_test1)]
 
     #for ind, datagroup in enumerate(holder):
-    holder = get_many_train_tests()[2:]
+    holder = get_many_train_tests()
     for ind, datagroup in enumerate(holder):
     
         pipeline_rf = make_pipeline_rf()
@@ -161,7 +161,7 @@ def model_bakeoff():
         param_dict_rf['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_rf)
         param_dict_rf['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_rf)
         param_dict_rf['datagroup'] = ind
-        best_model_to_csv(param_dict_rf, 'rf2')
+        best_model_to_csv(param_dict_rf, 'rf3_prec')
         
 
         ## RUNNING DUMB PARAMS
@@ -177,32 +177,32 @@ def model_bakeoff():
         param_dict_gbt['auc'] = auc_score_gbt
         param_dict_gbt['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_gbt)
         param_dict_gbt['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_gbt)
-        param_dict_gbt['datagroup'] = ind + 2 ### +2 FOR NOW!!!!
-        best_model_to_csv(param_dict_gbt, 'gbt2')
+        param_dict_gbt['datagroup'] = ind
+        best_model_to_csv(param_dict_gbt, 'gbt3_prec')
 
     return None
 
 
 
 
-param_grid_rf = dict(pca__n_components = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 25, 30],
-                     rf__n_estimators = [10**i for i in range(2, 3)],
+param_grid_rf = dict(pca__n_components = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 20, 25],
+                     rf__n_estimators = [100, 150, 200],
                      rf__criterion = ['gini', 'entropy'],
                      rf__class_weight = [None, 'balanced', 'balanced_subsample'],
                      rf__max_features = ['sqrt', 'log2'],
-                     rf__min_samples_split = [2, 10])
+                     rf__min_samples_split = [10, 30, 50, 100, 200, 300])
 
 param_grid_rf2 = dict(pca__n_components = [10, 15],
                      rf__class_weight = [None, 'balanced'],
                      rf__max_features = ['sqrt', 'log2'],
-                     rf__min_samples_split = [2, 10])
+                     rf__min_samples_split = [10])
 
-param_grid_gbt = dict(pca__n_components = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 25, 30],
-                     gbt__n_estimators = [10**i for i in range(2, 3)],
+param_grid_gbt = dict(pca__n_components = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 20, 25],
+                     gbt__n_estimators = [100, 150, 200],
                      gbt__max_depth = [3,4,5],
                      gbt__max_features = ['sqrt', 'log2'],
-                     gbt__min_samples_split = [10, 100, 200, 300],
-                     gbt__min_samples_leaf = [10, 100, 200, 300])
+                     gbt__min_samples_split = [5, 10, 50, 100, 200, 300],
+                     gbt__min_samples_leaf = [5, 10, 50, 100, 200, 300])
 
 param_grid_gbt2 = dict(pca__n_components = [10, 15],
                      gbt__max_depth = [3,4],
