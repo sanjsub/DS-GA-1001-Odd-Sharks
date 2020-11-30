@@ -185,6 +185,8 @@ def logistic_bakeoff(yearlist, scoremethod):
     rois = {}
     for i in predict_probas:
         rois[i] = portfolio_roi(Y_tests[i], predict_probas[i][:,1], 10)
+        
+    return rois
 
 
 
