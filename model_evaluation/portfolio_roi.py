@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from sklearn.metrics import precision_score, recall_score
 from model_feature_selection.basic_feature_analysis_pi import construct_df
 
 """Function that accepts the following arguments: 
@@ -48,6 +49,52 @@ def portfolio_roi(truths, probs, stake, thresh=0.5):
 
     return roi
 
+
+"""Function that accepts the following arguments: 
+    **truths - actual outcomes of underdog wins/losses, 
+    **probs - model.predict_proba[:, 1] array (model's probability estimate of the underdog winning)
+    **threshs - single confidence threshold or list/array of confidence thresholds
+
+    returns a dataframe with the resulting ROI, precision, & recall given a threshold;
+    dataframe indexed by threshold value
+"""
+def test_thresholds(truths, probs, threshs):
+    # Initialize threshold stats df
+    thresh_stats = pd.DataFrame(columns=['ROI', 'Precision', 'Recall'])
+    
+    # Ensure threshs are list for iteration purposes
+    if type(threshs) in [list, np.ndarray]:
+        for thresh in threshs:
+            # Calculate game outcome binary predictions based on (probability estimate > threshold)
+            preds = [1 if (num > thresh) else 0 for num in probs]
+
+            # Calculate ROI given threshold
+            roi = portfolio_roi(truths, probs, 100, thresh)
+
+            # Calculate precision & recall of predictions
+            precision = precision_score(truths, preds)
+            recall = recall_score(truths, preds)
+
+            # Store stats in df; indexed by threshold
+            thresh_stats.loc[thresh] = [roi, precision, recall]
+    
+    # Same process as above, only with a number instead of list/array
+    else:
+        preds = [1 if (num > threshs) else 0 for num in probs]
+
+        roi = portfolio_roi(truths, probs, 100, threshs)
+
+        precision = precision_score(truths, preds)
+        recall = recall_score(truths, preds)
+
+        thresh_stats.loc[threshs] = [roi, precision, recall]
+        
+    # Round off stats to 4 decimal places to make df more readable
+    for col in thresh_stats.columns:
+        thresh_stats[col] = np.round(thresh_stats[col], 4)
+        
+    return thresh_stats
+
 """--------------------------------------------"""
 """FUNCTION CALLS BELOW"""
 """--------------------------------------------"""
@@ -64,6 +111,5 @@ y = test_df['Underdog Win']
 np.random.seed(1234)
 probs = np.random.random((len(test_df)))
 
-# Return and print portfolio ROI calculation
-roi = portfolio_roi(y, probs, 100)
-print(f'{np.round(roi * 100, 2)}%')
+# Get the corresponding ROI, precision, & recall for given threshold value(s)
+test_thresholds(y, probs, np.arange(0.5, 1, 0.01))
