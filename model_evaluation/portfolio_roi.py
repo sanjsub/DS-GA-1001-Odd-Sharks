@@ -41,7 +41,10 @@ def portfolio_roi(truths, probs, stake, thresh=0.5):
             continue
     
     # ROI calculation
-    roi = (sum_winnings - sum_bets) / sum_bets
+    if sum_bets == 0:
+        roi = 0
+    else:
+        roi = (sum_winnings - sum_bets) / sum_bets
 
     return roi
 
