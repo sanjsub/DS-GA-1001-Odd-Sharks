@@ -143,7 +143,7 @@ def model_bakeoff():
     holder = get_many_train_tests()
     holder.reverse()
     sub = holder[3:]
-    for ind, datagroup in enumerate(holder):
+    for ind, datagroup in enumerate(sub):
     
         pipeline_rf = make_pipeline_rf()
         pipeline_gbt = make_pipeline_gbt()
