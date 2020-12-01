@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import sklearn as sk
 from matplotlib import pyplot as plt
-import churn_analysis as utils
+import model_feature_selection.churn_analysis as utils
 import os
 
 label = 'Underdog Win'
