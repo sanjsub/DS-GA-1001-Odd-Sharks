@@ -18,6 +18,7 @@ import course_utils as bd
 import os
 import csv
 from multiprocessing import Process
+import joblib
 
 # on windows
 #main_path = '..\..\scraping\merging\cleaned_dfs_11-23\\all_rolling_windows\\'
@@ -71,10 +72,8 @@ def make_pipeline_rf(std=True, pca=True, poly=False):
 def make_pipeline_gbt(std=True, pca=True, poly=False):
     ## Ignoring poly and pca for now
     ## Assumes standard scalar
-    pca = PCA()
 
-    steps = [('scalar', sk.preprocessing.StandardScaler()),
-             ('pca', pca), 
+    steps = [('scalar', sk.preprocessing.StandardScaler()), 
              ('gbt', GradientBoostingClassifier())]
     pipeline = Pipeline(steps) 
     
@@ -88,7 +87,8 @@ def hyper_param_search(X_train, y_train, pipeline, param_grid, num_folds):
     model does not readily find positives)
     '''
     kfolds = KFold(n_splits = num_folds)
-    model_grid_search_scaler = GridSearchCV(pipeline, param_grid=param_grid, cv = kfolds, scoring = 'f1')
+    model_grid_search_scaler = GridSearchCV(pipeline, param_grid=param_grid, cv = kfolds, 
+                                            scoring='neg_log_loss', verbose=1)
     model_grid_search_scaler.fit(X_train, y_train)
 
     # thinking about returning or writing to some file the best model
@@ -133,6 +133,7 @@ def get_many_train_tests(path, n):
 
 def rf_model_bakeoff():
 
+    df = pd.DataFrame()
     holder = get_many_train_tests('../../scraping/merging/cleaned_dfs_11-23/all_rolling_windows/', 50)
     for ind, datagroup in enumerate(holder):
     
@@ -153,12 +154,17 @@ def rf_model_bakeoff():
         param_dict_rf['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_rf)
         param_dict_rf['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_rf)
         param_dict_rf['datagroup'] = ind
-        best_model_to_csv(param_dict_rf, 'zzrff1')
+        best_model_to_csv(param_dict_rf, 'zzzrfll')
+        res = pd.DataFrame(rf.cv_results_)
+        df = pd.concat([df, res])
+        df.to_csv("zzzrfll_cv.csv")
+        joblib.dump(rf, 'grid_rf{}.pkl'.format(ind))
 
     return None
 
 def gbt_model_bakeoff():
 
+    df = pd.DataFrame()
     holder = get_many_train_tests('../../scraping/merging/cleaned_dfs_11-23/all_rolling_windows/', 50)
     for ind, datagroup in enumerate(holder):
 
@@ -176,29 +182,32 @@ def gbt_model_bakeoff():
         param_dict_gbt['precision'] = sk.metrics.precision_score(datagroup[3], best_predictions_gbt)
         param_dict_gbt['recall'] = sk.metrics.recall_score(datagroup[3], best_predictions_gbt)
         param_dict_gbt['datagroup'] = ind
-        best_model_to_csv(param_dict_gbt, 'zzgbtf1')
+        best_model_to_csv(param_dict_gbt, 'zzzgbtll')
+        res = pd.DataFrame(gbt.cv_results_)
+        df = pd.concat([df, res])
+        df.to_csv("zzzgbtll_cv.csv")
+        joblib.dump(gbt, 'grid_gbt{}.pkl'.format(ind))
 
     return None
 
-param_grid_rf = dict(pca__n_components = [10, 11, 12, 13, 14, 15, 17],
-                     rf__n_estimators = [100, 150, 200],
-                     rf__criterion = ['gini', 'entropy'],
-                     rf__class_weight = ['balanced', 'balanced_subsample'],
-                     rf__max_features = ['sqrt', 'log2'],
-                     rf__min_samples_split = [10, 30, 50, 100, 200, 300])
+param_grid_rf = dict(pca__n_components = [5, 10, 15, 20],  ## VERBOSE
+                     rf__n_estimators = [100, 500, 1500, 3000, 5000],
+                     rf__criterion = ['entropy'],
+                     rf__class_weight = ['balanced'],
+                     rf__max_features = ['sqrt'])
+                     #rf__min_samples_split = [10, 30, 50, 100, 200, 300])
 
 param_grid_rf2 = dict(pca__n_components = [10, 15],
                      rf__min_samples_split = [10, 20])
 
-param_grid_gbt = dict(pca__n_components = [10, 11, 12, 13, 14, 15, 17],
-                     gbt__n_estimators = [100, 150, 200],
-                     gbt__max_depth = [3,4,5],
+param_grid_gbt = dict(gbt__n_estimators = [100, 200, 500, 1000],
+                     gbt__max_depth = [2,3,5,7,9,10],
                      gbt__max_features = ['sqrt', 'log2'],
-                     gbt__min_samples_split = [5, 10, 50, 100, 200, 300],
-                     gbt__min_samples_leaf = [5, 10, 50, 100, 200, 300])
+                     gbt__min_samples_split = [5, 50, 200],
+                     gbt__min_samples_leaf = [5, 50, 200])
 
-param_grid_gbt2 = dict(pca__n_components = [10, 15],
-                     gbt__max_depth = [3,4])
+param_grid_gbt2 = dict(gbt__max_depth = [3,4],
+                        gbt__max_features = ['sqrt', 'log2'])
 
 
 if __name__ == '__main__':
