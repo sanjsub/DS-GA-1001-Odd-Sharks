@@ -8,7 +8,10 @@ import os
 
 label = 'Underdog Win'
 label_ind = 10 ## After you drop the columns
-std_cols_drop = ['unique_game_id', 'DATE', 'Home Team', 'Away Team']
+std_cols_drop = ['unique_game_id', 'DATE', 'Home Team', 'Away Team', 
+                 'Away All Stars', 'Home All Stars', 'HOME_IP_AVAIL',
+                 'AWAY_IP_AVAIL']
+
 additional_drop = ['Home Team Cut_offensive',
        'Away Team Cut_offensive', 'Home Team Handoff_defensive',
        'Away Team Handoff_defensive', 'Home Team Handoff_offensive',
@@ -31,15 +34,15 @@ additional_drop = ['Home Team Cut_offensive',
        'Away Team Transition_defensive', 'Home Team Transition_offensive',
        'Away Team Transition_offensive']
 
-non_relative_columns = ['AWAY_CUM_WIN_PCT', 'AWAY_IP_AVAIL','AWAY_PRIOR_WIN_V_OPP',
+non_relative_columns = ['AWAY_CUM_WIN_PCT', 'AWAY_PRIOR_WIN_V_OPP',
                         'AWAY_ROLL_WIN_PCT', 'Away 3P', 'Away 3P%', 'Away 3PAr', 'Away AST',
-                        'Away AST%', 'Away All Stars', 'Away BLK', 'Away BLK%', 'Away DRB',
+                        'Away AST%', 'Away BLK', 'Away BLK%', 'Away DRB',
                         'Away DRB%', 'Away DRtg', 'Away FG', 'Away FG%', 'Away FT', 'Away FT%',
                         'Away FTr', 'Away ORB', 'Away ORB%', 'Away ORtg', 'Away Odds Close',
                         'Away PF', 'Away STL', 'Away STL%', 'Away TOV', 'Away TOV%', 'Away TS%',
-                        'Away eFG%', 'HOME_CUM_WIN_PCT', 'HOME_IP_AVAIL', 'HOME_PRIOR_WIN_V_OPP',
+                        'Away eFG%', 'HOME_CUM_WIN_PCT', 'HOME_PRIOR_WIN_V_OPP',
                         'HOME_ROLL_WIN_PCT', 'Home 3P', 'Home 3P%', 'Home 3PAr', 'Home AST',
-                        'Home AST%', 'Home All Stars', 'Home BLK', 'Home BLK%', 'Home DRB',
+                        'Home AST%', 'Home BLK', 'Home BLK%', 'Home DRB',
                         'Home DRB%', 'Home DRtg', 'Home FG', 'Home FG%', 'Home FT', 'Home FT%',
                         'Home FTr', 'Home ORB', 'Home ORB%', 'Home ORtg', 'Home Odds Close',
                         'Home PF', 'Home STL', 'Home STL%', 'Home TOV', 'Home TOV%', 'Home TS%',
@@ -72,7 +75,7 @@ def construct_df(years, n, main_path, drop_playstyle=True):
 
     new_column_tuples = []
     for i in range(int(len(non_relative_columns)/2)):
-        new_column_tuples.append((non_relative_columns[i],non_relative_columns[i+31]))
+        new_column_tuples.append((non_relative_columns[i],non_relative_columns[i+29]))
 
     for col_pair in new_column_tuples:
         concatenated_df['underdog_rel_' + col_pair[0][5:]] = \
