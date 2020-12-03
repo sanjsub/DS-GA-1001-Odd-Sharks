@@ -11,9 +11,11 @@ from model_feature_selection.basic_feature_analysis_pi import construct_df
 main_path = "../../scraping/merging/cleaned_dfs_11-23/all_rolling_windows/"
 dump_dir = "./svm_models/"
 dump_prefix = "svm_cv_n"
-C = [1, 10, 100, 1000]
+drop_leaks = True
+C = [.1, 1, 10, 100]
+gamma = [.001, .01, .1, 1]
 for i in range(5, 51):
-	train = construct_df(range(2009, 2019), n=i, main_path=main_path)
+	train = construct_df(range(2009, 2019), n=i, main_path=main_path, drop_leaks=drop_leaks)
 	x_train = train.drop(columns="Underdog Win")
 	y_train= train["Underdog Win"]
 	scaler = StandardScaler()
@@ -35,13 +37,13 @@ for i in range(5, 51):
 	dump(clf, dump_dir + dump_prefix + str(i) + "_linear_smote.joblib")
 
 	# rbf unbalanced and weighted data
-	tuned_params = {"kernel": ["rbf"], "C": C, "class_weight": [None, "balanced"]}
+	tuned_params = {"kernel": ["rbf"], "C": C, "gamma": gamma, "class_weight": [None, "balanced"]}
 	clf = GridSearchCV(SVC(random_state=18), tuned_params, scoring="f1")
 	clf.fit(x_train_scaled, y_train)
 	dump(clf, dump_dir + dump_prefix + str(i) + "_rbf.joblib")
 
 	# rbf smote
-	tuned_params = {"kernel": ["rbf"], "C": C, "class_weight": [None]}
+	tuned_params = {"kernel": ["rbf"], "C": C, "gamma": gamma, "class_weight": [None]}
 	clf = GridSearchCV(SVC(random_state=18), tuned_params, scoring="f1")
 	clf.fit(x_res, y_res)
 	dump(clf, dump_dir + dump_prefix + str(i) + "_rbf_smote.joblib")
