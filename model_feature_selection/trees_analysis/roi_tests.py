@@ -40,7 +40,7 @@ def portfolio_roi(truths, probs, stake, years, thresh=0.5):
     odds_df = pd.DataFrame()
     for year in years:
     # for year in [2019, 2020]:  <---- OLD CODE
-        df = pd.read_csv(f'..\..\scraping\merging\cleaned_dfs_11-23\\all_rolling_windows\{year}_stats_n50.csv')
+        df = pd.read_csv(f'../../scraping/merging/cleaned_dfs_11-23/all_rolling_windows/{year}_stats_n50.csv')
         odds_df = pd.concat([odds_df, df])
     odds_df.index = range(len(odds_df))
     odds = odds_df[['Home Odds Close', 'Away Odds Close']].max(axis=1).values    
