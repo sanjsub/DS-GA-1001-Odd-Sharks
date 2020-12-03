@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import sklearn as sk
 from matplotlib import pyplot as plt
-import churn_analysis as utils
+import model_feature_selection.churn_analysis as utils
 import os
 
 label = 'Underdog Win'
@@ -48,10 +48,11 @@ non_relative_columns = ['AWAY_CUM_WIN_PCT', 'AWAY_PRIOR_WIN_V_OPP',
                         'Home PF', 'Home STL', 'Home STL%', 'Home TOV', 'Home TOV%', 'Home TS%',
                         'Home eFG%']
 
+leak_drop = ['underdog_rel_IP_AVAIL', 'underdog_rel_All Stars']
 #main_path = '..\scraping\merging\cleaned_dfs_11-23\\all_rolling_windows\\'
 #filename = '\\2015_stats_n10.csv'
 
-def construct_df(years, n, main_path, drop_playstyle=True):
+def construct_df(years, n, main_path, drop_playstyle=True, drop_leaks=False):
     '''
     Given that our files are located in "..\scraping\merging\cleaned_dfs_11-23\\all_rolling_windows",
     return concatenated df for a given rolling avg window (n) and a list of years
@@ -83,6 +84,9 @@ def construct_df(years, n, main_path, drop_playstyle=True):
 
     concatenated_df['Home Relative Age Diff'] = concatenated_df['Home Relative Age Diff']*concatenated_df['Away Underdog']*1 
     concatenated_df.drop(columns=non_relative_columns, inplace=True)
+
+    if drop_leaks:
+      concatenated_df.drop(columns=leak_drop, inplace=True)
 
     return concatenated_df
 

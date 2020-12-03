@@ -11,11 +11,11 @@ from model_feature_selection.basic_feature_analysis_pi import construct_df
 
     returns an expected portfolio ROI
 """
-def portfolio_roi(truths, probs, stake, thresh=0.5):
+def portfolio_roi(truths, probs, stake, thresh=0.5, main_path='DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/'):
     # Get absolute odds from within function instead of passing them in as a parameter
     odds_df = pd.DataFrame()
     for year in [2019, 2020]:
-        df = pd.read_csv(f'DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/{year}_stats_n5.csv')
+        df = pd.read_csv(f'{main_path}{year}_stats_n5.csv')
         odds_df = pd.concat([odds_df, df])
     odds_df.index = range(len(odds_df))
     odds = odds_df[['Home Odds Close', 'Away Odds Close']].max(axis=1).values    
@@ -58,7 +58,7 @@ def portfolio_roi(truths, probs, stake, thresh=0.5):
     returns a dataframe with the resulting ROI, precision, & recall given a threshold;
     dataframe indexed by threshold value
 """
-def test_thresholds(truths, probs, threshs):
+def test_thresholds(truths, probs, threshs, main_path='DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/'):
     # Initialize threshold stats df
     thresh_stats = pd.DataFrame(columns=['ROI', 'Precision', 'Recall'])
     
@@ -69,7 +69,7 @@ def test_thresholds(truths, probs, threshs):
             preds = [1 if (num > thresh) else 0 for num in probs]
 
             # Calculate ROI given threshold
-            roi = portfolio_roi(truths, probs, 100, thresh)
+            roi = portfolio_roi(truths, probs, 100, thresh, main_path)
 
             # Calculate precision & recall of predictions
             precision = precision_score(truths, preds)
@@ -82,7 +82,7 @@ def test_thresholds(truths, probs, threshs):
     else:
         preds = [1 if (num > threshs) else 0 for num in probs]
 
-        roi = portfolio_roi(truths, probs, 100, threshs)
+        roi = portfolio_roi(truths, probs, 100, threshs, main_path)
 
         precision = precision_score(truths, preds)
         recall = recall_score(truths, preds)
@@ -100,16 +100,16 @@ def test_thresholds(truths, probs, threshs):
 """--------------------------------------------"""
 
 # Create df of our test set
-test_df = construct_df([2019, 2020], 5, 
-                       'DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/')
-test_df.index = range(len(test_df))
+# test_df = construct_df([2019, 2020], 5, 
+#                        'DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/')
+# test_df.index = range(len(test_df))
 
-# Truths; extract target variable from test_df
-y = test_df['Underdog Win']
+# # Truths; extract target variable from test_df
+# y = test_df['Underdog Win']
 
-# Predictions; randomly generated "predict_proba" array
-np.random.seed(1234)
-probs = np.random.random((len(test_df)))
+# # Predictions; randomly generated "predict_proba" array
+# np.random.seed(1234)
+# probs = np.random.random((len(test_df)))
 
-# Get the corresponding ROI, precision, & recall for given threshold value(s)
-test_thresholds(y, probs, np.arange(0.5, 1, 0.01))
+# # Get the corresponding ROI, precision, & recall for given threshold value(s)
+# test_thresholds(y, probs, np.arange(0.5, 1, 0.01))

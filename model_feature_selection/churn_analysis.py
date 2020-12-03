@@ -11,7 +11,7 @@ import os
 cwd = os.getcwd()
 sys.path.append('/'.join(cwd.split('/')[0:-1]) + '/utils')
 
-from ClassifierBakeoff import *
+from model_feature_selection.ClassifierBakeoff import *
 
 import warnings
 warnings.filterwarnings('ignore')
