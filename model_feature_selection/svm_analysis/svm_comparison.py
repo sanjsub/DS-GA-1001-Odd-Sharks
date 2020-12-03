@@ -1,17 +1,19 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC, LinearSVC
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, roc_curve, auc
 from joblib import load
 from model_feature_selection.basic_feature_analysis_pi import construct_df
-import matplotlib.pyplot as plt
+from model_evaluation.portfolio_roi import test_thresholds
 
+main_path = "../../scraping/merging/cleaned_dfs_11-23/all_rolling_windows/"
 dump_dir = "./svm_models/"
 dump_prefix = "svm_cv_n"
-drop_leaks = True
+drop_leaks = False
 low_roll_num = 5
 high_roll_num = 51
 clf = {}
@@ -102,7 +104,13 @@ def create_svm_model(kernel, balancing, C, num_roll, gamma):
         clf = LinearSVC(random_state=18, class_weight=balance_param, C=C)
     clf.fit(x_train, y_train)
     preds = clf.predict(x_test)
-    return classification_report(y_test, preds)
+    dec_func_vals = clf.decision_function(x_test)
+    fpr, tpr, thresholds = roc_curve(y_test, dec_func_vals)
+    return classification_report(y_test, preds), test_thresholds(y_test, dec_func_vals, [0], main_path), auc(fpr, tpr)
 for i, row in opt_models.iterrows():
     print(row["param_kernel"], row["balancing"], row["param_C"])
-    print(create_svm_model(row["param_kernel"], row["balancing"], row["param_C"], row["roll_num"], row["param_gamma"]))
+    class_rep, thresh_rep, auc_rep = create_svm_model(row["param_kernel"], row["balancing"], row["param_C"], row["roll_num"], row["param_gamma"])
+    print(class_rep)
+    print(thresh_rep)
+    print("AUC=" + str(auc_rep))
+
