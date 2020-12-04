@@ -9,7 +9,9 @@ from model_feature_selection.basic_feature_analysis_pi import construct_df
     **stake - stake to bet on each game
     **thresh- confidence threshold for filtering bets
 
-    returns an expected portfolio ROI
+    returns 
+    **bet_history - list of realized ROI following every bet placed
+    **roi - expected portfolio ROI
 """
 def portfolio_roi(truths, probs, stake, thresh=0.5, main_path='DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/'):
     # Get absolute odds from within function instead of passing them in as a parameter
@@ -23,11 +25,12 @@ def portfolio_roi(truths, probs, stake, thresh=0.5, main_path='DS-GA-1001-Odd-Sh
     # Initialize all necessary variables & data structures for computations
     portfolio = pd.DataFrame({'Actuals': truths, 'Preds': probs, 'Odds': odds})
     sum_bets, sum_winnings = 0, 0
+    bet_history = []
     
     # Create df where predict_proba > threshold value (greater confidence of underdog winning)
     win_prob = portfolio['Preds'] > thresh
     good_bets = portfolio[win_prob]
-    
+        
     # Iterate over every row
     for index, row in good_bets.iterrows():        
         # Weight each bet based on higher risk games
@@ -46,6 +49,10 @@ def portfolio_roi(truths, probs, stake, thresh=0.5, main_path='DS-GA-1001-Odd-Sh
             # If the underdog loses, the loss is already accounted for by tracking how much money was bet
             # and the fact that no money was won (comes into play during ROI colculation)
             continue
+           
+        # Append change to portfolio
+        current_pct = ((sum_winnings - sum_bets) / sum_bets) * 100
+        bet_history.append(current_pct)
     
     # ROI calculation
     if sum_bets == 0:
@@ -53,7 +60,7 @@ def portfolio_roi(truths, probs, stake, thresh=0.5, main_path='DS-GA-1001-Odd-Sh
     else:
         roi = (sum_winnings - sum_bets) / sum_bets
 
-    return roi
+    return bet_history, roi
 
 
 """Function that accepts the following arguments: 
@@ -75,7 +82,7 @@ def test_thresholds(truths, probs, threshs, main_path='DS-GA-1001-Odd-Sharks/scr
             preds = [1 if (num > thresh) else 0 for num in probs]
 
             # Calculate ROI given threshold
-            roi = portfolio_roi(truths, probs, 100, thresh, main_path)
+            history, roi = portfolio_roi(truths, probs, 100, thresh, main_path)
 
             # Calculate precision & recall of predictions
             precision = precision_score(truths, preds)
@@ -105,7 +112,7 @@ def test_thresholds(truths, probs, threshs, main_path='DS-GA-1001-Odd-Sharks/scr
 """FUNCTION CALLS BELOW"""
 """--------------------------------------------"""
 
-# Create df of our test set
+# # Create df of our test set
 # test_df = construct_df([2019, 2020], 5, 
 #                        'DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/')
 # test_df.index = range(len(test_df))
@@ -116,6 +123,11 @@ def test_thresholds(truths, probs, threshs, main_path='DS-GA-1001-Odd-Sharks/scr
 # # Predictions; randomly generated "predict_proba" array
 # np.random.seed(1234)
 # probs = np.random.random((len(test_df)))
+
+# # Get bet-by-bet portfolio history & final portfolio ROI
+# history, roi = portfolio_roi(y, probs, 100,)
+# print(f'Portfolio ROI: {roi}')
+# plt.plot(range(1, len(history) + 1), history)
 
 # # Get the corresponding ROI, precision, & recall for given threshold value(s)
 # test_thresholds(y, probs, np.arange(0.5, 1, 0.01))
