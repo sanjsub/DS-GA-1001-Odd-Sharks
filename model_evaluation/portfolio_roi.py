@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.metrics import precision_score, recall_score
 from model_feature_selection.basic_feature_analysis_pi import construct_df
 
@@ -8,6 +9,8 @@ from model_feature_selection.basic_feature_analysis_pi import construct_df
     **probs - model.predict_proba[:, 1] array (model's probability estimate of the underdog winning)
     **stake - stake to bet on each game
     **thresh- confidence threshold for filtering bets
+    **test_years - years from which to get test data
+    **main_path - file access URL path
 
     returns 
     **bet_history - list of realized ROI following every bet placed
@@ -63,10 +66,26 @@ def portfolio_roi(truths, probs, stake, thresh=0.5, test_years=[2019, 2020],
     return bet_history, roi
 
 
+"""Function that plots a model's game-by-game ROI against that of random guessing
+    Accepts the following arguments:
+    **predictions - betting history of the model
+    **randoms - betting history of random guessing
+"""
+def plot_vs_random(predictions, randoms):
+    plt.plot(range(1, len(predictions) + 1), predictions, label='Prediction')
+    plt.plot(range(1, len(randoms) + 1), randoms, label='Random')
+
+    plt.title('Per Game Portfolio ROI')
+    plt.xlabel('Games Bet On')
+    plt.ylabel('ROI (%)')
+    plt.legend()
+
+
 """Function that accepts the following arguments: 
     **truths - actual outcomes of underdog wins/losses, 
     **probs - model.predict_proba[:, 1] array (model's probability estimate of the underdog winning)
     **threshs - single confidence threshold or list/array of confidence thresholds
+    **main_path - file access URL path
 
     returns a dataframe with the resulting ROI, precision, & recall given a threshold;
     dataframe indexed by threshold value
