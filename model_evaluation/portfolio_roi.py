@@ -13,10 +13,11 @@ from model_feature_selection.basic_feature_analysis_pi import construct_df
     **bet_history - list of realized ROI following every bet placed
     **roi - expected portfolio ROI
 """
-def portfolio_roi(truths, probs, stake, thresh=0.5, main_path='DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/'):
+def portfolio_roi(truths, probs, stake, thresh=0.5, test_years=[2019, 2020],
+                  main_path='DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/'):
     # Get absolute odds from within function instead of passing them in as a parameter
     odds_df = pd.DataFrame()
-    for year in [2019, 2020]:
+    for year in test_years:
         df = pd.read_csv(f'{main_path}{year}_stats_n5.csv')
         odds_df = pd.concat([odds_df, df])
     odds_df.index = range(len(odds_df))
