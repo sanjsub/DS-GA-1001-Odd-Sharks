@@ -68,12 +68,19 @@ def portfolio_roi(truths, probs, stake, thresh=0.5, test_years=[2019, 2020],
 
 """Function that plots a model's game-by-game ROI against that of random guessing
     Accepts the following arguments:
-    **predictions - betting history of the model
+    **models - dict of models w/ their betting histories
     **randoms - betting history of random guessing
 """
-def plot_vs_random(predictions, randoms):
-    plt.plot(range(1, len(predictions) + 1), predictions, label='Prediction')
-    plt.plot(range(1, len(randoms) + 1), randoms, label='Random')
+def plot_vs_random(models, randoms):
+    for model in models.keys():
+        print('{} ROI: {:.2f}%'.format(model, models[model][-1]))
+
+    print('Random ROI: {:.2f}%'.format(randoms[-1]))
+
+    for model in models.keys():
+        plt.plot(range(1, len(models[model]) + 1), models[model], label=f'{model}')
+        
+    plt.plot(range(1, len(randoms) + 1), randoms, label='Random Guessing')
 
     plt.title('Per Game Portfolio ROI')
     plt.xlabel('Games Bet On')
@@ -85,12 +92,14 @@ def plot_vs_random(predictions, randoms):
     **truths - actual outcomes of underdog wins/losses, 
     **probs - model.predict_proba[:, 1] array (model's probability estimate of the underdog winning)
     **threshs - single confidence threshold or list/array of confidence thresholds
+    **test_years - years from which to get test data
     **main_path - file access URL path
 
     returns a dataframe with the resulting ROI, precision, & recall given a threshold;
     dataframe indexed by threshold value
 """
-def test_thresholds(truths, probs, threshs, main_path='DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/'):
+def test_thresholds(truths, probs, threshs, test_years=[2019, 2020], 
+                    main_path='DS-GA-1001-Odd-Sharks/scraping/merging/cleaned_dfs_11-23/all_rolling_windows/'):
     # Initialize threshold stats df
     thresh_stats = pd.DataFrame(columns=['ROI', 'Precision', 'Recall'])
     
@@ -101,7 +110,7 @@ def test_thresholds(truths, probs, threshs, main_path='DS-GA-1001-Odd-Sharks/scr
             preds = [1 if (num > thresh) else 0 for num in probs]
 
             # Calculate ROI given threshold
-            history, roi = portfolio_roi(truths, probs, 100, thresh, main_path)
+            history, roi = portfolio_roi(truths, probs, 100, thresh, test_years, main_path)
 
             # Calculate precision & recall of predictions
             precision = precision_score(truths, preds)
@@ -114,7 +123,7 @@ def test_thresholds(truths, probs, threshs, main_path='DS-GA-1001-Odd-Sharks/scr
     else:
         preds = [1 if (num > threshs) else 0 for num in probs]
 
-        roi = portfolio_roi(truths, probs, 100, threshs, main_path)
+        roi = portfolio_roi(truths, probs, 100, threshs, test_years, main_path)
 
         precision = precision_score(truths, preds)
         recall = recall_score(truths, preds)
@@ -128,7 +137,7 @@ def test_thresholds(truths, probs, threshs, main_path='DS-GA-1001-Odd-Sharks/scr
     return thresh_stats
 
 """--------------------------------------------"""
-"""FUNCTION CALLS BELOW"""
+"""EXAMPLE FUNCTION CALLS"""
 """--------------------------------------------"""
 
 # # Create df of our test set
@@ -139,14 +148,38 @@ def test_thresholds(truths, probs, threshs, main_path='DS-GA-1001-Odd-Sharks/scr
 # # Truths; extract target variable from test_df
 # y = test_df['Underdog Win']
 
-# # Predictions; randomly generated "predict_proba" array
-# np.random.seed(1234)
-# probs = np.random.random((len(test_df)))
+# # Underdog win probabilities
+# gbt_probs = pd.read_csv('gbt_proba_vec.csv', header=None)
+# rf_probs = pd.read_csv('rf_proba_vec.csv', header=None)
 
-# # Get bet-by-bet portfolio history & final portfolio ROI
-# history, roi = portfolio_roi(y, probs, 100,)
-# print(f'Portfolio ROI: {roi}')
-# plt.plot(range(1, len(history) + 1), history)
+# # Take probability estimation averages
+# avg_gbt_probs = gbt_probs.mean(axis=1)
+# avg_rf_probs = rf_probs.mean(axis=1)
 
-# # Get the corresponding ROI, precision, & recall for given threshold value(s)
-# test_thresholds(y, probs, np.arange(0.5, 1, 0.01))
+# # Random guessing; based on 23% win probability of underdog
+# hist_df = pd.DataFrame()
+# min_hist = 1000
+
+# for i in range(5000):
+#     rand = np.random.choice([0, 1], size=(len(y),), p=[0.77, 0.23])
+#     rand_history, rand_roi = portfolio_roi(y, rand, 10, test_years=test_years)
+    
+#     if len(rand_history) < min_hist:
+#         min_hist = len(rand_history)
+    
+#     hist_df = pd.concat([hist_df, pd.Series(rand_history)], ignore_index=True, axis=1)
+
+# # Average out Monte Carlo simulations
+# avg_rand_history = hist_df.iloc[:min_hist].mean(axis=1).values
+
+# # Model predictions
+# rf_pred_history, rf_pred_roi = portfolio_roi(y, avg_rf_probs, 10, test_years=test_years)
+# gbt_pred_history, gbt_pred_roi = portfolio_roi(y, avg_gbt_probs, 10, test_years=test_years)
+
+# rf_pred_history.insert(0, 0)
+# gbt_pred_history.insert(0, 0)
+
+# models = {'Random Forest': rf_pred_history, 'Gradient-Boosted Tree': gbt_pred_history}
+
+# # Compare betting strategies
+# plot_vs_random(models, avg_rand_history)
