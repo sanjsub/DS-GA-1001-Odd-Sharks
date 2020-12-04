@@ -28,12 +28,11 @@ def portfolio_roi(truths, probs, stake, thresh=0.5, test_years=[2019, 2020],
     sum_bets, sum_winnings = 0, 0
     bet_history = []
     
-    # Create df where predict_proba > threshold value (greater confidence of underdog winning)
-    win_prob = portfolio['Preds'] > thresh
+    win_prob = portfolio['Preds'] >= thresh
     good_bets = portfolio[win_prob]
-        
+                
     # Iterate over every row
-    for index, row in good_bets.iterrows():        
+    for index, row in good_bets.iterrows():
         # Weight each bet based on higher risk games
         high_stake = stake * row['Odds']/2.0
         
@@ -49,7 +48,7 @@ def portfolio_roi(truths, probs, stake, thresh=0.5, test_years=[2019, 2020],
         else:
             # If the underdog loses, the loss is already accounted for by tracking how much money was bet
             # and the fact that no money was won (comes into play during ROI colculation)
-            continue
+            pass
            
         # Append change to portfolio
         current_pct = ((sum_winnings - sum_bets) / sum_bets) * 100
