@@ -29,13 +29,19 @@ def portfolio_roi(truths, probs, stake, thresh=0.5, main_path='DS-GA-1001-Odd-Sh
     good_bets = portfolio[win_prob]
     
     # Iterate over every row
-    for index, row in good_bets.iterrows():
+    for index, row in good_bets.iterrows():        
+        # Weight each bet based on higher risk games
+        high_stake = stake * row['Odds']/2.0
+        
+        # Choose appropriate stake amount based on odds value
+        select_stake = high_stake if (row['Odds'] >= 3) else stake
+        
         # Track the total amount of money placed on bets
-        sum_bets += stake
+        sum_bets += select_stake
 
         if row['Actuals'] == 1:
             # Track the total amount of earnings from winning bets
-            sum_winnings += (stake * row['Odds'])
+            sum_winnings += (select_stake * row['Odds'])
         else:
             # If the underdog loses, the loss is already accounted for by tracking how much money was bet
             # and the fact that no money was won (comes into play during ROI colculation)
